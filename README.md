@@ -23,6 +23,7 @@ Then open http://localhost:5173.
 | `npm run build` | Production build into `dist/` |
 | `npm run preview` | Serve the built `dist/` locally |
 | `npm test` | Run unit tests |
+| `npm run validate:data` | Check `tasks.json` invariants |
 
 ## Features
 
@@ -41,17 +42,34 @@ before switching devices — there's no account and no cloud sync.
 
 ## Deploying
 
-Hosted on Netlify. `netlify.toml` has the build settings; connect the repo in
-the Netlify dashboard and pushes to `main` deploy automatically.
+Live at **https://dreamlight-valley-pocketpal.netlify.app**.
+
+`netlify.toml` holds the build settings. The repo is linked to Netlify through
+its GitHub app, so pushes to `main` build and deploy automatically, and pull
+requests get deploy previews.
+
+CI runs on every push and PR: task data validation, unit tests, and a
+production build.
 
 ## Contributing task data
 
-`src/data/tasks.json` is the source of truth for tier requirements. Task `id`
-values are the keys used in saved progress — **never renumber existing ids**, or
-players lose their data. Append new entries instead. See `CLAUDE.md` for the
-full data contract.
+`src/data/tasks.json` is the source of truth for tier requirements. Honeyglow
+Woods and Wishblossom Ranch were the hardest to verify, so corrections there are
+especially welcome — open an issue with a screenshot of the in-game entry.
+
+One hard rule: task `id` values are the keys players' saved progress is stored
+under. **Never renumber or remove an existing id** — doing so silently destroys
+progress for that task. Append new entries instead. `npm run validate:data`
+enforces this against `scripts/task-ids.json`, and CI will fail the build if an
+id disappears. If a removal really is intended, re-record the manifest:
+
+```bash
+npm run validate:data -- --write-manifest
+```
+
+See `CLAUDE.md` for the full data contract.
 
 ## Licence
 
-Personal project. Disney Dreamlight Valley is a trademark of Disney and
-Gameloft; this is an unofficial fan tool with no affiliation.
+MIT — see [LICENSE](LICENSE). Disney Dreamlight Valley is a trademark of Disney
+and Gameloft; this is an unofficial fan tool with no affiliation.

@@ -9,11 +9,15 @@ well tree image through six stages as completion rises.
 
 ```bash
 npm install
-npm run dev       # Vite dev server on :5173
-npm run build     # production build to dist/
-npm run preview   # serve dist/ locally
-npm test          # vitest, unit tests for src/lib/progress.js
+npm run dev            # Vite dev server on :5173
+npm run build          # production build to dist/
+npm run preview        # serve dist/ locally
+npm test               # vitest, unit tests for src/lib/progress.js
+npm run validate:data  # tasks.json invariants, including id stability
 ```
+
+CI (`.github/workflows/ci.yml`) runs validate:data, test, and build on every
+push and PR. Run all three locally before pushing.
 
 ## Architecture
 
@@ -64,7 +68,10 @@ task added, import, reset.
 ```
 
 - `id` must be unique and stable — it's the key in saved progress. Never
-  renumber existing ids; append new ones.
+  renumber existing ids; append new ones. `scripts/task-ids.json` is a committed
+  manifest of every shipped id and `npm run validate:data` fails if one vanishes.
+  Only re-record it (`npm run validate:data -- --write-manifest`) when a removal
+  is genuinely intended.
 - `done` is the *starting* value shipped with the app, used to seed a fresh
   browser. The player's live count lives in `state.doneMap`, not here.
 - `reward` is a number (currency, suffix from `REWARD_CURRENCY`) or a string

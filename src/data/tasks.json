@@ -7,7 +7,7 @@
 "requirement": "Remove 20 Small Night Thorns",
 "reward": 50,
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t0"
 },
 {
@@ -18,7 +18,7 @@
 "requirement": "Remove 230 Small Night Thorns",
 "reward": 100,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t1"
 },
 {
@@ -29,7 +29,7 @@
 "requirement": "Remove 750 Small Night Thorns",
 "reward": 200,
 "total": 750,
-"done": 750,
+"done": 0,
 "id": "t2"
 },
 {
@@ -40,7 +40,7 @@
 "requirement": "Remove 1300 Small Night Thorns",
 "reward": 300,
 "total": 1300,
-"done": 1300,
+"done": 0,
 "id": "t3"
 },
 {
@@ -51,7 +51,7 @@
 "requirement": "Remove 3000 Small Night Thorns",
 "reward": 500,
 "total": 3000,
-"done": 3000,
+"done": 0,
 "id": "t4"
 },
 {
@@ -62,7 +62,7 @@
 "requirement": "Harvest 5 Mushrooms",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t5"
 },
 {
@@ -73,7 +73,7 @@
 "requirement": "Harvest 70 Mushrooms",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t6"
 },
 {
@@ -84,7 +84,7 @@
 "requirement": "Harvest 230 Mushrooms",
 "reward": 200,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t7"
 },
 {
@@ -95,7 +95,7 @@
 "requirement": "Harvest 400 Mushrooms",
 "reward": 300,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t8"
 },
 {
@@ -106,7 +106,7 @@
 "requirement": "Harvest 900 Mushrooms",
 "reward": 500,
 "total": 900,
-"done": 900,
+"done": 0,
 "id": "t9"
 },
 {
@@ -117,7 +117,7 @@
 "requirement": "Harvest 5 Apples",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t10"
 },
 {
@@ -128,7 +128,7 @@
 "requirement": "Harvest 70 Apples",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t11"
 },
 {
@@ -139,7 +139,7 @@
 "requirement": "Harvest 230 Apples",
 "reward": 200,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t12"
 },
 {
@@ -150,7 +150,7 @@
 "requirement": "Harvest 400 Apples",
 "reward": 300,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t13"
 },
 {
@@ -161,7 +161,7 @@
 "requirement": "Harvest 900 Apples",
 "reward": 500,
 "total": 900,
-"done": 900,
+"done": 0,
 "id": "t14"
 },
 {
@@ -172,7 +172,7 @@
 "requirement": "Harvest 3 Different Fruits",
 "reward": 100,
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t15"
 },
 {
@@ -183,7 +183,7 @@
 "requirement": "Harvest 6 Different Fruits",
 "reward": 300,
 "total": 6,
-"done": 6,
+"done": 0,
 "id": "t16"
 },
 {
@@ -194,7 +194,7 @@
 "requirement": "Harvest 9 Different Fruits",
 "reward": 500,
 "total": 9,
-"done": 9,
+"done": 0,
 "id": "t17"
 },
 {
@@ -205,7 +205,7 @@
 "requirement": "Sell 20 Fruit",
 "reward": 50,
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t18"
 },
 {
@@ -216,7 +216,7 @@
 "requirement": "Sell 230 Fruit",
 "reward": 100,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t19"
 },
 {
@@ -227,7 +227,7 @@
 "requirement": "Sell 750 Fruit",
 "reward": 200,
 "total": 750,
-"done": 750,
+"done": 0,
 "id": "t20"
 },
 {
@@ -238,7 +238,7 @@
 "requirement": "Sell 1300 Fruit",
 "reward": 300,
 "total": 1300,
-"done": 1300,
+"done": 0,
 "id": "t21"
 },
 {
@@ -249,7 +249,7 @@
 "requirement": "Sell 3000 Fruit",
 "reward": 500,
 "total": 3000,
-"done": 3000,
+"done": 0,
 "id": "t22"
 },
 {
@@ -260,7 +260,7 @@
 "requirement": "Harvest 5 Oregano",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t23"
 },
 {
@@ -271,7 +271,7 @@
 "requirement": "Harvest 70 Oregano",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t24"
 },
 {
@@ -282,7 +282,7 @@
 "requirement": "Harvest 230 Oregano",
 "reward": 200,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t25"
 },
 {
@@ -293,7 +293,7 @@
 "requirement": "Harvest 400 Oregano",
 "reward": 300,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t26"
 },
 {
@@ -304,7 +304,7 @@
 "requirement": "Harvest 900 Oregano",
 "reward": 500,
 "total": 900,
-"done": 900,
+"done": 0,
 "id": "t27"
 },
 {
@@ -315,7 +315,7 @@
 "requirement": "Harvest 5 Basil",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t28"
 },
 {
@@ -326,7 +326,7 @@
 "requirement": "Harvest 70 Basil",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t29"
 },
 {
@@ -337,7 +337,7 @@
 "requirement": "Harvest 230 Basil",
 "reward": 200,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t30"
 },
 {
@@ -348,7 +348,7 @@
 "requirement": "Harvest 400 Basil",
 "reward": 300,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t31"
 },
 {
@@ -359,7 +359,7 @@
 "requirement": "Harvest 900 Basil",
 "reward": 500,
 "total": 900,
-"done": 900,
+"done": 0,
 "id": "t32"
 },
 {
@@ -370,7 +370,7 @@
 "requirement": "Harvest 5 Garlic",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t33"
 },
 {
@@ -381,7 +381,7 @@
 "requirement": "Harvest 70 Garlic",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t34"
 },
 {
@@ -392,7 +392,7 @@
 "requirement": "Harvest 230 Garlic",
 "reward": 200,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t35"
 },
 {
@@ -403,7 +403,7 @@
 "requirement": "Harvest 400 Garlic",
 "reward": 300,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t36"
 },
 {
@@ -414,7 +414,7 @@
 "requirement": "Harvest 900 Garlic",
 "reward": 500,
 "total": 900,
-"done": 900,
+"done": 0,
 "id": "t37"
 },
 {
@@ -425,7 +425,7 @@
 "requirement": "Harvest 5 Ginger",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t38"
 },
 {
@@ -436,7 +436,7 @@
 "requirement": "Harvest 70 Ginger",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t39"
 },
 {
@@ -447,7 +447,7 @@
 "requirement": "Harvest 230 Ginger",
 "reward": 200,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t40"
 },
 {
@@ -458,7 +458,7 @@
 "requirement": "Harvest 400 Ginger",
 "reward": 300,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t41"
 },
 {
@@ -469,7 +469,7 @@
 "requirement": "Harvest 900 Ginger",
 "reward": 500,
 "total": 900,
-"done": 900,
+"done": 0,
 "id": "t42"
 },
 {
@@ -480,7 +480,7 @@
 "requirement": "Harvest 5 Mint",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t43"
 },
 {
@@ -491,7 +491,7 @@
 "requirement": "Harvest 70 Mint",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t44"
 },
 {
@@ -502,7 +502,7 @@
 "requirement": "Harvest 230 Mint",
 "reward": 200,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t45"
 },
 {
@@ -513,7 +513,7 @@
 "requirement": "Harvest 400 Mint",
 "reward": 300,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t46"
 },
 {
@@ -524,7 +524,7 @@
 "requirement": "Harvest 900 Mint",
 "reward": 500,
 "total": 900,
-"done": 900,
+"done": 0,
 "id": "t47"
 },
 {
@@ -535,7 +535,7 @@
 "requirement": "Harvest 5 Vanilla",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t48"
 },
 {
@@ -546,7 +546,7 @@
 "requirement": "Harvest 70 Vanilla",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t49"
 },
 {
@@ -557,7 +557,7 @@
 "requirement": "Harvest 230 Vanilla",
 "reward": 200,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t50"
 },
 {
@@ -568,7 +568,7 @@
 "requirement": "Harvest 400 Vanilla",
 "reward": 300,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t51"
 },
 {
@@ -579,7 +579,7 @@
 "requirement": "Harvest 900 Vanilla",
 "reward": 500,
 "total": 900,
-"done": 900,
+"done": 0,
 "id": "t52"
 },
 {
@@ -590,7 +590,7 @@
 "requirement": "Harvest 5 Bananas",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t53"
 },
 {
@@ -601,7 +601,7 @@
 "requirement": "Harvest 70 Bananas",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t54"
 },
 {
@@ -612,7 +612,7 @@
 "requirement": "Harvest 230 Bananas",
 "reward": 200,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t55"
 },
 {
@@ -623,7 +623,7 @@
 "requirement": "Harvest 400 Bananas",
 "reward": 300,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t56"
 },
 {
@@ -634,7 +634,7 @@
 "requirement": "Harvest 900 Bananas",
 "reward": 500,
 "total": 900,
-"done": 900,
+"done": 0,
 "id": "t57"
 },
 {
@@ -645,7 +645,7 @@
 "requirement": "Harvest 5 Blueberries",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t58"
 },
 {
@@ -656,7 +656,7 @@
 "requirement": "Harvest 70 Blueberries",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t59"
 },
 {
@@ -667,7 +667,7 @@
 "requirement": "Harvest 230 Blueberries",
 "reward": 200,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t60"
 },
 {
@@ -678,7 +678,7 @@
 "requirement": "Harvest 400 Blueberries",
 "reward": 300,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t61"
 },
 {
@@ -689,7 +689,7 @@
 "requirement": "Harvest 900 Blueberries",
 "reward": 500,
 "total": 900,
-"done": 900,
+"done": 0,
 "id": "t62"
 },
 {
@@ -700,7 +700,7 @@
 "requirement": "Harvest 5 Cherries",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t63"
 },
 {
@@ -711,7 +711,7 @@
 "requirement": "Harvest 70 Cherries",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t64"
 },
 {
@@ -722,7 +722,7 @@
 "requirement": "Harvest 230 Cherries",
 "reward": 200,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t65"
 },
 {
@@ -733,7 +733,7 @@
 "requirement": "Harvest 400 Cherries",
 "reward": 300,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t66"
 },
 {
@@ -744,7 +744,7 @@
 "requirement": "Harvest 900 Cherries",
 "reward": 500,
 "total": 900,
-"done": 900,
+"done": 0,
 "id": "t67"
 },
 {
@@ -755,7 +755,7 @@
 "requirement": "Harvest 5 Cocoa",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t68"
 },
 {
@@ -766,7 +766,7 @@
 "requirement": "Harvest 70 Cocoa",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t69"
 },
 {
@@ -777,7 +777,7 @@
 "requirement": "Harvest 230 Cocoa",
 "reward": 200,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t70"
 },
 {
@@ -788,7 +788,7 @@
 "requirement": "Harvest 400 Cocoa",
 "reward": 300,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t71"
 },
 {
@@ -799,7 +799,7 @@
 "requirement": "Harvest 900 Cocoa",
 "reward": 500,
 "total": 900,
-"done": 900,
+"done": 0,
 "id": "t72"
 },
 {
@@ -810,7 +810,7 @@
 "requirement": "Harvest 5 Gooseberries",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t73"
 },
 {
@@ -821,7 +821,7 @@
 "requirement": "Harvest 70 Gooseberries",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t74"
 },
 {
@@ -832,7 +832,7 @@
 "requirement": "Harvest 230 Gooseberries",
 "reward": 200,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t75"
 },
 {
@@ -843,7 +843,7 @@
 "requirement": "Harvest 400 Gooseberries",
 "reward": 300,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t76"
 },
 {
@@ -854,7 +854,7 @@
 "requirement": "Harvest 900 Gooseberries",
 "reward": 500,
 "total": 900,
-"done": 900,
+"done": 0,
 "id": "t77"
 },
 {
@@ -865,7 +865,7 @@
 "requirement": "Harvest 5 Lemons",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t78"
 },
 {
@@ -876,7 +876,7 @@
 "requirement": "Harvest 70 Lemons",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t79"
 },
 {
@@ -887,7 +887,7 @@
 "requirement": "Harvest 230 Lemons",
 "reward": 200,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t80"
 },
 {
@@ -898,7 +898,7 @@
 "requirement": "Harvest 400 Lemons",
 "reward": 300,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t81"
 },
 {
@@ -909,7 +909,7 @@
 "requirement": "Harvest 900 Lemons",
 "reward": 500,
 "total": 900,
-"done": 900,
+"done": 0,
 "id": "t82"
 },
 {
@@ -920,7 +920,7 @@
 "requirement": "Harvest 5 Raspberries",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t83"
 },
 {
@@ -931,7 +931,7 @@
 "requirement": "Harvest 70 Raspberries",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t84"
 },
 {
@@ -942,7 +942,7 @@
 "requirement": "Harvest 230 Raspberries",
 "reward": 200,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t85"
 },
 {
@@ -953,7 +953,7 @@
 "requirement": "Harvest 400 Raspberries",
 "reward": 300,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t86"
 },
 {
@@ -964,7 +964,7 @@
 "requirement": "Harvest 900 Raspberries",
 "reward": 500,
 "total": 900,
-"done": 900,
+"done": 0,
 "id": "t87"
 },
 {
@@ -975,7 +975,7 @@
 "requirement": "Feed 1 Rabbit Their Favourite Food",
 "reward": 100,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t88"
 },
 {
@@ -986,7 +986,7 @@
 "requirement": "Feed 3 Rabbit Their Favourite Food",
 "reward": 200,
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t89"
 },
 {
@@ -997,7 +997,7 @@
 "requirement": "Feed 10 Rabbit Their Favourite Food",
 "reward": 500,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t90"
 },
 {
@@ -1008,7 +1008,7 @@
 "requirement": "Feed 1 Sea Turtle Their Favourite Food",
 "reward": 100,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t91"
 },
 {
@@ -1019,7 +1019,7 @@
 "requirement": "Feed 3 Sea Turtle Their Favourite Food",
 "reward": 200,
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t92"
 },
 {
@@ -1030,7 +1030,7 @@
 "requirement": "Feed 10 Sea Turtle Their Favourite Food",
 "reward": 500,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t93"
 },
 {
@@ -1041,7 +1041,7 @@
 "requirement": "Feed 1 Racoon Their Favourite Food",
 "reward": 100,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t94"
 },
 {
@@ -1052,7 +1052,7 @@
 "requirement": "Feed 3 Racoon Their Favourite Food",
 "reward": 200,
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t95"
 },
 {
@@ -1063,7 +1063,7 @@
 "requirement": "Feed 10 Racoon Their Favourite Food",
 "reward": 500,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t96"
 },
 {
@@ -1074,7 +1074,7 @@
 "requirement": "Feed 1 Sunbirds Their Favourite Food",
 "reward": 100,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t97"
 },
 {
@@ -1085,7 +1085,7 @@
 "requirement": "Feed 3 Sunbirds Their Favourite Food",
 "reward": 200,
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t98"
 },
 {
@@ -1096,7 +1096,7 @@
 "requirement": "Feed 10 Sunbirds Their Favourite Food",
 "reward": 500,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t99"
 },
 {
@@ -1107,7 +1107,7 @@
 "requirement": "Feed 1 Crocodiles Their Favourite Food",
 "reward": 100,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t100"
 },
 {
@@ -1118,7 +1118,7 @@
 "requirement": "Feed 3 Crocodiles Their Favourite Food",
 "reward": 200,
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t101"
 },
 {
@@ -1129,7 +1129,7 @@
 "requirement": "Feed 10 Crocodiles Their Favourite Food",
 "reward": 500,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t102"
 },
 {
@@ -1140,7 +1140,7 @@
 "requirement": "Feed 1 Foxes Their Favourite Food",
 "reward": 100,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t103"
 },
 {
@@ -1151,7 +1151,7 @@
 "requirement": "Feed 3 Foxes Their Favourite Food",
 "reward": 200,
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t104"
 },
 {
@@ -1162,7 +1162,7 @@
 "requirement": "Feed 10 Foxes Their Favourite Food",
 "reward": 500,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t105"
 },
 {
@@ -1173,7 +1173,7 @@
 "requirement": "Feed 1 Ravens Their Favourite Food",
 "reward": 100,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t106"
 },
 {
@@ -1184,7 +1184,7 @@
 "requirement": "Feed 3 Ravens Their Favourite Food",
 "reward": 200,
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t107"
 },
 {
@@ -1195,7 +1195,7 @@
 "requirement": "Feed 10 Ravens Their Favourite Food",
 "reward": 500,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t108"
 },
 {
@@ -1206,7 +1206,7 @@
 "requirement": "Feed 1 Squirrels Their Favourite Food",
 "reward": 100,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t109"
 },
 {
@@ -1217,7 +1217,7 @@
 "requirement": "Feed 3 Squirrels Their Favourite Food",
 "reward": 200,
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t110"
 },
 {
@@ -1228,7 +1228,7 @@
 "requirement": "Feed 10 Squirrels Their Favourite Food",
 "reward": 500,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t111"
 },
 {
@@ -1239,7 +1239,7 @@
 "requirement": "Feed 1 Sea Turtle",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t112"
 },
 {
@@ -1250,7 +1250,7 @@
 "requirement": "Feed 7 Sea Turtles",
 "reward": 100,
 "total": 7,
-"done": 7,
+"done": 0,
 "id": "t113"
 },
 {
@@ -1261,7 +1261,7 @@
 "requirement": "Feed 25 Sea Turtles",
 "reward": 200,
 "total": 25,
-"done": 25,
+"done": 0,
 "id": "t114"
 },
 {
@@ -1272,7 +1272,7 @@
 "requirement": "Feed 40 Sea Turtles",
 "reward": 300,
 "total": 40,
-"done": 40,
+"done": 0,
 "id": "t115"
 },
 {
@@ -1283,7 +1283,7 @@
 "requirement": "Feed 90 Sea Turtles",
 "reward": 500,
 "total": 90,
-"done": 90,
+"done": 0,
 "id": "t116"
 },
 {
@@ -1294,7 +1294,7 @@
 "requirement": "Feed 1 Foxe",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t117"
 },
 {
@@ -1305,7 +1305,7 @@
 "requirement": "Feed 7 Foxes",
 "reward": 100,
 "total": 7,
-"done": 7,
+"done": 0,
 "id": "t118"
 },
 {
@@ -1316,7 +1316,7 @@
 "requirement": "Feed 25 Foxes",
 "reward": 200,
 "total": 25,
-"done": 25,
+"done": 0,
 "id": "t119"
 },
 {
@@ -1327,7 +1327,7 @@
 "requirement": "Feed 40 Foxes",
 "reward": 300,
 "total": 40,
-"done": 40,
+"done": 0,
 "id": "t120"
 },
 {
@@ -1338,7 +1338,7 @@
 "requirement": "Feed 90 Foxes",
 "reward": 500,
 "total": 90,
-"done": 90,
+"done": 0,
 "id": "t121"
 },
 {
@@ -1349,7 +1349,7 @@
 "requirement": "Feed 1 Raven",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t122"
 },
 {
@@ -1360,7 +1360,7 @@
 "requirement": "Feed 7 Ravens",
 "reward": 100,
 "total": 7,
-"done": 7,
+"done": 0,
 "id": "t123"
 },
 {
@@ -1371,7 +1371,7 @@
 "requirement": "Feed 25 Ravens",
 "reward": 200,
 "total": 25,
-"done": 25,
+"done": 0,
 "id": "t124"
 },
 {
@@ -1382,7 +1382,7 @@
 "requirement": "Feed 40 Ravens",
 "reward": 300,
 "total": 40,
-"done": 40,
+"done": 0,
 "id": "t125"
 },
 {
@@ -1393,7 +1393,7 @@
 "requirement": "Feed 90 Ravens",
 "reward": 500,
 "total": 90,
-"done": 90,
+"done": 0,
 "id": "t126"
 },
 {
@@ -1404,7 +1404,7 @@
 "requirement": "Feed 1 Racoon",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t127"
 },
 {
@@ -1415,7 +1415,7 @@
 "requirement": "Feed 7 Racoons",
 "reward": 100,
 "total": 7,
-"done": 7,
+"done": 0,
 "id": "t128"
 },
 {
@@ -1426,7 +1426,7 @@
 "requirement": "Feed 25 Racoons",
 "reward": 200,
 "total": 25,
-"done": 25,
+"done": 0,
 "id": "t129"
 },
 {
@@ -1437,7 +1437,7 @@
 "requirement": "Feed 40 Racoons",
 "reward": 300,
 "total": 40,
-"done": 40,
+"done": 0,
 "id": "t130"
 },
 {
@@ -1448,7 +1448,7 @@
 "requirement": "Feed 90 Racoons",
 "reward": 500,
 "total": 90,
-"done": 90,
+"done": 0,
 "id": "t131"
 },
 {
@@ -1459,7 +1459,7 @@
 "requirement": "Feed 1 Rabbit",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t132"
 },
 {
@@ -1470,7 +1470,7 @@
 "requirement": "Feed 7 Rabbits",
 "reward": 100,
 "total": 7,
-"done": 7,
+"done": 0,
 "id": "t133"
 },
 {
@@ -1481,7 +1481,7 @@
 "requirement": "Feed 25 Rabbits",
 "reward": 200,
 "total": 25,
-"done": 25,
+"done": 0,
 "id": "t134"
 },
 {
@@ -1492,7 +1492,7 @@
 "requirement": "Feed 40 Rabbits",
 "reward": 300,
 "total": 40,
-"done": 40,
+"done": 0,
 "id": "t135"
 },
 {
@@ -1503,7 +1503,7 @@
 "requirement": "Feed 90 Rabbits",
 "reward": 500,
 "total": 90,
-"done": 90,
+"done": 0,
 "id": "t136"
 },
 {
@@ -1514,7 +1514,7 @@
 "requirement": "Feed 1 Sunbird",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t137"
 },
 {
@@ -1525,7 +1525,7 @@
 "requirement": "Feed 7 Sunbirds",
 "reward": 100,
 "total": 7,
-"done": 7,
+"done": 0,
 "id": "t138"
 },
 {
@@ -1536,7 +1536,7 @@
 "requirement": "Feed 25 Sunbirds",
 "reward": 200,
 "total": 25,
-"done": 25,
+"done": 0,
 "id": "t139"
 },
 {
@@ -1547,7 +1547,7 @@
 "requirement": "Feed 40 Sunbirds",
 "reward": 300,
 "total": 40,
-"done": 40,
+"done": 0,
 "id": "t140"
 },
 {
@@ -1558,7 +1558,7 @@
 "requirement": "Feed 90 Sunbirds",
 "reward": 500,
 "total": 90,
-"done": 90,
+"done": 0,
 "id": "t141"
 },
 {
@@ -1569,7 +1569,7 @@
 "requirement": "Feed 1 Crocodile",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t142"
 },
 {
@@ -1580,7 +1580,7 @@
 "requirement": "Feed 7 Crocodiles",
 "reward": 100,
 "total": 7,
-"done": 7,
+"done": 0,
 "id": "t143"
 },
 {
@@ -1591,7 +1591,7 @@
 "requirement": "Feed 25 Crocodiles",
 "reward": 200,
 "total": 25,
-"done": 25,
+"done": 0,
 "id": "t144"
 },
 {
@@ -1602,7 +1602,7 @@
 "requirement": "Feed 40 Crocodiles",
 "reward": 300,
 "total": 40,
-"done": 40,
+"done": 0,
 "id": "t145"
 },
 {
@@ -1613,7 +1613,7 @@
 "requirement": "Feed 90 Crocodiles",
 "reward": 500,
 "total": 90,
-"done": 90,
+"done": 0,
 "id": "t146"
 },
 {
@@ -1624,7 +1624,7 @@
 "requirement": "Feed 1 Squirrel",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t147"
 },
 {
@@ -1635,7 +1635,7 @@
 "requirement": "Feed 7 Squirrels",
 "reward": 100,
 "total": 7,
-"done": 7,
+"done": 0,
 "id": "t148"
 },
 {
@@ -1646,7 +1646,7 @@
 "requirement": "Feed 25 Squirrels",
 "reward": 200,
 "total": 25,
-"done": 25,
+"done": 0,
 "id": "t149"
 },
 {
@@ -1657,7 +1657,7 @@
 "requirement": "Feed 40 Squirrels",
 "reward": 300,
 "total": 40,
-"done": 40,
+"done": 0,
 "id": "t150"
 },
 {
@@ -1668,7 +1668,7 @@
 "requirement": "Feed 90 Squirrels",
 "reward": 500,
 "total": 90,
-"done": 90,
+"done": 0,
 "id": "t151"
 },
 {
@@ -1679,7 +1679,7 @@
 "requirement": "Harvest 25 Vegetables",
 "reward": 50,
 "total": 25,
-"done": 25,
+"done": 0,
 "id": "t152"
 },
 {
@@ -1690,7 +1690,7 @@
 "requirement": "Harvest 400 Vegetables",
 "reward": 100,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t153"
 },
 {
@@ -1701,7 +1701,7 @@
 "requirement": "Harvest 1100 Vegetables",
 "reward": 200,
 "total": 1100,
-"done": 1100,
+"done": 0,
 "id": "t154"
 },
 {
@@ -1712,7 +1712,7 @@
 "requirement": "Harvest 2000 Vegetables",
 "reward": 300,
 "total": 2000,
-"done": 2000,
+"done": 0,
 "id": "t155"
 },
 {
@@ -1723,7 +1723,7 @@
 "requirement": "Harvest 4500 Vegetables",
 "reward": 500,
 "total": 4500,
-"done": 4500,
+"done": 0,
 "id": "t156"
 },
 {
@@ -1734,7 +1734,7 @@
 "requirement": "Sell 10 Vegetables",
 "reward": 50,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t157"
 },
 {
@@ -1745,7 +1745,7 @@
 "requirement": "Sell 120 Vegetables",
 "reward": 100,
 "total": 120,
-"done": 120,
+"done": 0,
 "id": "t158"
 },
 {
@@ -1756,7 +1756,7 @@
 "requirement": "Sell 380 Vegetables",
 "reward": 200,
 "total": 380,
-"done": 380,
+"done": 0,
 "id": "t159"
 },
 {
@@ -1767,7 +1767,7 @@
 "requirement": "Sell 670 Vegetables",
 "reward": 300,
 "total": 670,
-"done": 670,
+"done": 0,
 "id": "t160"
 },
 {
@@ -1778,7 +1778,7 @@
 "requirement": "Sell 1500 Vegetables",
 "reward": 500,
 "total": 1500,
-"done": 1500,
+"done": 0,
 "id": "t161"
 },
 {
@@ -1789,7 +1789,7 @@
 "requirement": "Harvest 5 Different Vegetables",
 "reward": 100,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t162"
 },
 {
@@ -1800,7 +1800,7 @@
 "requirement": "Harvest 10 Different Vegetables",
 "reward": 300,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t163"
 },
 {
@@ -1811,7 +1811,7 @@
 "requirement": "Harvest 16 Different Vegetables",
 "reward": 500,
 "total": 16,
-"done": 16,
+"done": 0,
 "id": "t164"
 },
 {
@@ -1822,7 +1822,7 @@
 "requirement": "Plant 25 Vegetables",
 "reward": 50,
 "total": 25,
-"done": 25,
+"done": 0,
 "id": "t165"
 },
 {
@@ -1833,7 +1833,7 @@
 "requirement": "Plant 350 Vegetables",
 "reward": 100,
 "total": 350,
-"done": 350,
+"done": 0,
 "id": "t166"
 },
 {
@@ -1844,7 +1844,7 @@
 "requirement": "Plant 1100 Vegetables",
 "reward": 200,
 "total": 1100,
-"done": 1100,
+"done": 0,
 "id": "t167"
 },
 {
@@ -1855,7 +1855,7 @@
 "requirement": "Plant 2000 Vegetables",
 "reward": 300,
 "total": 2000,
-"done": 2000,
+"done": 0,
 "id": "t168"
 },
 {
@@ -1866,7 +1866,7 @@
 "requirement": "Planet 4500 Vegetables",
 "reward": 500,
 "total": 4500,
-"done": 4500,
+"done": 0,
 "id": "t169"
 },
 {
@@ -1877,7 +1877,7 @@
 "requirement": "Water 50 Dried Vegetables",
 "reward": 50,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t170"
 },
 {
@@ -1888,7 +1888,7 @@
 "requirement": "Water 600 Dried Vegetables",
 "reward": 100,
 "total": 600,
-"done": 600,
+"done": 0,
 "id": "t171"
 },
 {
@@ -1899,7 +1899,7 @@
 "requirement": "Water 1900 Dried Vegetables",
 "reward": 200,
 "total": 1900,
-"done": 1900,
+"done": 0,
 "id": "t172"
 },
 {
@@ -1910,7 +1910,7 @@
 "requirement": "Water 3400 Dried Vegetables",
 "reward": 300,
 "total": 3400,
-"done": 3400,
+"done": 0,
 "id": "t173"
 },
 {
@@ -1921,7 +1921,7 @@
 "requirement": "Water 7700 Dried Vegetables",
 "reward": 500,
 "total": 7700,
-"done": 7700,
+"done": 0,
 "id": "t174"
 },
 {
@@ -1932,7 +1932,7 @@
 "requirement": "Buy 4 Seeds from the Peaceful Meadow",
 "reward": 50,
 "total": 4,
-"done": 4,
+"done": 0,
 "id": "t175"
 },
 {
@@ -1943,7 +1943,7 @@
 "requirement": "Buy 50 Seeds from the Peaceful Meadow",
 "reward": 100,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t176"
 },
 {
@@ -1954,7 +1954,7 @@
 "requirement": "Buy 160 Seeds from the Peaceful Meadow",
 "reward": 200,
 "total": 160,
-"done": 160,
+"done": 0,
 "id": "t177"
 },
 {
@@ -1965,7 +1965,7 @@
 "requirement": "Buy 285 Seeds from the Peaceful Meadow",
 "reward": 300,
 "total": 285,
-"done": 285,
+"done": 0,
 "id": "t178"
 },
 {
@@ -1976,7 +1976,7 @@
 "requirement": "Buy 645 Seeds from the Peaceful Meadow",
 "reward": 500,
 "total": 645,
-"done": 645,
+"done": 0,
 "id": "t179"
 },
 {
@@ -1987,7 +1987,7 @@
 "requirement": "Buy 4 Seeds from Dazzle Beach",
 "reward": 50,
 "total": 4,
-"done": 4,
+"done": 0,
 "id": "t180"
 },
 {
@@ -1998,7 +1998,7 @@
 "requirement": "Buy 50 Seeds from the Dazzle Beach",
 "reward": 100,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t181"
 },
 {
@@ -2009,7 +2009,7 @@
 "requirement": "Buy 160 Seeds from the Dazzle Beach",
 "reward": 200,
 "total": 160,
-"done": 160,
+"done": 0,
 "id": "t182"
 },
 {
@@ -2020,7 +2020,7 @@
 "requirement": "Buy 285 Seeds from the Dazzle Beach",
 "reward": 300,
 "total": 285,
-"done": 285,
+"done": 0,
 "id": "t183"
 },
 {
@@ -2031,7 +2031,7 @@
 "requirement": "Buy 645 Seeds from the Dazzle Beach",
 "reward": 500,
 "total": 645,
-"done": 645,
+"done": 0,
 "id": "t184"
 },
 {
@@ -2042,7 +2042,7 @@
 "requirement": "Buy 4 Seeds from the Forest of Valor",
 "reward": 50,
 "total": 4,
-"done": 4,
+"done": 0,
 "id": "t185"
 },
 {
@@ -2053,7 +2053,7 @@
 "requirement": "Buy 50 Seeds from the Forest of Valor",
 "reward": 100,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t186"
 },
 {
@@ -2064,7 +2064,7 @@
 "requirement": "Buy 160 Seeds from the Forest of Valor",
 "reward": 200,
 "total": 160,
-"done": 160,
+"done": 0,
 "id": "t187"
 },
 {
@@ -2075,7 +2075,7 @@
 "requirement": "Buy 285 Seeds from the Forest of Valor",
 "reward": 300,
 "total": 285,
-"done": 285,
+"done": 0,
 "id": "t188"
 },
 {
@@ -2086,7 +2086,7 @@
 "requirement": "Buy 645 Seeds from the Forest of Valor",
 "reward": 500,
 "total": 645,
-"done": 645,
+"done": 0,
 "id": "t189"
 },
 {
@@ -2097,7 +2097,7 @@
 "requirement": "Buy 4 Seeds from Glade of Trust",
 "reward": 50,
 "total": 4,
-"done": 4,
+"done": 0,
 "id": "t190"
 },
 {
@@ -2108,7 +2108,7 @@
 "requirement": "Buy 50 Seeds from the Glade of Trust",
 "reward": 100,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t191"
 },
 {
@@ -2119,7 +2119,7 @@
 "requirement": "Buy 160 Seeds from the Glade of Trust",
 "reward": 200,
 "total": 160,
-"done": 160,
+"done": 0,
 "id": "t192"
 },
 {
@@ -2130,7 +2130,7 @@
 "requirement": "Buy 285 Seeds from the Glade of Trust",
 "reward": 300,
 "total": 285,
-"done": 285,
+"done": 0,
 "id": "t193"
 },
 {
@@ -2141,7 +2141,7 @@
 "requirement": "Buy 645 Seeds from the Glade of Trust",
 "reward": 500,
 "total": 645,
-"done": 645,
+"done": 0,
 "id": "t194"
 },
 {
@@ -2152,7 +2152,7 @@
 "requirement": "Buy 4 Seeds from the Sunlit Plateau",
 "reward": 50,
 "total": 4,
-"done": 4,
+"done": 0,
 "id": "t195"
 },
 {
@@ -2163,7 +2163,7 @@
 "requirement": "Buy 50 Seeds from the Sunlit Plateau",
 "reward": 100,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t196"
 },
 {
@@ -2174,7 +2174,7 @@
 "requirement": "Buy 160 Seeds from the Sunlit Plateau",
 "reward": 200,
 "total": 160,
-"done": 160,
+"done": 0,
 "id": "t197"
 },
 {
@@ -2185,7 +2185,7 @@
 "requirement": "Buy 285 Seeds from the Sunlit Plateau",
 "reward": 300,
 "total": 285,
-"done": 285,
+"done": 0,
 "id": "t198"
 },
 {
@@ -2196,7 +2196,7 @@
 "requirement": "Buy 645 Seeds from the Sunlit Plateau",
 "reward": 500,
 "total": 645,
-"done": 645,
+"done": 0,
 "id": "t199"
 },
 {
@@ -2207,7 +2207,7 @@
 "requirement": "Buy 4 Seeds from the Frosted Heights",
 "reward": 50,
 "total": 4,
-"done": 4,
+"done": 0,
 "id": "t200"
 },
 {
@@ -2218,7 +2218,7 @@
 "requirement": "Buy 50 Seeds from the Frosted Heights",
 "reward": 100,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t201"
 },
 {
@@ -2229,7 +2229,7 @@
 "requirement": "Buy 160 Seeds from the Frosted Heights",
 "reward": 200,
 "total": 160,
-"done": 160,
+"done": 0,
 "id": "t202"
 },
 {
@@ -2240,7 +2240,7 @@
 "requirement": "Buy 285 Seeds from the Frosted Heights",
 "reward": 300,
 "total": 285,
-"done": 285,
+"done": 0,
 "id": "t203"
 },
 {
@@ -2251,7 +2251,7 @@
 "requirement": "Buy 645 Seeds from the Frosted Heights",
 "reward": 500,
 "total": 645,
-"done": 645,
+"done": 0,
 "id": "t204"
 },
 {
@@ -2262,7 +2262,7 @@
 "requirement": "Buy 4 Seeds from the Forgotten Lands",
 "reward": 50,
 "total": 4,
-"done": 4,
+"done": 0,
 "id": "t205"
 },
 {
@@ -2273,7 +2273,7 @@
 "requirement": "Buy 50 Seeds from the Forgotten Lands",
 "reward": 100,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t206"
 },
 {
@@ -2284,7 +2284,7 @@
 "requirement": "Buy 160 Seeds from the Forgotten Lands",
 "reward": 200,
 "total": 160,
-"done": 160,
+"done": 0,
 "id": "t207"
 },
 {
@@ -2295,7 +2295,7 @@
 "requirement": "Buy 285 Seeds from the Forgotten Lands",
 "reward": 300,
 "total": 285,
-"done": 285,
+"done": 0,
 "id": "t208"
 },
 {
@@ -2306,7 +2306,7 @@
 "requirement": "Buy 645 Seeds from the Forgotten Lands",
 "reward": 500,
 "total": 645,
-"done": 645,
+"done": 0,
 "id": "t209"
 },
 {
@@ -2317,7 +2317,7 @@
 "requirement": "Catch 10 Fish",
 "reward": 50,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t210"
 },
 {
@@ -2328,7 +2328,7 @@
 "requirement": "Catch 140 Fish",
 "reward": 100,
 "total": 140,
-"done": 140,
+"done": 0,
 "id": "t211"
 },
 {
@@ -2339,7 +2339,7 @@
 "requirement": "Catch 450 Fish",
 "reward": 200,
 "total": 450,
-"done": 450,
+"done": 0,
 "id": "t212"
 },
 {
@@ -2350,7 +2350,7 @@
 "requirement": "Catch 800 Fish",
 "reward": 300,
 "total": 800,
-"done": 800,
+"done": 0,
 "id": "t213"
 },
 {
@@ -2361,7 +2361,7 @@
 "requirement": "Catch 1800 Fish",
 "reward": 500,
 "total": 1800,
-"done": 1800,
+"done": 0,
 "id": "t214"
 },
 {
@@ -2372,7 +2372,7 @@
 "requirement": "Catch 2 Different Types of Fish",
 "reward": 10,
 "total": 2,
-"done": 2,
+"done": 0,
 "id": "t215"
 },
 {
@@ -2383,7 +2383,7 @@
 "requirement": "Catch 10 Different Types of Fish",
 "reward": 200,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t216"
 },
 {
@@ -2394,7 +2394,7 @@
 "requirement": "Catch 20 Different Types of Fish",
 "reward": 500,
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t217"
 },
 {
@@ -2405,7 +2405,7 @@
 "requirement": "Catch 3 Fish Without Failing",
 "reward": 100,
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t218"
 },
 {
@@ -2416,7 +2416,7 @@
 "requirement": "Catch 50 Fish Without Failing",
 "reward": 200,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t219"
 },
 {
@@ -2427,7 +2427,7 @@
 "requirement": "Catch 100 Fish Without Failing",
 "reward": 500,
 "total": 100,
-"done": 100,
+"done": 0,
 "id": "t220"
 },
 {
@@ -2438,7 +2438,7 @@
 "requirement": "Sell 4 Fish",
 "reward": 50,
 "total": 4,
-"done": 4,
+"done": 0,
 "id": "t221"
 },
 {
@@ -2449,7 +2449,7 @@
 "requirement": "Sell 45 Fish",
 "reward": 100,
 "total": 45,
-"done": 45,
+"done": 0,
 "id": "t222"
 },
 {
@@ -2460,7 +2460,7 @@
 "requirement": "Sell 150 Fish",
 "reward": 200,
 "total": 150,
-"done": 150,
+"done": 0,
 "id": "t223"
 },
 {
@@ -2471,7 +2471,7 @@
 "requirement": "Sell 270 Fish",
 "reward": 300,
 "total": 270,
-"done": 270,
+"done": 0,
 "id": "t224"
 },
 {
@@ -2482,7 +2482,7 @@
 "requirement": "Sell 600 Fish",
 "reward": 500,
 "total": 600,
-"done": 600,
+"done": 0,
 "id": "t225"
 },
 {
@@ -2493,7 +2493,7 @@
 "requirement": "Catch 2 Fish from the Peaceful Meadow",
 "reward": 50,
 "total": 2,
-"done": 2,
+"done": 0,
 "id": "t226"
 },
 {
@@ -2504,7 +2504,7 @@
 "requirement": "Catch 20 Fish from the Peaceful Meadow",
 "reward": 100,
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t227"
 },
 {
@@ -2515,7 +2515,7 @@
 "requirement": "Catch 60 Fish from the Peaceful Meadow",
 "reward": 200,
 "total": 60,
-"done": 60,
+"done": 0,
 "id": "t228"
 },
 {
@@ -2526,7 +2526,7 @@
 "requirement": "Catch 110 Fish from the Peaceful Meadow",
 "reward": 300,
 "total": 110,
-"done": 110,
+"done": 0,
 "id": "t229"
 },
 {
@@ -2537,7 +2537,7 @@
 "requirement": "Catch 260 Fish from the Peaceful Meadow",
 "reward": 500,
 "total": 260,
-"done": 260,
+"done": 0,
 "id": "t230"
 },
 {
@@ -2548,7 +2548,7 @@
 "requirement": "Catch 2 Fish from the Dazzle Beach",
 "reward": 50,
 "total": 2,
-"done": 2,
+"done": 0,
 "id": "t231"
 },
 {
@@ -2559,7 +2559,7 @@
 "requirement": "Catch 20 Fish from the Dazzle Beach",
 "reward": 100,
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t232"
 },
 {
@@ -2570,7 +2570,7 @@
 "requirement": "Catch 60 Fish from the Dazzle Beach",
 "reward": 200,
 "total": 60,
-"done": 60,
+"done": 0,
 "id": "t233"
 },
 {
@@ -2581,7 +2581,7 @@
 "requirement": "Catch 110 Fish from the Dazzle Beach",
 "reward": 300,
 "total": 110,
-"done": 110,
+"done": 0,
 "id": "t234"
 },
 {
@@ -2592,7 +2592,7 @@
 "requirement": "Catch 260 Fish from the Dazzle Beach",
 "reward": 500,
 "total": 260,
-"done": 260,
+"done": 0,
 "id": "t235"
 },
 {
@@ -2603,7 +2603,7 @@
 "requirement": "Catch 2 Fish from the Forest of Valor",
 "reward": 50,
 "total": 2,
-"done": 2,
+"done": 0,
 "id": "t236"
 },
 {
@@ -2614,7 +2614,7 @@
 "requirement": "Catch 20 Fish from the Forest of Valor",
 "reward": 100,
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t237"
 },
 {
@@ -2625,7 +2625,7 @@
 "requirement": "Catch 60 Fish from the Forest of Valor",
 "reward": 200,
 "total": 60,
-"done": 60,
+"done": 0,
 "id": "t238"
 },
 {
@@ -2636,7 +2636,7 @@
 "requirement": "Catch 110 Fish from the Forest of Valor",
 "reward": 300,
 "total": 110,
-"done": 110,
+"done": 0,
 "id": "t239"
 },
 {
@@ -2647,7 +2647,7 @@
 "requirement": "Catch 260 Fish from the Forest of Valor",
 "reward": 500,
 "total": 260,
-"done": 260,
+"done": 0,
 "id": "t240"
 },
 {
@@ -2658,7 +2658,7 @@
 "requirement": "Catch 2 Fish from the Sunlit Plateau",
 "reward": 50,
 "total": 2,
-"done": 2,
+"done": 0,
 "id": "t241"
 },
 {
@@ -2669,7 +2669,7 @@
 "requirement": "Catch 20 Fish from the Sunlit Plateau",
 "reward": 100,
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t242"
 },
 {
@@ -2680,7 +2680,7 @@
 "requirement": "Catch 60 Fish from the Sunlit Plateau",
 "reward": 200,
 "total": 60,
-"done": 60,
+"done": 0,
 "id": "t243"
 },
 {
@@ -2691,7 +2691,7 @@
 "requirement": "Catch 110 Fish from the Sunlit Plateau",
 "reward": 300,
 "total": 110,
-"done": 110,
+"done": 0,
 "id": "t244"
 },
 {
@@ -2702,7 +2702,7 @@
 "requirement": "Catch 260 Fish from the Sunlit Plateau",
 "reward": 500,
 "total": 260,
-"done": 260,
+"done": 0,
 "id": "t245"
 },
 {
@@ -2713,7 +2713,7 @@
 "requirement": "Catch 2 Fish from the Glade of Trust",
 "reward": 50,
 "total": 2,
-"done": 2,
+"done": 0,
 "id": "t246"
 },
 {
@@ -2724,7 +2724,7 @@
 "requirement": "Catch 20 Fish from the Glade of Trust",
 "reward": 100,
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t247"
 },
 {
@@ -2735,7 +2735,7 @@
 "requirement": "Catch 60 Fish from the Glade of Trust",
 "reward": 200,
 "total": 60,
-"done": 60,
+"done": 0,
 "id": "t248"
 },
 {
@@ -2746,7 +2746,7 @@
 "requirement": "Catch 110 Fish from the Glade of Trust",
 "reward": 300,
 "total": 110,
-"done": 110,
+"done": 0,
 "id": "t249"
 },
 {
@@ -2757,7 +2757,7 @@
 "requirement": "Catch 260 Fish from the Glade of Trust",
 "reward": 500,
 "total": 260,
-"done": 260,
+"done": 0,
 "id": "t250"
 },
 {
@@ -2768,7 +2768,7 @@
 "requirement": "Catch 2 Fish from the Frosted Heights",
 "reward": 50,
 "total": 2,
-"done": 2,
+"done": 0,
 "id": "t251"
 },
 {
@@ -2779,7 +2779,7 @@
 "requirement": "Catch 20 Fish from the Frosted Heights",
 "reward": 100,
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t252"
 },
 {
@@ -2790,7 +2790,7 @@
 "requirement": "Catch 60 Fish from the Frosted Heights",
 "reward": 200,
 "total": 60,
-"done": 60,
+"done": 0,
 "id": "t253"
 },
 {
@@ -2801,7 +2801,7 @@
 "requirement": "Catch 110 Fish from the Frosted Heights",
 "reward": 300,
 "total": 110,
-"done": 110,
+"done": 0,
 "id": "t254"
 },
 {
@@ -2812,7 +2812,7 @@
 "requirement": "Catch 260 Fish from the Frosted Heights",
 "reward": 500,
 "total": 260,
-"done": 260,
+"done": 0,
 "id": "t255"
 },
 {
@@ -2823,7 +2823,7 @@
 "requirement": "Catch 2 Fish from the Forgotten Lands",
 "reward": 50,
 "total": 2,
-"done": 2,
+"done": 0,
 "id": "t256"
 },
 {
@@ -2834,7 +2834,7 @@
 "requirement": "Catch 20 Fish from the Forgotten Lands",
 "reward": 100,
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t257"
 },
 {
@@ -2845,7 +2845,7 @@
 "requirement": "Catch 60 Fish from the Forgotten Lands",
 "reward": 200,
 "total": 60,
-"done": 60,
+"done": 0,
 "id": "t258"
 },
 {
@@ -2856,7 +2856,7 @@
 "requirement": "Catch 110 Fish from the Forgotten Lands",
 "reward": 300,
 "total": 110,
-"done": 110,
+"done": 0,
 "id": "t259"
 },
 {
@@ -2867,7 +2867,7 @@
 "requirement": "Catch 260 Fish from the Forgotten Lands",
 "reward": 500,
 "total": 260,
-"done": 260,
+"done": 0,
 "id": "t260"
 },
 {
@@ -2878,7 +2878,7 @@
 "requirement": "Catch 2 Seafood",
 "reward": 50,
 "total": 2,
-"done": 2,
+"done": 0,
 "id": "t261"
 },
 {
@@ -2889,7 +2889,7 @@
 "requirement": "Catch 20 Seafood",
 "reward": 100,
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t262"
 },
 {
@@ -2900,7 +2900,7 @@
 "requirement": "Catch 60 Seafood",
 "reward": 200,
 "total": 60,
-"done": 60,
+"done": 0,
 "id": "t263"
 },
 {
@@ -2911,7 +2911,7 @@
 "requirement": "Catch 110 Seafood",
 "reward": 300,
 "total": 110,
-"done": 110,
+"done": 0,
 "id": "t264"
 },
 {
@@ -2922,7 +2922,7 @@
 "requirement": "Catch 260 Seafood",
 "reward": 500,
 "total": 260,
-"done": 260,
+"done": 0,
 "id": "t265"
 },
 {
@@ -2933,7 +2933,7 @@
 "requirement": "Sell 2 Meals",
 "reward": 50,
 "total": 2,
-"done": 2,
+"done": 0,
 "id": "t266"
 },
 {
@@ -2944,7 +2944,7 @@
 "requirement": "Sell 25 Meals",
 "reward": 100,
 "total": 25,
-"done": 25,
+"done": 0,
 "id": "t267"
 },
 {
@@ -2955,7 +2955,7 @@
 "requirement": "Sell 75 Meals",
 "reward": 200,
 "total": 75,
-"done": 75,
+"done": 0,
 "id": "t268"
 },
 {
@@ -2966,7 +2966,7 @@
 "requirement": "Sell 130 Meals",
 "reward": 300,
 "total": 130,
-"done": 130,
+"done": 0,
 "id": "t269"
 },
 {
@@ -2977,7 +2977,7 @@
 "requirement": "Sell 300 Meals",
 "reward": 500,
 "total": 300,
-"done": 300,
+"done": 0,
 "id": "t270"
 },
 {
@@ -2988,7 +2988,7 @@
 "requirement": "Cook 5 Meals",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t271"
 },
 {
@@ -2999,7 +2999,7 @@
 "requirement": "Cook 70 Meals",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t272"
 },
 {
@@ -3010,7 +3010,7 @@
 "requirement": "Cook 225 Meals",
 "reward": 200,
 "total": 225,
-"done": 225,
+"done": 0,
 "id": "t273"
 },
 {
@@ -3021,7 +3021,7 @@
 "requirement": "Cook 400 Meals",
 "reward": 300,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t274"
 },
 {
@@ -3032,7 +3032,7 @@
 "requirement": "Cook 900 Meals",
 "reward": 500,
 "total": 900,
-"done": 900,
+"done": 0,
 "id": "t275"
 },
 {
@@ -3043,7 +3043,7 @@
 "requirement": "Cook 1 Fish-Based Meal",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t276"
 },
 {
@@ -3054,7 +3054,7 @@
 "requirement": "Cook 10 Fish-Based Meals",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t277"
 },
 {
@@ -3065,7 +3065,7 @@
 "requirement": "Cook 40 Fish-Based Meals",
 "reward": 200,
 "total": 40,
-"done": 40,
+"done": 0,
 "id": "t278"
 },
 {
@@ -3076,7 +3076,7 @@
 "requirement": "Cook 70 Fish-Based Meals",
 "reward": 300,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t279"
 },
 {
@@ -3087,7 +3087,7 @@
 "requirement": "Cook 150 Fish-Based Meals",
 "reward": 500,
 "total": 150,
-"done": 150,
+"done": 0,
 "id": "t280"
 },
 {
@@ -3098,7 +3098,7 @@
 "requirement": "Cook 1 Seafood-Based Meal",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t281"
 },
 {
@@ -3109,7 +3109,7 @@
 "requirement": "Cook 10 Seafood-Based Meals",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t282"
 },
 {
@@ -3120,7 +3120,7 @@
 "requirement": "Cook 40 Seafood-Based Meals",
 "reward": 200,
 "total": 40,
-"done": 40,
+"done": 0,
 "id": "t283"
 },
 {
@@ -3131,7 +3131,7 @@
 "requirement": "Cook 70 Seafood-Based Meals",
 "reward": 300,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t284"
 },
 {
@@ -3142,7 +3142,7 @@
 "requirement": "Cook 150 Seafood-Based Meals",
 "reward": 500,
 "total": 150,
-"done": 150,
+"done": 0,
 "id": "t285"
 },
 {
@@ -3153,7 +3153,7 @@
 "requirement": "Cook 1 Fruit-Based Meal",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t286"
 },
 {
@@ -3164,7 +3164,7 @@
 "requirement": "Cook 10 Fruit-Based Meals",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t287"
 },
 {
@@ -3175,7 +3175,7 @@
 "requirement": "Cook 40 Fruit-Based Meals",
 "reward": 200,
 "total": 40,
-"done": 40,
+"done": 0,
 "id": "t288"
 },
 {
@@ -3186,7 +3186,7 @@
 "requirement": "Cook 70 Fruit-Based Meals",
 "reward": 300,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t289"
 },
 {
@@ -3197,7 +3197,7 @@
 "requirement": "Cook 150 Fruit-Based Meals",
 "reward": 500,
 "total": 150,
-"done": 150,
+"done": 0,
 "id": "t290"
 },
 {
@@ -3208,7 +3208,7 @@
 "requirement": "Cook 1 Vegetable-Based Meal",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t291"
 },
 {
@@ -3219,7 +3219,7 @@
 "requirement": "Cook 10 Vegetable-Based Meals",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t292"
 },
 {
@@ -3230,7 +3230,7 @@
 "requirement": "Cook 40 Vegetable-Based Meals",
 "reward": 200,
 "total": 40,
-"done": 40,
+"done": 0,
 "id": "t293"
 },
 {
@@ -3241,7 +3241,7 @@
 "requirement": "Cook 70 Vegetable-Based Meals",
 "reward": 300,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t294"
 },
 {
@@ -3252,7 +3252,7 @@
 "requirement": "Cook 150 Vegetable-Based Meals",
 "reward": 500,
 "total": 150,
-"done": 150,
+"done": 0,
 "id": "t295"
 },
 {
@@ -3263,7 +3263,7 @@
 "requirement": "Cook 1 Grain-Based Meal",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t296"
 },
 {
@@ -3274,7 +3274,7 @@
 "requirement": "Cook 10 Grain-Based Meals",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t297"
 },
 {
@@ -3285,7 +3285,7 @@
 "requirement": "Cook 40 Grain-Based Meals",
 "reward": 200,
 "total": 40,
-"done": 40,
+"done": 0,
 "id": "t298"
 },
 {
@@ -3296,7 +3296,7 @@
 "requirement": "Cook 70 Grain-Based Meals",
 "reward": 300,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t299"
 },
 {
@@ -3307,7 +3307,7 @@
 "requirement": "Cook 150 Grain-Based Meals",
 "reward": 500,
 "total": 150,
-"done": 150,
+"done": 0,
 "id": "t300"
 },
 {
@@ -3318,7 +3318,7 @@
 "requirement": "Cook 1 Meal with Spices",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t301"
 },
 {
@@ -3329,7 +3329,7 @@
 "requirement": "Cook 10 Meals with Spices",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t302"
 },
 {
@@ -3340,7 +3340,7 @@
 "requirement": "Cook 40 Meals with Spices",
 "reward": 200,
 "total": 40,
-"done": 40,
+"done": 0,
 "id": "t303"
 },
 {
@@ -3351,7 +3351,7 @@
 "requirement": "Cook 70 Meals with Spices",
 "reward": 300,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t304"
 },
 {
@@ -3362,7 +3362,7 @@
 "requirement": "Cook 150 Meals with Spices",
 "reward": 500,
 "total": 150,
-"done": 150,
+"done": 0,
 "id": "t305"
 },
 {
@@ -3373,7 +3373,7 @@
 "requirement": "Cook 1 1-Star Meal or Better",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t306"
 },
 {
@@ -3384,7 +3384,7 @@
 "requirement": "Cook 15 1-Star Meals or Better",
 "reward": 100,
 "total": 15,
-"done": 15,
+"done": 0,
 "id": "t307"
 },
 {
@@ -3395,7 +3395,7 @@
 "requirement": "Cook 45 1-Star Meals or Better",
 "reward": 200,
 "total": 45,
-"done": 45,
+"done": 0,
 "id": "t308"
 },
 {
@@ -3406,7 +3406,7 @@
 "requirement": "Cook 80 1-Star Meals or Better",
 "reward": 300,
 "total": 80,
-"done": 80,
+"done": 0,
 "id": "t309"
 },
 {
@@ -3417,7 +3417,7 @@
 "requirement": "Cook 180 1-Star Meals or Better",
 "reward": 500,
 "total": 180,
-"done": 180,
+"done": 0,
 "id": "t310"
 },
 {
@@ -3428,7 +3428,7 @@
 "requirement": "Cook 1 2-Star Meal or Better",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t311"
 },
 {
@@ -3439,7 +3439,7 @@
 "requirement": "Cook 15 2-Star Meals or Better",
 "reward": 100,
 "total": 15,
-"done": 15,
+"done": 0,
 "id": "t312"
 },
 {
@@ -3450,7 +3450,7 @@
 "requirement": "Cook 45 2-Star Meals or Better",
 "reward": 200,
 "total": 45,
-"done": 45,
+"done": 0,
 "id": "t313"
 },
 {
@@ -3461,7 +3461,7 @@
 "requirement": "Cook 80 2-Star Meals or Better",
 "reward": 300,
 "total": 80,
-"done": 80,
+"done": 0,
 "id": "t314"
 },
 {
@@ -3472,7 +3472,7 @@
 "requirement": "Cook 180 2-Star Meals or Better",
 "reward": 500,
 "total": 180,
-"done": 180,
+"done": 0,
 "id": "t315"
 },
 {
@@ -3483,7 +3483,7 @@
 "requirement": "Cook 1 3-Star Meal or Better",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t316"
 },
 {
@@ -3494,7 +3494,7 @@
 "requirement": "Cook 15 3-Star Meals or Better",
 "reward": 100,
 "total": 15,
-"done": 15,
+"done": 0,
 "id": "t317"
 },
 {
@@ -3505,7 +3505,7 @@
 "requirement": "Cook 45 3-Star Meals or Better",
 "reward": 200,
 "total": 45,
-"done": 45,
+"done": 0,
 "id": "t318"
 },
 {
@@ -3516,7 +3516,7 @@
 "requirement": "Cook 80 3-Star Meals or Better",
 "reward": 300,
 "total": 80,
-"done": 80,
+"done": 0,
 "id": "t319"
 },
 {
@@ -3527,7 +3527,7 @@
 "requirement": "Cook 180 3-Star Meals or Better",
 "reward": 500,
 "total": 180,
-"done": 180,
+"done": 0,
 "id": "t320"
 },
 {
@@ -3538,7 +3538,7 @@
 "requirement": "Cook 1 4-Star Meal or Better",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t321"
 },
 {
@@ -3549,7 +3549,7 @@
 "requirement": "Cook 15 4-Star Meals or Better",
 "reward": 100,
 "total": 15,
-"done": 15,
+"done": 0,
 "id": "t322"
 },
 {
@@ -3560,7 +3560,7 @@
 "requirement": "Cook 45 4-Star Meals or Better",
 "reward": 200,
 "total": 45,
-"done": 45,
+"done": 0,
 "id": "t323"
 },
 {
@@ -3571,7 +3571,7 @@
 "requirement": "Cook 80 4-Star Meals or Better",
 "reward": 300,
 "total": 80,
-"done": 80,
+"done": 0,
 "id": "t324"
 },
 {
@@ -3582,7 +3582,7 @@
 "requirement": "Cook 180 4-Star Meals or Better",
 "reward": 500,
 "total": 180,
-"done": 180,
+"done": 0,
 "id": "t325"
 },
 {
@@ -3593,7 +3593,7 @@
 "requirement": "Cook 1 5-Star Meal",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t326"
 },
 {
@@ -3604,7 +3604,7 @@
 "requirement": "Cook 15 5-Star Meals",
 "reward": 100,
 "total": 15,
-"done": 15,
+"done": 0,
 "id": "t327"
 },
 {
@@ -3615,7 +3615,7 @@
 "requirement": "Cook 45 5-Star Meals",
 "reward": 200,
 "total": 45,
-"done": 45,
+"done": 0,
 "id": "t328"
 },
 {
@@ -3626,7 +3626,7 @@
 "requirement": "Cook 80 5-Star Meals",
 "reward": 300,
 "total": 80,
-"done": 80,
+"done": 0,
 "id": "t329"
 },
 {
@@ -3637,7 +3637,7 @@
 "requirement": "Cook 180 5-Star Meals",
 "reward": 500,
 "total": 180,
-"done": 180,
+"done": 0,
 "id": "t330"
 },
 {
@@ -3648,7 +3648,7 @@
 "requirement": "Gain 10,000 Star Coins",
 "reward": 50,
 "total": 10000,
-"done": 10000,
+"done": 0,
 "id": "t331"
 },
 {
@@ -3659,7 +3659,7 @@
 "requirement": "Gain 140,000 Star Coins",
 "reward": 100,
 "total": 140000,
-"done": 140000,
+"done": 0,
 "id": "t332"
 },
 {
@@ -3670,7 +3670,7 @@
 "requirement": "Gain 450,000 Star Coins",
 "reward": 200,
 "total": 450000,
-"done": 450000,
+"done": 0,
 "id": "t333"
 },
 {
@@ -3681,7 +3681,7 @@
 "requirement": "Gain 800,000 Star Coins",
 "reward": 300,
 "total": 800000,
-"done": 800000,
+"done": 0,
 "id": "t334"
 },
 {
@@ -3692,7 +3692,7 @@
 "requirement": "Gain 1,800,000 Star Coins",
 "reward": 500,
 "total": 1800000,
-"done": 1800000,
+"done": 0,
 "id": "t335"
 },
 {
@@ -3703,7 +3703,7 @@
 "requirement": "Bring 3 Gifts",
 "reward": 50,
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t336"
 },
 {
@@ -3714,7 +3714,7 @@
 "requirement": "Bring 40 Gifts",
 "reward": 100,
 "total": 40,
-"done": 40,
+"done": 0,
 "id": "t337"
 },
 {
@@ -3725,7 +3725,7 @@
 "requirement": "Bring 140 Gifts",
 "reward": 200,
 "total": 140,
-"done": 140,
+"done": 0,
 "id": "t338"
 },
 {
@@ -3736,7 +3736,7 @@
 "requirement": "Bring 240 Gifts",
 "reward": 300,
 "total": 240,
-"done": 240,
+"done": 0,
 "id": "t339"
 },
 {
@@ -3747,7 +3747,7 @@
 "requirement": "Bring 540 Gifts",
 "reward": 500,
 "total": 540,
-"done": 540,
+"done": 0,
 "id": "t340"
 },
 {
@@ -3758,7 +3758,7 @@
 "requirement": "Have 1 Daily Discussion",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t341"
 },
 {
@@ -3769,7 +3769,7 @@
 "requirement": "Have 50 Daily Discussions",
 "reward": 100,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t342"
 },
 {
@@ -3780,7 +3780,7 @@
 "requirement": "Have 100 Daily Discussions",
 "reward": 200,
 "total": 100,
-"done": 100,
+"done": 0,
 "id": "t343"
 },
 {
@@ -3791,7 +3791,7 @@
 "requirement": "Have 500 Daily Discussions",
 "reward": 300,
 "total": 500,
-"done": 500,
+"done": 0,
 "id": "t344"
 },
 {
@@ -3802,7 +3802,7 @@
 "requirement": "Have 1000 Daily Discussions",
 "reward": 500,
 "total": 1000,
-"done": 1000,
+"done": 0,
 "id": "t345"
 },
 {
@@ -3813,7 +3813,7 @@
 "requirement": "Bring 1 Friend Their Favourite Gifts",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t346"
 },
 {
@@ -3824,7 +3824,7 @@
 "requirement": "Bring 15 Friend Their Favourite Gifts",
 "reward": 100,
 "total": 15,
-"done": 15,
+"done": 0,
 "id": "t347"
 },
 {
@@ -3835,7 +3835,7 @@
 "requirement": "Bring 45 Friend Their Favourite Gifts",
 "reward": 200,
 "total": 45,
-"done": 45,
+"done": 0,
 "id": "t348"
 },
 {
@@ -3846,7 +3846,7 @@
 "requirement": "Bring 80 Friend Their Favourite Gifts",
 "reward": 300,
 "total": 80,
-"done": 80,
+"done": 0,
 "id": "t349"
 },
 {
@@ -3857,7 +3857,7 @@
 "requirement": "Bring 180 Friend Their Favourite Gifts",
 "reward": 500,
 "total": 180,
-"done": 180,
+"done": 0,
 "id": "t350"
 },
 {
@@ -3868,7 +3868,7 @@
 "requirement": "Take 1 Picture",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t351"
 },
 {
@@ -3879,7 +3879,7 @@
 "requirement": "Take 10 Pictures",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t352"
 },
 {
@@ -3890,7 +3890,7 @@
 "requirement": "Take 20 Pictures",
 "reward": 200,
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t353"
 },
 {
@@ -3901,7 +3901,7 @@
 "requirement": "Take 30 Pictures",
 "reward": 300,
 "total": 30,
-"done": 30,
+"done": 0,
 "id": "t354"
 },
 {
@@ -3912,7 +3912,7 @@
 "requirement": "Take 50 Pictures",
 "reward": 500,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t355"
 },
 {
@@ -3923,7 +3923,7 @@
 "requirement": "Make 1 Friend",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t356"
 },
 {
@@ -3934,7 +3934,7 @@
 "requirement": "Make 5 Friends",
 "reward": 100,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t357"
 },
 {
@@ -3945,7 +3945,7 @@
 "requirement": "Make 10 Friends",
 "reward": 200,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t358"
 },
 {
@@ -3956,7 +3956,7 @@
 "requirement": "Make 15 Friends",
 "reward": 300,
 "total": 15,
-"done": 15,
+"done": 0,
 "id": "t359"
 },
 {
@@ -3967,7 +3967,7 @@
 "requirement": "Make 24 Friends",
 "reward": 500,
 "total": 24,
-"done": 24,
+"done": 0,
 "id": "t360"
 },
 {
@@ -3978,7 +3978,7 @@
 "requirement": "Make 1 Best Friend",
 "reward": 100,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t361"
 },
 {
@@ -3989,7 +3989,7 @@
 "requirement": "Make 5 Best Friends",
 "reward": 300,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t362"
 },
 {
@@ -4000,7 +4000,7 @@
 "requirement": "Make 15 Best Friends",
 "reward": 500,
 "total": 15,
-"done": 15,
+"done": 0,
 "id": "t363"
 },
 {
@@ -4011,7 +4011,7 @@
 "requirement": "Have 1 Friend at Level 2",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t364"
 },
 {
@@ -4022,7 +4022,7 @@
 "requirement": "Have 1 Friend at Level 4",
 "reward": 100,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t365"
 },
 {
@@ -4033,7 +4033,7 @@
 "requirement": "Have 1 Friend at Level 6",
 "reward": 200,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t366"
 },
 {
@@ -4044,7 +4044,7 @@
 "requirement": "Have 1 Friend at Level 8",
 "reward": 300,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t367"
 },
 {
@@ -4055,7 +4055,7 @@
 "requirement": "Have 1 Friend at Level 10",
 "reward": 500,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t368"
 },
 {
@@ -4066,7 +4066,7 @@
 "requirement": "Have 5 Friends at Level 2",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t369"
 },
 {
@@ -4077,7 +4077,7 @@
 "requirement": "Have 5 Friends at Level 4",
 "reward": 100,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t370"
 },
 {
@@ -4088,7 +4088,7 @@
 "requirement": "Have 5 Friends at Level 6",
 "reward": 200,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t371"
 },
 {
@@ -4099,7 +4099,7 @@
 "requirement": "Have 5 Friends at Level 8",
 "reward": 300,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t372"
 },
 {
@@ -4110,7 +4110,7 @@
 "requirement": "Have 5 Friends at Level 10",
 "reward": 500,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t373"
 },
 {
@@ -4121,7 +4121,7 @@
 "requirement": "Have 10 Friends at Level 2",
 "reward": 50,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t374"
 },
 {
@@ -4132,7 +4132,7 @@
 "requirement": "Have 10 Friends at Level 4",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t375"
 },
 {
@@ -4143,7 +4143,7 @@
 "requirement": "Have 10 Friends at Level 6",
 "reward": 200,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t376"
 },
 {
@@ -4154,7 +4154,7 @@
 "requirement": "Have 10 Friends at Level 8",
 "reward": 300,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t377"
 },
 {
@@ -4165,7 +4165,7 @@
 "requirement": "Have 10 Friends at Level 10",
 "reward": 500,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t378"
 },
 {
@@ -4176,7 +4176,7 @@
 "requirement": "Have 20 Friends at Level 2",
 "reward": 50,
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t379"
 },
 {
@@ -4187,7 +4187,7 @@
 "requirement": "Have 20 Friends at Level 4",
 "reward": 100,
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t380"
 },
 {
@@ -4198,7 +4198,7 @@
 "requirement": "Have 20 Friends at Level 6",
 "reward": 200,
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t381"
 },
 {
@@ -4209,7 +4209,7 @@
 "requirement": "Have 20 Friends at Level 8",
 "reward": 300,
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t382"
 },
 {
@@ -4220,7 +4220,7 @@
 "requirement": "Have 20 Friends at Level 10",
 "reward": 500,
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t383"
 },
 {
@@ -4231,7 +4231,7 @@
 "requirement": "Repair 1 House",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t384"
 },
 {
@@ -4242,7 +4242,7 @@
 "requirement": "Repair 5 Houses",
 "reward": 100,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t385"
 },
 {
@@ -4253,7 +4253,7 @@
 "requirement": "Repair 10 Houses",
 "reward": 200,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t386"
 },
 {
@@ -4264,7 +4264,7 @@
 "requirement": "Repair 12 Houses",
 "reward": 300,
 "total": 12,
-"done": 12,
+"done": 0,
 "id": "t387"
 },
 {
@@ -4275,7 +4275,7 @@
 "requirement": "Perform 1 House Upgrade",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t388"
 },
 {
@@ -4286,7 +4286,7 @@
 "requirement": "Perform 2 House Upgrades",
 "reward": 300,
 "total": 2,
-"done": 2,
+"done": 0,
 "id": "t389"
 },
 {
@@ -4297,7 +4297,7 @@
 "requirement": "Perform 3 House Upgrades",
 "reward": 500,
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t390"
 },
 {
@@ -4308,7 +4308,7 @@
 "requirement": "Perform 1 Upgrade at Remy's Restaurant",
 "reward": 100,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t391"
 },
 {
@@ -4319,7 +4319,7 @@
 "requirement": "Perform 2 Upgrades at Remy's Restaurant",
 "reward": 300,
 "total": 2,
-"done": 2,
+"done": 0,
 "id": "t392"
 },
 {
@@ -4330,7 +4330,7 @@
 "requirement": "Perform 3 Upgrades at Remy's Restaurant",
 "reward": 500,
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t393"
 },
 {
@@ -4341,7 +4341,7 @@
 "requirement": "Perform 1 Upgrade at Scrooge's Store",
 "reward": 100,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t394"
 },
 {
@@ -4352,7 +4352,7 @@
 "requirement": "Perform 2 Upgrades at Scrooge's Store",
 "reward": 300,
 "total": 2,
-"done": 2,
+"done": 0,
 "id": "t395"
 },
 {
@@ -4363,7 +4363,7 @@
 "requirement": "Perform 1 Upgrade on Moana's Boat",
 "reward": 100,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t396"
 },
 {
@@ -4374,7 +4374,7 @@
 "requirement": "Perform 2 Upgrades on Moana's Boat",
 "reward": 300,
 "total": 2,
-"done": 2,
+"done": 0,
 "id": "t397"
 },
 {
@@ -4385,7 +4385,7 @@
 "requirement": "Perform 3 Upgrades on Moana's Boat",
 "reward": 500,
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t398"
 },
 {
@@ -4396,7 +4396,7 @@
 "requirement": "Perform 1 Upgrade on WALL-E's Garden",
 "reward": 100,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t399"
 },
 {
@@ -4407,7 +4407,7 @@
 "requirement": "Perform 2 Upgrades on WALL-E's Garden",
 "reward": 300,
 "total": 2,
-"done": 2,
+"done": 0,
 "id": "t400"
 },
 {
@@ -4418,7 +4418,7 @@
 "requirement": "Perform 3 Upgrades on WALL-E's Garden",
 "reward": 500,
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t401"
 },
 {
@@ -4429,7 +4429,7 @@
 "requirement": "Remove 1 Giant Night Thorn",
 "reward": 100,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t402"
 },
 {
@@ -4440,7 +4440,7 @@
 "requirement": "Remove 3 Giant Night Thorns",
 "reward": 300,
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t403"
 },
 {
@@ -4451,7 +4451,7 @@
 "requirement": "Remove 6 Giant Night Thorns",
 "reward": 500,
 "total": 6,
-"done": 6,
+"done": 0,
 "id": "t404"
 },
 {
@@ -4462,7 +4462,7 @@
 "requirement": "Repair 1 Stall",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t405"
 },
 {
@@ -4473,7 +4473,7 @@
 "requirement": "Repair 4 Stalls",
 "reward": 300,
 "total": 4,
-"done": 4,
+"done": 0,
 "id": "t406"
 },
 {
@@ -4484,7 +4484,7 @@
 "requirement": "Repair 7 Stalls",
 "reward": 500,
 "total": 7,
-"done": 7,
+"done": 0,
 "id": "t407"
 },
 {
@@ -4495,7 +4495,7 @@
 "requirement": "Add 2 Rooms to Your House",
 "reward": 50,
 "total": 2,
-"done": 2,
+"done": 0,
 "id": "t408"
 },
 {
@@ -4506,7 +4506,7 @@
 "requirement": "Add 5 Rooms to Your House",
 "reward": 100,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t409"
 },
 {
@@ -4517,7 +4517,7 @@
 "requirement": "Add 10 Rooms to Your House",
 "reward": 200,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t410"
 },
 {
@@ -4528,7 +4528,7 @@
 "requirement": "Add 15 Rooms to Your House",
 "reward": 300,
 "total": 15,
-"done": 15,
+"done": 0,
 "id": "t411"
 },
 {
@@ -4539,7 +4539,7 @@
 "requirement": "Add 25 Rooms to Your House",
 "reward": 500,
 "total": 25,
-"done": 25,
+"done": 0,
 "id": "t412"
 },
 {
@@ -4550,7 +4550,7 @@
 "requirement": "Complete 7 Dreamlight Duties",
 "reward": 50,
 "total": 7,
-"done": 7,
+"done": 0,
 "id": "t413"
 },
 {
@@ -4561,7 +4561,7 @@
 "requirement": "Complete 90 Dreamlight Duties",
 "reward": 100,
 "total": 90,
-"done": 90,
+"done": 0,
 "id": "t414"
 },
 {
@@ -4572,7 +4572,7 @@
 "requirement": "Complete 280 Dreamlight Duties",
 "reward": 200,
 "total": 280,
-"done": 280,
+"done": 0,
 "id": "t415"
 },
 {
@@ -4583,7 +4583,7 @@
 "requirement": "Complete 500 Dreamlight Duties",
 "reward": 300,
 "total": 500,
-"done": 500,
+"done": 0,
 "id": "t416"
 },
 {
@@ -4594,7 +4594,7 @@
 "requirement": "Complete 1100 Dreamlight Duties",
 "reward": 500,
 "total": 1100,
-"done": 1100,
+"done": 0,
 "id": "t417"
 },
 {
@@ -4605,7 +4605,7 @@
 "requirement": "Mine 10 Minerals",
 "reward": 50,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t418"
 },
 {
@@ -4616,7 +4616,7 @@
 "requirement": "Mine 140 Minerals",
 "reward": 100,
 "total": 140,
-"done": 140,
+"done": 0,
 "id": "t419"
 },
 {
@@ -4627,7 +4627,7 @@
 "requirement": "Mine 450 Minerals",
 "reward": 200,
 "total": 450,
-"done": 450,
+"done": 0,
 "id": "t420"
 },
 {
@@ -4638,7 +4638,7 @@
 "requirement": "Mine 800 Minerals",
 "reward": 300,
 "total": 800,
-"done": 800,
+"done": 0,
 "id": "t421"
 },
 {
@@ -4649,7 +4649,7 @@
 "requirement": "Mine 1800 Minerals",
 "reward": 500,
 "total": 1800,
-"done": 1800,
+"done": 0,
 "id": "t422"
 },
 {
@@ -4660,7 +4660,7 @@
 "requirement": "Mine 1 Amethyst",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t423"
 },
 {
@@ -4671,7 +4671,7 @@
 "requirement": "Mine 10 Amethysts",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t424"
 },
 {
@@ -4682,7 +4682,7 @@
 "requirement": "Mine 30 Amethysts",
 "reward": 200,
 "total": 30,
-"done": 30,
+"done": 0,
 "id": "t425"
 },
 {
@@ -4693,7 +4693,7 @@
 "requirement": "Mine 50 Amethysts",
 "reward": 300,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t426"
 },
 {
@@ -4704,7 +4704,7 @@
 "requirement": "Mine 120 Amethysts",
 "reward": 500,
 "total": 120,
-"done": 120,
+"done": 0,
 "id": "t427"
 },
 {
@@ -4715,7 +4715,7 @@
 "requirement": "Mine 1 Aquamarine",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t428"
 },
 {
@@ -4726,7 +4726,7 @@
 "requirement": "Mine 10 Aquamarines",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t429"
 },
 {
@@ -4737,7 +4737,7 @@
 "requirement": "Mine 30 Aquamarines",
 "reward": 200,
 "total": 30,
-"done": 30,
+"done": 0,
 "id": "t430"
 },
 {
@@ -4748,7 +4748,7 @@
 "requirement": "Mine 50 Aquamarines",
 "reward": 300,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t431"
 },
 {
@@ -4759,7 +4759,7 @@
 "requirement": "Mine 120 Aquamarines",
 "reward": 500,
 "total": 120,
-"done": 120,
+"done": 0,
 "id": "t432"
 },
 {
@@ -4770,7 +4770,7 @@
 "requirement": "Mine 1 Citrine",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t433"
 },
 {
@@ -4781,7 +4781,7 @@
 "requirement": "Mine 10 Citrines",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t434"
 },
 {
@@ -4792,7 +4792,7 @@
 "requirement": "Mine 30 Citrines",
 "reward": 200,
 "total": 30,
-"done": 30,
+"done": 0,
 "id": "t435"
 },
 {
@@ -4803,7 +4803,7 @@
 "requirement": "Mine 50 Citrines",
 "reward": 300,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t436"
 },
 {
@@ -4814,7 +4814,7 @@
 "requirement": "Mine 120 Citrines",
 "reward": 500,
 "total": 120,
-"done": 120,
+"done": 0,
 "id": "t437"
 },
 {
@@ -4825,7 +4825,7 @@
 "requirement": "Mine 1 Diamond",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t438"
 },
 {
@@ -4836,7 +4836,7 @@
 "requirement": "Mine 10 Diamonds",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t439"
 },
 {
@@ -4847,7 +4847,7 @@
 "requirement": "Mine 30 Diamonds",
 "reward": 200,
 "total": 30,
-"done": 30,
+"done": 0,
 "id": "t440"
 },
 {
@@ -4858,7 +4858,7 @@
 "requirement": "Mine 50 Diamonds",
 "reward": 300,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t441"
 },
 {
@@ -4869,7 +4869,7 @@
 "requirement": "Mine 120 Diamonds",
 "reward": 500,
 "total": 120,
-"done": 120,
+"done": 0,
 "id": "t442"
 },
 {
@@ -4880,7 +4880,7 @@
 "requirement": "Mine 1 Emerald",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t443"
 },
 {
@@ -4891,7 +4891,7 @@
 "requirement": "Mine 10 Emeralds",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t444"
 },
 {
@@ -4902,7 +4902,7 @@
 "requirement": "Mine 30 Emeralds",
 "reward": 200,
 "total": 30,
-"done": 30,
+"done": 0,
 "id": "t445"
 },
 {
@@ -4913,7 +4913,7 @@
 "requirement": "Mine 50 Emeralds",
 "reward": 300,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t446"
 },
 {
@@ -4924,7 +4924,7 @@
 "requirement": "Mine 120 Emeralds",
 "reward": 500,
 "total": 120,
-"done": 120,
+"done": 0,
 "id": "t447"
 },
 {
@@ -4935,7 +4935,7 @@
 "requirement": "Mine 1 Garnet",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t448"
 },
 {
@@ -4946,7 +4946,7 @@
 "requirement": "Mine 10 Garnets",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t449"
 },
 {
@@ -4957,7 +4957,7 @@
 "requirement": "Mine 30 Garnets",
 "reward": 200,
 "total": 30,
-"done": 30,
+"done": 0,
 "id": "t450"
 },
 {
@@ -4968,7 +4968,7 @@
 "requirement": "Mine 50 Garnets",
 "reward": 300,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t451"
 },
 {
@@ -4979,7 +4979,7 @@
 "requirement": "Mine 120 Garnets",
 "reward": 500,
 "total": 120,
-"done": 120,
+"done": 0,
 "id": "t452"
 },
 {
@@ -4990,7 +4990,7 @@
 "requirement": "Mine 1 Peridot",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t453"
 },
 {
@@ -5001,7 +5001,7 @@
 "requirement": "Mine 10 Peridots",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t454"
 },
 {
@@ -5012,7 +5012,7 @@
 "requirement": "Mine 30 Peridots",
 "reward": 200,
 "total": 30,
-"done": 30,
+"done": 0,
 "id": "t455"
 },
 {
@@ -5023,7 +5023,7 @@
 "requirement": "Mine 50 Peridots",
 "reward": 300,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t456"
 },
 {
@@ -5034,7 +5034,7 @@
 "requirement": "Mine 120 Peridots",
 "reward": 500,
 "total": 120,
-"done": 120,
+"done": 0,
 "id": "t457"
 },
 {
@@ -5045,7 +5045,7 @@
 "requirement": "Mine 1 Topaz",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t458"
 },
 {
@@ -5056,7 +5056,7 @@
 "requirement": "Mine 10 Topazes",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t459"
 },
 {
@@ -5067,7 +5067,7 @@
 "requirement": "Mine 30 Topazes",
 "reward": 200,
 "total": 30,
-"done": 30,
+"done": 0,
 "id": "t460"
 },
 {
@@ -5078,7 +5078,7 @@
 "requirement": "Mine 50 Topazes",
 "reward": 300,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t461"
 },
 {
@@ -5089,7 +5089,7 @@
 "requirement": "Mine 120 Topazes",
 "reward": 500,
 "total": 120,
-"done": 120,
+"done": 0,
 "id": "t462"
 },
 {
@@ -5100,7 +5100,7 @@
 "requirement": "Mine 1 Tourmaline",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t463"
 },
 {
@@ -5111,7 +5111,7 @@
 "requirement": "Mine 10 Tourmalines",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t464"
 },
 {
@@ -5122,7 +5122,7 @@
 "requirement": "Mine 30 Tourmalines",
 "reward": 200,
 "total": 30,
-"done": 30,
+"done": 0,
 "id": "t465"
 },
 {
@@ -5133,7 +5133,7 @@
 "requirement": "Mine 50 Tourmalines",
 "reward": 300,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t466"
 },
 {
@@ -5144,7 +5144,7 @@
 "requirement": "Mine 120 Tourmalines",
 "reward": 500,
 "total": 120,
-"done": 120,
+"done": 0,
 "id": "t467"
 },
 {
@@ -5155,7 +5155,7 @@
 "requirement": "Mine 1 Sapphire",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t468"
 },
 {
@@ -5166,7 +5166,7 @@
 "requirement": "Mine 10 Sapphires",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t469"
 },
 {
@@ -5177,7 +5177,7 @@
 "requirement": "Mine 30 Sapphires",
 "reward": 200,
 "total": 30,
-"done": 30,
+"done": 0,
 "id": "t470"
 },
 {
@@ -5188,7 +5188,7 @@
 "requirement": "Mine 50 Sapphires",
 "reward": 300,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t471"
 },
 {
@@ -5199,7 +5199,7 @@
 "requirement": "Mine 120 Sapphires",
 "reward": 500,
 "total": 120,
-"done": 120,
+"done": 0,
 "id": "t472"
 },
 {
@@ -5210,7 +5210,7 @@
 "requirement": "Mine 1 Vitalys Crystal",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t473"
 },
 {
@@ -5221,7 +5221,7 @@
 "requirement": "Mine 10 Vitalys Crystals",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t474"
 },
 {
@@ -5232,7 +5232,7 @@
 "requirement": "Mine 30 Vitalys Crystals",
 "reward": 200,
 "total": 30,
-"done": 30,
+"done": 0,
 "id": "t475"
 },
 {
@@ -5243,7 +5243,7 @@
 "requirement": "Mine 50 Vitalys Crystals",
 "reward": 300,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t476"
 },
 {
@@ -5254,7 +5254,7 @@
 "requirement": "Mine 120 Vitalys Crystals",
 "reward": 500,
 "total": 120,
-"done": 120,
+"done": 0,
 "id": "t477"
 },
 {
@@ -5265,7 +5265,7 @@
 "requirement": "Mine 1 Ruby",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t478"
 },
 {
@@ -5276,7 +5276,7 @@
 "requirement": "Mine 10 Rubies",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t479"
 },
 {
@@ -5287,7 +5287,7 @@
 "requirement": "Mine 30 Rubies",
 "reward": 200,
 "total": 30,
-"done": 30,
+"done": 0,
 "id": "t480"
 },
 {
@@ -5298,7 +5298,7 @@
 "requirement": "Mine 50 Rubies",
 "reward": 300,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t481"
 },
 {
@@ -5309,7 +5309,7 @@
 "requirement": "Mine 120 Rubies",
 "reward": 500,
 "total": 120,
-"done": 120,
+"done": 0,
 "id": "t482"
 },
 {
@@ -5320,7 +5320,7 @@
 "requirement": "Sell 4 Gems",
 "reward": 50,
 "total": 4,
-"done": 4,
+"done": 0,
 "id": "t483"
 },
 {
@@ -5331,7 +5331,7 @@
 "requirement": "Sell 45 Gems",
 "reward": 100,
 "total": 45,
-"done": 45,
+"done": 0,
 "id": "t484"
 },
 {
@@ -5342,7 +5342,7 @@
 "requirement": "Sell 150 Gems",
 "reward": 200,
 "total": 150,
-"done": 150,
+"done": 0,
 "id": "t485"
 },
 {
@@ -5353,7 +5353,7 @@
 "requirement": "Sell 270 Gems",
 "reward": 300,
 "total": 270,
-"done": 270,
+"done": 0,
 "id": "t486"
 },
 {
@@ -5364,7 +5364,7 @@
 "requirement": "Sell 600 Gems",
 "reward": 500,
 "total": 600,
-"done": 600,
+"done": 0,
 "id": "t487"
 },
 {
@@ -5375,7 +5375,7 @@
 "requirement": "Combine 1 Resource into Auto-Cookers",
 "reward": 100,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t488"
 },
 {
@@ -5386,7 +5386,7 @@
 "requirement": "Combine 3 Resources into Auto-Cookers",
 "reward": 300,
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t489"
 },
 {
@@ -5397,7 +5397,7 @@
 "requirement": "Combine 5 Resources into Auto-Cookers",
 "reward": 500,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t490"
 },
 {
@@ -5408,7 +5408,7 @@
 "requirement": "Combine 1 Resource into Gardeners",
 "reward": 100,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t491"
 },
 {
@@ -5419,7 +5419,7 @@
 "requirement": "Combine 3 Resources into Gardeners",
 "reward": 300,
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t492"
 },
 {
@@ -5430,7 +5430,7 @@
 "requirement": "Combine 5 Resources into Gardeners",
 "reward": 500,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t493"
 },
 {
@@ -5441,7 +5441,7 @@
 "requirement": "Combine 1 Resource into Vacuums",
 "reward": 100,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t494"
 },
 {
@@ -5452,7 +5452,7 @@
 "requirement": "Combine 3 Resources into Vacuums",
 "reward": 300,
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t495"
 },
 {
@@ -5463,7 +5463,7 @@
 "requirement": "Combine 5 Resources into Vacuums",
 "reward": 500,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t496"
 },
 {
@@ -5474,7 +5474,7 @@
 "requirement": "Feed the Monkeys 1 Time",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t497"
 },
 {
@@ -5485,7 +5485,7 @@
 "requirement": "Feed the Monkeys 7 Times",
 "reward": 100,
 "total": 7,
-"done": 7,
+"done": 0,
 "id": "t498"
 },
 {
@@ -5496,7 +5496,7 @@
 "requirement": "Feed the Monkeys 25 Times",
 "reward": 200,
 "total": 25,
-"done": 25,
+"done": 0,
 "id": "t499"
 },
 {
@@ -5507,7 +5507,7 @@
 "requirement": "Feed the Monkeys 40 Times",
 "reward": 300,
 "total": 40,
-"done": 40,
+"done": 0,
 "id": "t500"
 },
 {
@@ -5518,7 +5518,7 @@
 "requirement": "Feed the Monkeys 90 Times",
 "reward": 500,
 "total": 90,
-"done": 90,
+"done": 0,
 "id": "t501"
 },
 {
@@ -5529,7 +5529,7 @@
 "requirement": "Feed the Monkeys Their Favourite Food 1 Time",
 "reward": 100,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t502"
 },
 {
@@ -5540,7 +5540,7 @@
 "requirement": "Feed the Monkeys Their Favourite Food 3 Times",
 "reward": 200,
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t503"
 },
 {
@@ -5551,7 +5551,7 @@
 "requirement": "Feed the Monkeys Their Favourite Food 10 Times",
 "reward": 500,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t504"
 },
 {
@@ -5562,7 +5562,7 @@
 "requirement": "Feed the Cobras 1 Time",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t505"
 },
 {
@@ -5573,7 +5573,7 @@
 "requirement": "Feed the Cobras 7 Times",
 "reward": 100,
 "total": 7,
-"done": 7,
+"done": 0,
 "id": "t506"
 },
 {
@@ -5584,7 +5584,7 @@
 "requirement": "Feed the Cobras 25 Times",
 "reward": 200,
 "total": 25,
-"done": 25,
+"done": 0,
 "id": "t507"
 },
 {
@@ -5595,7 +5595,7 @@
 "requirement": "Feed the Cobras 40 Times",
 "reward": 300,
 "total": 40,
-"done": 40,
+"done": 0,
 "id": "t508"
 },
 {
@@ -5606,7 +5606,7 @@
 "requirement": "Feed the Cobras 90 Times",
 "reward": 500,
 "total": 90,
-"done": 90,
+"done": 0,
 "id": "t509"
 },
 {
@@ -5617,7 +5617,7 @@
 "requirement": "Feed the Cobras Their Favourite Food 1 Time",
 "reward": 100,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t510"
 },
 {
@@ -5628,7 +5628,7 @@
 "requirement": "Feed the Cobras Their Favourite Food 3 Times",
 "reward": 200,
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t511"
 },
 {
@@ -5639,7 +5639,7 @@
 "requirement": "Feed the Cobras Their Favourite Food 10 Times",
 "reward": 500,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t512"
 },
 {
@@ -5650,7 +5650,7 @@
 "requirement": "Feed the Capybaras 1 Time",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t513"
 },
 {
@@ -5661,7 +5661,7 @@
 "requirement": "Feed the Capybaras 7 Times",
 "reward": 100,
 "total": 7,
-"done": 7,
+"done": 0,
 "id": "t514"
 },
 {
@@ -5672,7 +5672,7 @@
 "requirement": "Feed the Capybaras 25 Times",
 "reward": 200,
 "total": 25,
-"done": 25,
+"done": 0,
 "id": "t515"
 },
 {
@@ -5683,7 +5683,7 @@
 "requirement": "Feed the Capybaras 40 Times",
 "reward": 300,
 "total": 40,
-"done": 40,
+"done": 0,
 "id": "t516"
 },
 {
@@ -5694,7 +5694,7 @@
 "requirement": "Feed the Capybaras 90 Times",
 "reward": 500,
 "total": 90,
-"done": 90,
+"done": 0,
 "id": "t517"
 },
 {
@@ -5705,7 +5705,7 @@
 "requirement": "Feed the Capybaras Their Favourite Food 1 Time",
 "reward": 100,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t518"
 },
 {
@@ -5716,7 +5716,7 @@
 "requirement": "Feed the Capybaras Their Favourite Food 3 Times",
 "reward": 200,
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t519"
 },
 {
@@ -5727,7 +5727,7 @@
 "requirement": "Feed the Capybaras Their Favourite Food 10 Times",
 "reward": 500,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t520"
 },
 {
@@ -5738,7 +5738,7 @@
 "requirement": "Mine 1 Alexandrite",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t521"
 },
 {
@@ -5749,7 +5749,7 @@
 "requirement": "Mine 10 Alexandrite",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t522"
 },
 {
@@ -5760,7 +5760,7 @@
 "requirement": "Mine 30 Alexandrite",
 "reward": 200,
 "total": 30,
-"done": 30,
+"done": 0,
 "id": "t523"
 },
 {
@@ -5771,7 +5771,7 @@
 "requirement": "Mine 50 Alexandrite",
 "reward": 300,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t524"
 },
 {
@@ -5782,7 +5782,7 @@
 "requirement": "Mine 120 Alexandrite",
 "reward": 500,
 "total": 120,
-"done": 120,
+"done": 0,
 "id": "t525"
 },
 {
@@ -5793,7 +5793,7 @@
 "requirement": "Mine 1 Blue Zircon",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t526"
 },
 {
@@ -5804,7 +5804,7 @@
 "requirement": "Mine 10 Blue Zircon",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t527"
 },
 {
@@ -5815,7 +5815,7 @@
 "requirement": "Mine 30 Blue Zircon",
 "reward": 200,
 "total": 30,
-"done": 30,
+"done": 0,
 "id": "t528"
 },
 {
@@ -5826,7 +5826,7 @@
 "requirement": "Mine 50 Blue Zircon",
 "reward": 300,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t529"
 },
 {
@@ -5837,7 +5837,7 @@
 "requirement": "Mine 120 Blue Zircon",
 "reward": 500,
 "total": 120,
-"done": 120,
+"done": 0,
 "id": "t530"
 },
 {
@@ -5848,7 +5848,7 @@
 "requirement": "Mine 1 Jade",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t531"
 },
 {
@@ -5859,7 +5859,7 @@
 "requirement": "Mine 10 Jade",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t532"
 },
 {
@@ -5870,7 +5870,7 @@
 "requirement": "Mine 30 Jade",
 "reward": 200,
 "total": 30,
-"done": 30,
+"done": 0,
 "id": "t533"
 },
 {
@@ -5881,7 +5881,7 @@
 "requirement": "Mine 50 Jade",
 "reward": 300,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t534"
 },
 {
@@ -5892,7 +5892,7 @@
 "requirement": "Mine 120 Jade",
 "reward": 500,
 "total": 120,
-"done": 120,
+"done": 0,
 "id": "t535"
 },
 {
@@ -5903,7 +5903,7 @@
 "requirement": "Mine 1 Bumblestone",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t536"
 },
 {
@@ -5914,7 +5914,7 @@
 "requirement": "Mine 10 Bumblestone",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t537"
 },
 {
@@ -5925,7 +5925,7 @@
 "requirement": "Mine 30 Bumblestone",
 "reward": 200,
 "total": 30,
-"done": 30,
+"done": 0,
 "id": "t538"
 },
 {
@@ -5936,7 +5936,7 @@
 "requirement": "Mine 50 Bumblestone",
 "reward": 300,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t539"
 },
 {
@@ -5947,7 +5947,7 @@
 "requirement": "Mine 120 Bumblestone",
 "reward": 500,
 "total": 120,
-"done": 120,
+"done": 0,
 "id": "t540"
 },
 {
@@ -5958,7 +5958,7 @@
 "requirement": "Mine 1 Spinel",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t541"
 },
 {
@@ -5969,7 +5969,7 @@
 "requirement": "Mine 10 Spinel",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t542"
 },
 {
@@ -5980,7 +5980,7 @@
 "requirement": "Mine 30 Spinel",
 "reward": 200,
 "total": 30,
-"done": 30,
+"done": 0,
 "id": "t543"
 },
 {
@@ -5991,7 +5991,7 @@
 "requirement": "Mine 50 Spinel",
 "reward": 300,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t544"
 },
 {
@@ -6002,7 +6002,7 @@
 "requirement": "Mine 120 Spinel",
 "reward": 500,
 "total": 120,
-"done": 120,
+"done": 0,
 "id": "t545"
 },
 {
@@ -6013,7 +6013,7 @@
 "requirement": "Mine 1 Evergem",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t546"
 },
 {
@@ -6024,7 +6024,7 @@
 "requirement": "Mine 10 Evergem",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t547"
 },
 {
@@ -6035,7 +6035,7 @@
 "requirement": "Mine 30 Evergem",
 "reward": 200,
 "total": 30,
-"done": 30,
+"done": 0,
 "id": "t548"
 },
 {
@@ -6046,7 +6046,7 @@
 "requirement": "Mine 50 Evergem",
 "reward": 300,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t549"
 },
 {
@@ -6057,7 +6057,7 @@
 "requirement": "Mine 120 Evergem",
 "reward": 500,
 "total": 120,
-"done": 120,
+"done": 0,
 "id": "t550"
 },
 {
@@ -6068,7 +6068,7 @@
 "requirement": "Cook with 1 Eternity Isle Spice",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t551"
 },
 {
@@ -6079,7 +6079,7 @@
 "requirement": "Cook with 10 Eternity Isle Spice",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t552"
 },
 {
@@ -6090,7 +6090,7 @@
 "requirement": "Cook with 40 Eternity Isle Spice",
 "reward": 200,
 "total": 40,
-"done": 40,
+"done": 0,
 "id": "t553"
 },
 {
@@ -6101,7 +6101,7 @@
 "requirement": "Cook with 70 Eternity Isle Spice",
 "reward": 300,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t554"
 },
 {
@@ -6112,7 +6112,7 @@
 "requirement": "Cook with 150 Eternity Isle Spice",
 "reward": 500,
 "total": 150,
-"done": 150,
+"done": 0,
 "id": "t555"
 },
 {
@@ -6123,7 +6123,7 @@
 "requirement": "Cook with 1 Eternity Isle Seafood",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t556"
 },
 {
@@ -6134,7 +6134,7 @@
 "requirement": "Cook with 10 Eternity Isle Seafood",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t557"
 },
 {
@@ -6145,7 +6145,7 @@
 "requirement": "Cook with 40 Eternity Isle Seafood",
 "reward": 200,
 "total": 40,
-"done": 40,
+"done": 0,
 "id": "t558"
 },
 {
@@ -6156,7 +6156,7 @@
 "requirement": "Cook with 70 Eternity Isle Seafood",
 "reward": 300,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t559"
 },
 {
@@ -6167,7 +6167,7 @@
 "requirement": "Cook with 150 Eternity Isle Seafood",
 "reward": 500,
 "total": 150,
-"done": 150,
+"done": 0,
 "id": "t560"
 },
 {
@@ -6178,7 +6178,7 @@
 "requirement": "Cook with 1 Eternity Isle Fish",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t561"
 },
 {
@@ -6189,7 +6189,7 @@
 "requirement": "Cook with 10 Eternity Isle Fish",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t562"
 },
 {
@@ -6200,7 +6200,7 @@
 "requirement": "Cook with 40 Eternity Isle Fish",
 "reward": 200,
 "total": 40,
-"done": 40,
+"done": 0,
 "id": "t563"
 },
 {
@@ -6211,7 +6211,7 @@
 "requirement": "Cook with 70 Eternity Isle Fish",
 "reward": 300,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t564"
 },
 {
@@ -6222,7 +6222,7 @@
 "requirement": "Cook with 150 Eternity Isle Fish",
 "reward": 500,
 "total": 150,
-"done": 150,
+"done": 0,
 "id": "t565"
 },
 {
@@ -6233,7 +6233,7 @@
 "requirement": "Cook with 1 Eternity Isle Fruit",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t566"
 },
 {
@@ -6244,7 +6244,7 @@
 "requirement": "Cook with 10 Eternity Isle Fruit",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t567"
 },
 {
@@ -6255,7 +6255,7 @@
 "requirement": "Cook with 40 Eternity Isle Fruit",
 "reward": 200,
 "total": 40,
-"done": 40,
+"done": 0,
 "id": "t568"
 },
 {
@@ -6266,7 +6266,7 @@
 "requirement": "Cook with 70 Eternity Isle Fruit",
 "reward": 300,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t569"
 },
 {
@@ -6277,7 +6277,7 @@
 "requirement": "Cook with 150 Eternity Isle Fruit",
 "reward": 500,
 "total": 150,
-"done": 150,
+"done": 0,
 "id": "t570"
 },
 {
@@ -6288,7 +6288,7 @@
 "requirement": "Cook with 1 Eternity Isle Vegetables",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t571"
 },
 {
@@ -6299,7 +6299,7 @@
 "requirement": "Cook with 10 Eternity Isle Vegetables",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t572"
 },
 {
@@ -6310,7 +6310,7 @@
 "requirement": "Cook with 40 Eternity Isle Vegetables",
 "reward": 200,
 "total": 40,
-"done": 40,
+"done": 0,
 "id": "t573"
 },
 {
@@ -6321,7 +6321,7 @@
 "requirement": "Cook with 70 Eternity Isle Vegetables",
 "reward": 300,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t574"
 },
 {
@@ -6332,7 +6332,7 @@
 "requirement": "Cook with 150 Eternity Isle Vegetables",
 "reward": 500,
 "total": 150,
-"done": 150,
+"done": 0,
 "id": "t575"
 },
 {
@@ -6343,7 +6343,7 @@
 "requirement": "Catch 2 Fish from Ancient's Landing",
 "reward": 50,
 "total": 2,
-"done": 2,
+"done": 0,
 "id": "t576"
 },
 {
@@ -6354,7 +6354,7 @@
 "requirement": "Catch 20 Fish from Ancient's Landing",
 "reward": 100,
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t577"
 },
 {
@@ -6365,7 +6365,7 @@
 "requirement": "Catch 60 Fish from Ancient's Landing",
 "reward": 200,
 "total": 60,
-"done": 60,
+"done": 0,
 "id": "t578"
 },
 {
@@ -6376,7 +6376,7 @@
 "requirement": "Catch 110 Fish from Ancient's Landing",
 "reward": 300,
 "total": 110,
-"done": 110,
+"done": 0,
 "id": "t579"
 },
 {
@@ -6387,7 +6387,7 @@
 "requirement": "Catch 260 Fish from Ancient's Landing",
 "reward": 500,
 "total": 260,
-"done": 260,
+"done": 0,
 "id": "t580"
 },
 {
@@ -6398,7 +6398,7 @@
 "requirement": "Catch 2 Fish from The Glittering Dunes",
 "reward": 50,
 "total": 2,
-"done": 2,
+"done": 0,
 "id": "t581"
 },
 {
@@ -6409,7 +6409,7 @@
 "requirement": "Catch 20 Fish from The Glittering Dunes",
 "reward": 100,
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t582"
 },
 {
@@ -6420,7 +6420,7 @@
 "requirement": "Catch 60 Fish from The Glittering Dunes",
 "reward": 200,
 "total": 60,
-"done": 60,
+"done": 0,
 "id": "t583"
 },
 {
@@ -6431,7 +6431,7 @@
 "requirement": "Catch 110 Fish from The Glittering Dunes",
 "reward": 300,
 "total": 110,
-"done": 110,
+"done": 0,
 "id": "t584"
 },
 {
@@ -6442,7 +6442,7 @@
 "requirement": "Catch 260 Fish from The Glittering Dunes",
 "reward": 500,
 "total": 260,
-"done": 260,
+"done": 0,
 "id": "t585"
 },
 {
@@ -6453,7 +6453,7 @@
 "requirement": "Catch 2 Fish from The Wild Tangle",
 "reward": 50,
 "total": 2,
-"done": 2,
+"done": 0,
 "id": "t586"
 },
 {
@@ -6464,7 +6464,7 @@
 "requirement": "Catch 20 Fish from The Wild Tangle",
 "reward": 100,
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t587"
 },
 {
@@ -6475,7 +6475,7 @@
 "requirement": "Catch 60 Fish from The Wild Tangle",
 "reward": 200,
 "total": 60,
-"done": 60,
+"done": 0,
 "id": "t588"
 },
 {
@@ -6486,7 +6486,7 @@
 "requirement": "Catch 110 Fish from The Wild Tangle",
 "reward": 300,
 "total": 110,
-"done": 110,
+"done": 0,
 "id": "t589"
 },
 {
@@ -6497,7 +6497,7 @@
 "requirement": "Catch 260 Fish from The Wild Tangle",
 "reward": 500,
 "total": 260,
-"done": 260,
+"done": 0,
 "id": "t590"
 },
 {
@@ -6508,7 +6508,7 @@
 "requirement": "Find 2 Cores with Your Hourglass",
 "reward": 50,
 "total": 2,
-"done": 2,
+"done": 0,
 "id": "t591"
 },
 {
@@ -6519,7 +6519,7 @@
 "requirement": "Find 20 Cores with Your Hourglass",
 "reward": 100,
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t592"
 },
 {
@@ -6530,7 +6530,7 @@
 "requirement": "Find 60 Cores with Your Hourglass",
 "reward": 200,
 "total": 60,
-"done": 60,
+"done": 0,
 "id": "t593"
 },
 {
@@ -6541,7 +6541,7 @@
 "requirement": "Find 110 Cores with Your Hourglass",
 "reward": 300,
 "total": 110,
-"done": 110,
+"done": 0,
 "id": "t594"
 },
 {
@@ -6552,7 +6552,7 @@
 "requirement": "Find 260 Cores with Your Hourglass",
 "reward": 500,
 "total": 260,
-"done": 154,
+"done": 0,
 "id": "t595"
 },
 {
@@ -6563,7 +6563,7 @@
 "requirement": "Find 2 Parts with Your Hourglass",
 "reward": 50,
 "total": 2,
-"done": 2,
+"done": 0,
 "id": "t596"
 },
 {
@@ -6574,7 +6574,7 @@
 "requirement": "Find 20 Parts with Your Hourglass",
 "reward": 100,
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t597"
 },
 {
@@ -6585,7 +6585,7 @@
 "requirement": "Find 60 Parts with Your Hourglass",
 "reward": 200,
 "total": 60,
-"done": 60,
+"done": 0,
 "id": "t598"
 },
 {
@@ -6596,7 +6596,7 @@
 "requirement": "Find 110 Parts with Your Hourglass",
 "reward": 300,
 "total": 110,
-"done": 110,
+"done": 0,
 "id": "t599"
 },
 {
@@ -6607,7 +6607,7 @@
 "requirement": "Find 260 Parts with Your Hourglass",
 "reward": 500,
 "total": 260,
-"done": 260,
+"done": 0,
 "id": "t600"
 },
 {
@@ -6618,7 +6618,7 @@
 "requirement": "Find 2 Gifts with Your Hourglass",
 "reward": 50,
 "total": 2,
-"done": 2,
+"done": 0,
 "id": "t601"
 },
 {
@@ -6629,7 +6629,7 @@
 "requirement": "Find 20 Gifts with Your Hourglass",
 "reward": 100,
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t602"
 },
 {
@@ -6640,7 +6640,7 @@
 "requirement": "Find 60 Gifts with Your Hourglass",
 "reward": 200,
 "total": 60,
-"done": 60,
+"done": 0,
 "id": "t603"
 },
 {
@@ -6651,7 +6651,7 @@
 "requirement": "Find 110 Gifts with Your Hourglass",
 "reward": 300,
 "total": 110,
-"done": 110,
+"done": 0,
 "id": "t604"
 },
 {
@@ -6662,7 +6662,7 @@
 "requirement": "Find 260 Gifts with Your Hourglass",
 "reward": 500,
 "total": 260,
-"done": 260,
+"done": 0,
 "id": "t605"
 },
 {
@@ -6673,7 +6673,7 @@
 "requirement": "Find 2 Glimmer with Your Hourglass",
 "reward": 50,
 "total": 2,
-"done": 2,
+"done": 0,
 "id": "t606"
 },
 {
@@ -6684,7 +6684,7 @@
 "requirement": "Find 20 Glimmer with Your Hourglass",
 "reward": 100,
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t607"
 },
 {
@@ -6695,7 +6695,7 @@
 "requirement": "Find 60 Glimmer with Your Hourglass",
 "reward": 200,
 "total": 60,
-"done": 60,
+"done": 0,
 "id": "t608"
 },
 {
@@ -6706,7 +6706,7 @@
 "requirement": "Find 110 Glimmer with Your Hourglass",
 "reward": 300,
 "total": 110,
-"done": 110,
+"done": 0,
 "id": "t609"
 },
 {
@@ -6717,7 +6717,7 @@
 "requirement": "Find 260 Glimmer with Your Hourglass",
 "reward": 500,
 "total": 260,
-"done": 260,
+"done": 0,
 "id": "t610"
 },
 {
@@ -6728,7 +6728,7 @@
 "requirement": "Upgrade Hourglass to Level 1",
 "reward": 100,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t611"
 },
 {
@@ -6739,7 +6739,7 @@
 "requirement": "Upgrade Hourglass to Level 2",
 "reward": 300,
 "total": 2,
-"done": 2,
+"done": 0,
 "id": "t612"
 },
 {
@@ -6750,7 +6750,7 @@
 "requirement": "Upgrade Hourglass to Level 3",
 "reward": 500,
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t613"
 },
 {
@@ -6761,7 +6761,7 @@
 "requirement": "Sell 4 Fish from Eternity Isle",
 "reward": 50,
 "total": 4,
-"done": 4,
+"done": 0,
 "id": "t614"
 },
 {
@@ -6772,7 +6772,7 @@
 "requirement": "Sell 45 Fish from Eternity Isle",
 "reward": 100,
 "total": 45,
-"done": 45,
+"done": 0,
 "id": "t615"
 },
 {
@@ -6783,7 +6783,7 @@
 "requirement": "Sell 150 Fish from Eternity Isle",
 "reward": 200,
 "total": 150,
-"done": 150,
+"done": 0,
 "id": "t616"
 },
 {
@@ -6794,7 +6794,7 @@
 "requirement": "Sell 270 Fish from Eternity Isle",
 "reward": 300,
 "total": 270,
-"done": 270,
+"done": 0,
 "id": "t617"
 },
 {
@@ -6805,7 +6805,7 @@
 "requirement": "Sell 600 Fish from Eternity Isle",
 "reward": 500,
 "total": 600,
-"done": 600,
+"done": 0,
 "id": "t618"
 },
 {
@@ -6816,7 +6816,7 @@
 "requirement": "Sell 4 Gems from Eternity Isle",
 "reward": 50,
 "total": 4,
-"done": 4,
+"done": 0,
 "id": "t619"
 },
 {
@@ -6827,7 +6827,7 @@
 "requirement": "Sell 45 Gems from Eternity Isle",
 "reward": 100,
 "total": 45,
-"done": 45,
+"done": 0,
 "id": "t620"
 },
 {
@@ -6838,7 +6838,7 @@
 "requirement": "Sell 150 Gems from Eternity Isle",
 "reward": 200,
 "total": 150,
-"done": 150,
+"done": 0,
 "id": "t621"
 },
 {
@@ -6849,7 +6849,7 @@
 "requirement": "Sell 270 Gems from Eternity Isle",
 "reward": 300,
 "total": 270,
-"done": 270,
+"done": 0,
 "id": "t622"
 },
 {
@@ -6860,7 +6860,7 @@
 "requirement": "Sell 600 Gems from Eternity Isle",
 "reward": 500,
 "total": 600,
-"done": 600,
+"done": 0,
 "id": "t623"
 },
 {
@@ -6871,7 +6871,7 @@
 "requirement": "Sell 4 Fruit from Eternity Isle",
 "reward": 50,
 "total": 4,
-"done": 4,
+"done": 0,
 "id": "t624"
 },
 {
@@ -6882,7 +6882,7 @@
 "requirement": "Sell 45 Fruit from Eternity Isle",
 "reward": 100,
 "total": 45,
-"done": 45,
+"done": 0,
 "id": "t625"
 },
 {
@@ -6893,7 +6893,7 @@
 "requirement": "Sell 150 Fruit from Eternity Isle",
 "reward": 200,
 "total": 150,
-"done": 150,
+"done": 0,
 "id": "t626"
 },
 {
@@ -6904,7 +6904,7 @@
 "requirement": "Sell 270 Fruit from Eternity Isle",
 "reward": 300,
 "total": 270,
-"done": 270,
+"done": 0,
 "id": "t627"
 },
 {
@@ -6915,7 +6915,7 @@
 "requirement": "Sell 600 Fruit from Eternity Isle",
 "reward": 500,
 "total": 600,
-"done": 600,
+"done": 0,
 "id": "t628"
 },
 {
@@ -6926,7 +6926,7 @@
 "requirement": "Sell 4 Vegetables from Eternity Isle",
 "reward": 50,
 "total": 4,
-"done": 4,
+"done": 0,
 "id": "t629"
 },
 {
@@ -6937,7 +6937,7 @@
 "requirement": "Sell 45 Vegetables from Eternity Isle",
 "reward": 100,
 "total": 45,
-"done": 45,
+"done": 0,
 "id": "t630"
 },
 {
@@ -6948,7 +6948,7 @@
 "requirement": "Sell 150 Vegetables from Eternity Isle",
 "reward": 200,
 "total": 150,
-"done": 150,
+"done": 0,
 "id": "t631"
 },
 {
@@ -6959,7 +6959,7 @@
 "requirement": "Sell 270 Vegetables from Eternity Isle",
 "reward": 300,
 "total": 270,
-"done": 270,
+"done": 0,
 "id": "t632"
 },
 {
@@ -6970,7 +6970,7 @@
 "requirement": "Sell 600 Vegetables from Eternity Isle",
 "reward": 500,
 "total": 600,
-"done": 600,
+"done": 0,
 "id": "t633"
 },
 {
@@ -6981,7 +6981,7 @@
 "requirement": "Buy 4 Seeds in Ancient's Landing",
 "reward": 50,
 "total": 4,
-"done": 4,
+"done": 0,
 "id": "t634"
 },
 {
@@ -6992,7 +6992,7 @@
 "requirement": "Buy 50 Seeds in Ancient's Landing",
 "reward": 100,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t635"
 },
 {
@@ -7003,7 +7003,7 @@
 "requirement": "Buy 160 Seeds in Ancient's Landing",
 "reward": 200,
 "total": 160,
-"done": 160,
+"done": 0,
 "id": "t636"
 },
 {
@@ -7014,7 +7014,7 @@
 "requirement": "Buy 285 Seeds in Ancient's Landing",
 "reward": 300,
 "total": 285,
-"done": 285,
+"done": 0,
 "id": "t637"
 },
 {
@@ -7025,7 +7025,7 @@
 "requirement": "Buy 645 Seeds in Ancient's Landing",
 "reward": 500,
 "total": 645,
-"done": 645,
+"done": 0,
 "id": "t638"
 },
 {
@@ -7036,7 +7036,7 @@
 "requirement": "Buy 4 Seeds in The Glittering Dunes",
 "reward": 50,
 "total": 4,
-"done": 4,
+"done": 0,
 "id": "t639"
 },
 {
@@ -7047,7 +7047,7 @@
 "requirement": "Buy 50 Seeds in The Glittering Dunes",
 "reward": 100,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t640"
 },
 {
@@ -7058,7 +7058,7 @@
 "requirement": "Buy 160 Seeds in The Glittering Dunes",
 "reward": 200,
 "total": 160,
-"done": 160,
+"done": 0,
 "id": "t641"
 },
 {
@@ -7069,7 +7069,7 @@
 "requirement": "Buy 285 Seeds in The Glittering Dunes",
 "reward": 300,
 "total": 285,
-"done": 285,
+"done": 0,
 "id": "t642"
 },
 {
@@ -7080,7 +7080,7 @@
 "requirement": "Buy 645 Seeds in The Glittering Dunes",
 "reward": 500,
 "total": 645,
-"done": 645,
+"done": 0,
 "id": "t643"
 },
 {
@@ -7091,7 +7091,7 @@
 "requirement": "Buy 4 Seeds in The Wild Tangle",
 "reward": 50,
 "total": 4,
-"done": 4,
+"done": 0,
 "id": "t644"
 },
 {
@@ -7102,7 +7102,7 @@
 "requirement": "Buy 50 Seeds in The Wild Tangle",
 "reward": 100,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t645"
 },
 {
@@ -7113,7 +7113,7 @@
 "requirement": "Buy 160 Seeds in The Wild Tangle",
 "reward": 200,
 "total": 160,
-"done": 160,
+"done": 0,
 "id": "t646"
 },
 {
@@ -7124,7 +7124,7 @@
 "requirement": "Buy 285 Seeds in The Wild Tangle",
 "reward": 300,
 "total": 285,
-"done": 285,
+"done": 0,
 "id": "t647"
 },
 {
@@ -7135,7 +7135,7 @@
 "requirement": "Buy 645 Seeds in The Wild Tangle",
 "reward": 500,
 "total": 645,
-"done": 645,
+"done": 0,
 "id": "t648"
 },
 {
@@ -7146,7 +7146,7 @@
 "requirement": "Harvest 5 Strawberries",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t649"
 },
 {
@@ -7157,7 +7157,7 @@
 "requirement": "Harvest 70 Strawberries",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t650"
 },
 {
@@ -7168,7 +7168,7 @@
 "requirement": "Harvest 230 Strawberries",
 "reward": 200,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t651"
 },
 {
@@ -7179,7 +7179,7 @@
 "requirement": "Harvest 400 Strawberries",
 "reward": 300,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t652"
 },
 {
@@ -7190,7 +7190,7 @@
 "requirement": "Harvest 900 Strawberries",
 "reward": 500,
 "total": 900,
-"done": 900,
+"done": 0,
 "id": "t653"
 },
 {
@@ -7201,7 +7201,7 @@
 "requirement": "Harvest 5 Nestling Pears",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t654"
 },
 {
@@ -7212,7 +7212,7 @@
 "requirement": "Harvest 70 Nestling Pears",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t655"
 },
 {
@@ -7223,7 +7223,7 @@
 "requirement": "Harvest 230 Nestling Pears",
 "reward": 200,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t656"
 },
 {
@@ -7234,7 +7234,7 @@
 "requirement": "Harvest 400 Nestling Pears",
 "reward": 300,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t657"
 },
 {
@@ -7245,7 +7245,7 @@
 "requirement": "Harvest 900 Nestling Pears",
 "reward": 500,
 "total": 900,
-"done": 900,
+"done": 0,
 "id": "t658"
 },
 {
@@ -7256,7 +7256,7 @@
 "requirement": "Harvest 5 Dates",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t659"
 },
 {
@@ -7267,7 +7267,7 @@
 "requirement": "Harvest 70 Dates",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t660"
 },
 {
@@ -7278,7 +7278,7 @@
 "requirement": "Harvest 230 Dates",
 "reward": 200,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t661"
 },
 {
@@ -7289,7 +7289,7 @@
 "requirement": "Harvest 400 Dates",
 "reward": 300,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t662"
 },
 {
@@ -7300,7 +7300,7 @@
 "requirement": "Harvest 900 Dates",
 "reward": 500,
 "total": 900,
-"done": 900,
+"done": 0,
 "id": "t663"
 },
 {
@@ -7311,7 +7311,7 @@
 "requirement": "Harvest 5 Cactoberries",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t664"
 },
 {
@@ -7322,7 +7322,7 @@
 "requirement": "Harvest 70 Cactoberries",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t665"
 },
 {
@@ -7333,7 +7333,7 @@
 "requirement": "Harvest 230 Cactoberries",
 "reward": 200,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t666"
 },
 {
@@ -7344,7 +7344,7 @@
 "requirement": "Harvest 400 Cactoberries",
 "reward": 300,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t667"
 },
 {
@@ -7355,7 +7355,7 @@
 "requirement": "Harvest 900 Cactoberries",
 "reward": 500,
 "total": 900,
-"done": 900,
+"done": 0,
 "id": "t668"
 },
 {
@@ -7366,7 +7366,7 @@
 "requirement": "Harvest 5 Almonds",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t669"
 },
 {
@@ -7377,7 +7377,7 @@
 "requirement": "Harvest 70 Almonds",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t670"
 },
 {
@@ -7388,7 +7388,7 @@
 "requirement": "Harvest 230 Almonds",
 "reward": 200,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t671"
 },
 {
@@ -7399,7 +7399,7 @@
 "requirement": "Harvest 400 Almonds",
 "reward": 300,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t672"
 },
 {
@@ -7410,7 +7410,7 @@
 "requirement": "Harvest 900 Almonds",
 "reward": 500,
 "total": 900,
-"done": 900,
+"done": 0,
 "id": "t673"
 },
 {
@@ -7421,7 +7421,7 @@
 "requirement": "Harvest 5 Dreamangoes",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t674"
 },
 {
@@ -7432,7 +7432,7 @@
 "requirement": "Harvest 70 Dreamangoes",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t675"
 },
 {
@@ -7443,7 +7443,7 @@
 "requirement": "Harvest 230 Dreamangoes",
 "reward": 200,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t676"
 },
 {
@@ -7454,7 +7454,7 @@
 "requirement": "Harvest 400 Dreamangoes",
 "reward": 300,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t677"
 },
 {
@@ -7465,7 +7465,7 @@
 "requirement": "Harvest 900 Dreamangoes",
 "reward": 500,
 "total": 900,
-"done": 900,
+"done": 0,
 "id": "t678"
 },
 {
@@ -7476,7 +7476,7 @@
 "requirement": "Harvest 5 Agave",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t679"
 },
 {
@@ -7487,7 +7487,7 @@
 "requirement": "Harvest 70 Agave",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t680"
 },
 {
@@ -7498,7 +7498,7 @@
 "requirement": "Harvest 230 Agave",
 "reward": 200,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t681"
 },
 {
@@ -7509,7 +7509,7 @@
 "requirement": "Harvest 400 Agave",
 "reward": 300,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t682"
 },
 {
@@ -7520,7 +7520,7 @@
 "requirement": "Harvest 900 Agave",
 "reward": 500,
 "total": 900,
-"done": 900,
+"done": 0,
 "id": "t683"
 },
 {
@@ -7531,7 +7531,7 @@
 "requirement": "Harvest 5 Cumin",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t684"
 },
 {
@@ -7542,7 +7542,7 @@
 "requirement": "Harvest 70 Cumin",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t685"
 },
 {
@@ -7553,7 +7553,7 @@
 "requirement": "Harvest 230 Cumin",
 "reward": 200,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t686"
 },
 {
@@ -7564,7 +7564,7 @@
 "requirement": "Harvest 400 Cumin",
 "reward": 300,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t687"
 },
 {
@@ -7575,7 +7575,7 @@
 "requirement": "Harvest 900 Cumin",
 "reward": 500,
 "total": 900,
-"done": 900,
+"done": 0,
 "id": "t688"
 },
 {
@@ -7586,7 +7586,7 @@
 "requirement": "Harvest 5 Majestea",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t689"
 },
 {
@@ -7597,7 +7597,7 @@
 "requirement": "Harvest 70 Majestea",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t690"
 },
 {
@@ -7608,7 +7608,7 @@
 "requirement": "Harvest 230 Majestea",
 "reward": 200,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t691"
 },
 {
@@ -7619,7 +7619,7 @@
 "requirement": "Harvest 400 Majestea",
 "reward": 300,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t692"
 },
 {
@@ -7630,7 +7630,7 @@
 "requirement": "Harvest 900 Majestea",
 "reward": 500,
 "total": 900,
-"done": 900,
+"done": 0,
 "id": "t693"
 },
 {
@@ -7641,7 +7641,7 @@
 "requirement": "Harvest 5 Paprika",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t694"
 },
 {
@@ -7652,7 +7652,7 @@
 "requirement": "Harvest 70 Paprika",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t695"
 },
 {
@@ -7663,7 +7663,7 @@
 "requirement": "Harvest 230 Paprika",
 "reward": 200,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t696"
 },
 {
@@ -7674,7 +7674,7 @@
 "requirement": "Harvest 400 Paprika",
 "reward": 300,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t697"
 },
 {
@@ -7685,7 +7685,7 @@
 "requirement": "Harvest 900 Paprika",
 "reward": 500,
 "total": 900,
-"done": 900,
+"done": 0,
 "id": "t698"
 },
 {
@@ -7696,7 +7696,7 @@
 "requirement": "Harvest 25 Vegetables from Eternity Isle",
 "reward": 50,
 "total": 25,
-"done": 25,
+"done": 0,
 "id": "t699"
 },
 {
@@ -7707,7 +7707,7 @@
 "requirement": "Harvest 400 Vegetables from Eternity Isle",
 "reward": 100,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t700"
 },
 {
@@ -7718,7 +7718,7 @@
 "requirement": "Harvest 1100 Vegetables from Eternity Isle",
 "reward": 200,
 "total": 1100,
-"done": 1100,
+"done": 0,
 "id": "t701"
 },
 {
@@ -7729,7 +7729,7 @@
 "requirement": "Harvest 2000 Vegetables from Eternity Isle",
 "reward": 300,
 "total": 2000,
-"done": 2000,
+"done": 0,
 "id": "t702"
 },
 {
@@ -7740,7 +7740,7 @@
 "requirement": "Harvest 4500 Vegetables from Eternity Isle",
 "reward": 500,
 "total": 4500,
-"done": 4500,
+"done": 0,
 "id": "t703"
 },
 {
@@ -7751,7 +7751,7 @@
 "requirement": "Plant 25 Vegetables on Eternity Isle",
 "reward": 50,
 "total": 25,
-"done": 25,
+"done": 0,
 "id": "t704"
 },
 {
@@ -7762,7 +7762,7 @@
 "requirement": "Plant 350 Vegetables on Eternity Isle",
 "reward": 100,
 "total": 350,
-"done": 350,
+"done": 0,
 "id": "t705"
 },
 {
@@ -7773,7 +7773,7 @@
 "requirement": "Plant 1100 Vegetables on Eternity Isle",
 "reward": 200,
 "total": 1100,
-"done": 1100,
+"done": 0,
 "id": "t706"
 },
 {
@@ -7784,7 +7784,7 @@
 "requirement": "Plant 2000 Vegetables on Eternity Isle",
 "reward": 300,
 "total": 2000,
-"done": 2000,
+"done": 0,
 "id": "t707"
 },
 {
@@ -7795,7 +7795,7 @@
 "requirement": "Plant 4500 Vegetables on Eternity Isle",
 "reward": 500,
 "total": 4500,
-"done": 4500,
+"done": 0,
 "id": "t708"
 },
 {
@@ -7806,7 +7806,7 @@
 "requirement": "Hang Out with Friends from Eternity Isle 60 Times",
 "reward": 100,
 "total": 60,
-"done": 60,
+"done": 0,
 "id": "t709"
 },
 {
@@ -7817,7 +7817,7 @@
 "requirement": "Hang Out with Friends from Eternity Isle 120 Times",
 "reward": 300,
 "total": 120,
-"done": 120,
+"done": 0,
 "id": "t710"
 },
 {
@@ -7828,7 +7828,7 @@
 "requirement": "Hang Out with Friends from Eternity Isle 240 Times",
 "reward": 500,
 "total": 240,
-"done": 240,
+"done": 0,
 "id": "t711"
 },
 {
@@ -7839,7 +7839,7 @@
 "requirement": "Play Scramblecoin 3 Times",
 "reward": 50,
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t712"
 },
 {
@@ -7850,7 +7850,7 @@
 "requirement": "Play Scramblecoin 10 Times",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t713"
 },
 {
@@ -7861,7 +7861,7 @@
 "requirement": "Play Scramblecoin 25 Times",
 "reward": 200,
 "total": 25,
-"done": 25,
+"done": 0,
 "id": "t714"
 },
 {
@@ -7872,7 +7872,7 @@
 "requirement": "Play Scramblecoin 50 Times",
 "reward": 300,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t715"
 },
 {
@@ -7883,7 +7883,7 @@
 "requirement": "Play Scramblecoin 100 Times",
 "reward": 500,
 "total": 100,
-"done": 100,
+"done": 0,
 "id": "t716"
 },
 {
@@ -7894,7 +7894,7 @@
 "requirement": "Win at Scramblecoin 2 Times",
 "reward": 50,
 "total": 2,
-"done": 2,
+"done": 0,
 "id": "t717"
 },
 {
@@ -7905,7 +7905,7 @@
 "requirement": "Win at Scramblecoin 5 Times",
 "reward": 100,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t718"
 },
 {
@@ -7916,7 +7916,7 @@
 "requirement": "Win at Scramblecoin 15 Times",
 "reward": 200,
 "total": 15,
-"done": 15,
+"done": 0,
 "id": "t719"
 },
 {
@@ -7927,7 +7927,7 @@
 "requirement": "Win at Scramblecoin 30 Times",
 "reward": 300,
 "total": 30,
-"done": 30,
+"done": 0,
 "id": "t720"
 },
 {
@@ -7938,7 +7938,7 @@
 "requirement": "Win at Scramblecoin 75 Times",
 "reward": 500,
 "total": 75,
-"done": 75,
+"done": 0,
 "id": "t721"
 },
 {
@@ -7949,7 +7949,7 @@
 "requirement": "Remove 25 Splinters of Fate",
 "reward": 50,
 "total": 25,
-"done": 25,
+"done": 0,
 "id": "t722"
 },
 {
@@ -7960,7 +7960,7 @@
 "requirement": "Remove 230 Splinters of Fate",
 "reward": 100,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t723"
 },
 {
@@ -7971,7 +7971,7 @@
 "requirement": "Remove 750 Splinters of Fate",
 "reward": 200,
 "total": 750,
-"done": 750,
+"done": 0,
 "id": "t724"
 },
 {
@@ -7982,7 +7982,7 @@
 "requirement": "Remove 1300 Splinters of Fate",
 "reward": 300,
 "total": 1300,
-"done": 1300,
+"done": 0,
 "id": "t725"
 },
 {
@@ -7993,7 +7993,7 @@
 "requirement": "Remove 3000 Splinters of Fate",
 "reward": 500,
 "total": 3000,
-"done": 3000,
+"done": 0,
 "id": "t726"
 },
 {
@@ -8004,7 +8004,7 @@
 "requirement": "Remove 20 Inkies",
 "reward": 50,
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t727"
 },
 {
@@ -8015,7 +8015,7 @@
 "requirement": "Remove 230 Inkies",
 "reward": 100,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t728"
 },
 {
@@ -8026,7 +8026,7 @@
 "requirement": "Remove 750 Inkies",
 "reward": 150,
 "total": 750,
-"done": 340,
+"done": 0,
 "id": "t729"
 },
 {
@@ -8037,7 +8037,7 @@
 "requirement": "Remove 1300 Inkies",
 "reward": 200,
 "total": 1300,
-"done": 340,
+"done": 0,
 "id": "t730"
 },
 {
@@ -8048,7 +8048,7 @@
 "requirement": "Remove 3000 Inkies",
 "reward": 250,
 "total": 3000,
-"done": 340,
+"done": 0,
 "id": "t731"
 },
 {
@@ -8059,7 +8059,7 @@
 "requirement": "Catch 1 Bird Snippet",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t732"
 },
 {
@@ -8070,7 +8070,7 @@
 "requirement": "Catch 10 Bird Snippets",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t733"
 },
 {
@@ -8081,7 +8081,7 @@
 "requirement": "Catch 30 Bird Snippets",
 "reward": 150,
 "total": 30,
-"done": 30,
+"done": 0,
 "id": "t734"
 },
 {
@@ -8092,7 +8092,7 @@
 "requirement": "Catch 60 Bird Snippets",
 "reward": 200,
 "total": 60,
-"done": 60,
+"done": 0,
 "id": "t735"
 },
 {
@@ -8103,7 +8103,7 @@
 "requirement": "Catch 120 Bird Snippets",
 "reward": 250,
 "total": 120,
-"done": 120,
+"done": 0,
 "id": "t736"
 },
 {
@@ -8114,7 +8114,7 @@
 "requirement": "Catch 1 Snippet",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t737"
 },
 {
@@ -8125,7 +8125,7 @@
 "requirement": "Catch 50 Snippets",
 "reward": 100,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t738"
 },
 {
@@ -8136,7 +8136,7 @@
 "requirement": "Catch 100 Snippets",
 "reward": 150,
 "total": 100,
-"done": 100,
+"done": 0,
 "id": "t739"
 },
 {
@@ -8147,7 +8147,7 @@
 "requirement": "Catch 200 Snippets",
 "reward": 200,
 "total": 200,
-"done": 200,
+"done": 0,
 "id": "t740"
 },
 {
@@ -8158,7 +8158,7 @@
 "requirement": "Catch 500 Snippets",
 "reward": 250,
 "total": 500,
-"done": 500,
+"done": 0,
 "id": "t741"
 },
 {
@@ -8169,7 +8169,7 @@
 "requirement": "Catch 1 Frog Snippet",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t742"
 },
 {
@@ -8180,7 +8180,7 @@
 "requirement": "Catch 10 Frog Snippets",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t743"
 },
 {
@@ -8191,7 +8191,7 @@
 "requirement": "Catch 30 Frog Snippets",
 "reward": 150,
 "total": 30,
-"done": 30,
+"done": 0,
 "id": "t744"
 },
 {
@@ -8202,7 +8202,7 @@
 "requirement": "Catch 60 Frog Snippets",
 "reward": 200,
 "total": 60,
-"done": 60,
+"done": 0,
 "id": "t745"
 },
 {
@@ -8213,7 +8213,7 @@
 "requirement": "Catch 120 Frog Snippets",
 "reward": 250,
 "total": 120,
-"done": 120,
+"done": 0,
 "id": "t746"
 },
 {
@@ -8224,7 +8224,7 @@
 "requirement": "Catch 1 Demon Snippet",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t747"
 },
 {
@@ -8235,7 +8235,7 @@
 "requirement": "Catch 10 Demon Snippets",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t748"
 },
 {
@@ -8246,7 +8246,7 @@
 "requirement": "Catch 30 Demon Snippets",
 "reward": 150,
 "total": 30,
-"done": 30,
+"done": 0,
 "id": "t749"
 },
 {
@@ -8257,7 +8257,7 @@
 "requirement": "Catch 60 Demon Snippets",
 "reward": 200,
 "total": 60,
-"done": 60,
+"done": 0,
 "id": "t750"
 },
 {
@@ -8268,7 +8268,7 @@
 "requirement": "Catch 120 Demon Snippets",
 "reward": 250,
 "total": 120,
-"done": 120,
+"done": 0,
 "id": "t751"
 },
 {
@@ -8279,7 +8279,7 @@
 "requirement": "Catch 2 Fish from Everafter",
 "reward": 50,
 "total": 2,
-"done": 2,
+"done": 0,
 "id": "t752"
 },
 {
@@ -8290,7 +8290,7 @@
 "requirement": "Catch 20 Fish from Everafter",
 "reward": 100,
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t753"
 },
 {
@@ -8301,7 +8301,7 @@
 "requirement": "Catch 60 Fish from Everafter",
 "reward": 150,
 "total": 60,
-"done": 60,
+"done": 0,
 "id": "t754"
 },
 {
@@ -8312,7 +8312,7 @@
 "requirement": "Catch 110 Fish from Everafter",
 "reward": 200,
 "total": 110,
-"done": 82,
+"done": 0,
 "id": "t755"
 },
 {
@@ -8323,7 +8323,7 @@
 "requirement": "Catch 260 Fish from Everafter",
 "reward": 250,
 "total": 260,
-"done": 82,
+"done": 0,
 "id": "t756"
 },
 {
@@ -8334,7 +8334,7 @@
 "requirement": "Catch 2 Fish from Mythopia",
 "reward": 50,
 "total": 2,
-"done": 2,
+"done": 0,
 "id": "t757"
 },
 {
@@ -8345,7 +8345,7 @@
 "requirement": "Catch 20 Fish from Mythopia",
 "reward": 100,
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t758"
 },
 {
@@ -8356,7 +8356,7 @@
 "requirement": "Catch 60 Fish from Mythopia",
 "reward": 150,
 "total": 60,
-"done": 60,
+"done": 0,
 "id": "t759"
 },
 {
@@ -8367,7 +8367,7 @@
 "requirement": "Catch 110 Fish from Mythopia",
 "reward": 200,
 "total": 110,
-"done": 110,
+"done": 0,
 "id": "t760"
 },
 {
@@ -8378,7 +8378,7 @@
 "requirement": "Catch 260 Fish from Mythopia",
 "reward": 250,
 "total": 260,
-"done": 129,
+"done": 0,
 "id": "t761"
 },
 {
@@ -8389,7 +8389,7 @@
 "requirement": "Catch 2 Fish from the Bind",
 "reward": 50,
 "total": 2,
-"done": 2,
+"done": 0,
 "id": "t762"
 },
 {
@@ -8400,7 +8400,7 @@
 "requirement": "Catch 20 Fish from the Bind",
 "reward": 100,
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t763"
 },
 {
@@ -8411,7 +8411,7 @@
 "requirement": "Catch 60 Fish from the Bind",
 "reward": 150,
 "total": 60,
-"done": 60,
+"done": 0,
 "id": "t764"
 },
 {
@@ -8422,7 +8422,7 @@
 "requirement": "Catch 110 Fish from the Bind",
 "reward": 200,
 "total": 110,
-"done": 110,
+"done": 0,
 "id": "t765"
 },
 {
@@ -8433,7 +8433,7 @@
 "requirement": "Catch 260 Fish from the Bind",
 "reward": 250,
 "total": 260,
-"done": 260,
+"done": 0,
 "id": "t766"
 },
 {
@@ -8444,7 +8444,7 @@
 "requirement": "Buy 4 Seeds in the Bind",
 "reward": 50,
 "total": 4,
-"done": 4,
+"done": 0,
 "id": "t767"
 },
 {
@@ -8455,7 +8455,7 @@
 "requirement": "Buy 50 Seeds in the Bind",
 "reward": 100,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t768"
 },
 {
@@ -8466,7 +8466,7 @@
 "requirement": "Buy 160 Seeds in the Bind",
 "reward": 150,
 "total": 160,
-"done": 160,
+"done": 0,
 "id": "t769"
 },
 {
@@ -8477,7 +8477,7 @@
 "requirement": "Buy 285 Seeds in the Bind",
 "reward": 200,
 "total": 285,
-"done": 285,
+"done": 0,
 "id": "t770"
 },
 {
@@ -8488,7 +8488,7 @@
 "requirement": "Buy 645 Seeds in the Bind",
 "reward": 250,
 "total": 645,
-"done": 645,
+"done": 0,
 "id": "t771"
 },
 {
@@ -8499,7 +8499,7 @@
 "requirement": "Buy 4 Seeds in Everafter",
 "reward": 50,
 "total": 4,
-"done": 4,
+"done": 0,
 "id": "t772"
 },
 {
@@ -8510,7 +8510,7 @@
 "requirement": "Buy 50 Seeds in Everafter",
 "reward": 100,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t773"
 },
 {
@@ -8521,7 +8521,7 @@
 "requirement": "Buy 160 Seeds in Everafter",
 "reward": 150,
 "total": 160,
-"done": 160,
+"done": 0,
 "id": "t774"
 },
 {
@@ -8532,7 +8532,7 @@
 "requirement": "Buy 285 Seeds in Everafter",
 "reward": 200,
 "total": 285,
-"done": 285,
+"done": 0,
 "id": "t775"
 },
 {
@@ -8543,7 +8543,7 @@
 "requirement": "Buy 645 Seeds in Everafter",
 "reward": 250,
 "total": 645,
-"done": 645,
+"done": 0,
 "id": "t776"
 },
 {
@@ -8554,7 +8554,7 @@
 "requirement": "Buy 4 Seeds in Mythopia",
 "reward": 50,
 "total": 4,
-"done": 4,
+"done": 0,
 "id": "t777"
 },
 {
@@ -8565,7 +8565,7 @@
 "requirement": "Buy 50 Seeds in Mythopia",
 "reward": 100,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t778"
 },
 {
@@ -8576,7 +8576,7 @@
 "requirement": "Buy 160 Seeds in Mythopia",
 "reward": 150,
 "total": 160,
-"done": 160,
+"done": 0,
 "id": "t779"
 },
 {
@@ -8587,7 +8587,7 @@
 "requirement": "Buy 285 Seeds in Mythopia",
 "reward": 200,
 "total": 285,
-"done": 285,
+"done": 0,
 "id": "t780"
 },
 {
@@ -8598,7 +8598,7 @@
 "requirement": "Buy 645 Seeds in Mythopia",
 "reward": 250,
 "total": 645,
-"done": 645,
+"done": 0,
 "id": "t781"
 },
 {
@@ -8609,7 +8609,7 @@
 "requirement": "Mine 1 Opal",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t782"
 },
 {
@@ -8620,7 +8620,7 @@
 "requirement": "Mine 10 Opal",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t783"
 },
 {
@@ -8631,7 +8631,7 @@
 "requirement": "Mine 30 Opal",
 "reward": 150,
 "total": 30,
-"done": 30,
+"done": 0,
 "id": "t784"
 },
 {
@@ -8642,7 +8642,7 @@
 "requirement": "Mine 50 Opal",
 "reward": 200,
 "total": 50,
-"done": 44,
+"done": 0,
 "id": "t785"
 },
 {
@@ -8653,7 +8653,7 @@
 "requirement": "Mine 120 Opal",
 "reward": 250,
 "total": 120,
-"done": 44,
+"done": 0,
 "id": "t786"
 },
 {
@@ -8664,7 +8664,7 @@
 "requirement": "Mine 1 Magma",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t787"
 },
 {
@@ -8675,7 +8675,7 @@
 "requirement": "Mine 10 Magma",
 "reward": 100,
 "total": 10,
-"done": 7,
+"done": 0,
 "id": "t788"
 },
 {
@@ -8686,7 +8686,7 @@
 "requirement": "Mine 30 Magma",
 "reward": 150,
 "total": 30,
-"done": 7,
+"done": 0,
 "id": "t789"
 },
 {
@@ -8697,7 +8697,7 @@
 "requirement": "Mine 50 Magma",
 "reward": 200,
 "total": 50,
-"done": 7,
+"done": 0,
 "id": "t790"
 },
 {
@@ -8708,7 +8708,7 @@
 "requirement": "Mine 120 Magma",
 "reward": 250,
 "total": 120,
-"done": 7,
+"done": 0,
 "id": "t791"
 },
 {
@@ -8719,7 +8719,7 @@
 "requirement": "Mine 1 Pure Ice",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t792"
 },
 {
@@ -8730,7 +8730,7 @@
 "requirement": "Mine 10 Pure Ice",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t793"
 },
 {
@@ -8741,7 +8741,7 @@
 "requirement": "Mine 30 Pure Ice",
 "reward": 150,
 "total": 30,
-"done": 14,
+"done": 0,
 "id": "t794"
 },
 {
@@ -8752,7 +8752,7 @@
 "requirement": "Mine 50 Pure Ice",
 "reward": 200,
 "total": 50,
-"done": 14,
+"done": 0,
 "id": "t795"
 },
 {
@@ -8763,7 +8763,7 @@
 "requirement": "Mine 120 Pure Ice",
 "reward": 250,
 "total": 120,
-"done": 14,
+"done": 0,
 "id": "t796"
 },
 {
@@ -8774,7 +8774,7 @@
 "requirement": "Mine 1 Star Sapphire",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t797"
 },
 {
@@ -8785,7 +8785,7 @@
 "requirement": "Mine 10 Star Sapphire",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t798"
 },
 {
@@ -8796,7 +8796,7 @@
 "requirement": "Mine 30 Star Sapphire",
 "reward": 150,
 "total": 30,
-"done": 12,
+"done": 0,
 "id": "t799"
 },
 {
@@ -8807,7 +8807,7 @@
 "requirement": "Mine 50 Star Sapphire",
 "reward": 200,
 "total": 50,
-"done": 12,
+"done": 0,
 "id": "t800"
 },
 {
@@ -8818,7 +8818,7 @@
 "requirement": "Mine 120 Star Sapphire",
 "reward": 250,
 "total": 120,
-"done": 12,
+"done": 0,
 "id": "t801"
 },
 {
@@ -8829,7 +8829,7 @@
 "requirement": "Mine 1 Marble",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t802"
 },
 {
@@ -8840,7 +8840,7 @@
 "requirement": "Mine 10 Marble",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t803"
 },
 {
@@ -8851,7 +8851,7 @@
 "requirement": "Mine 30 Marble",
 "reward": 150,
 "total": 30,
-"done": 30,
+"done": 0,
 "id": "t804"
 },
 {
@@ -8862,7 +8862,7 @@
 "requirement": "Mine 50 Marble",
 "reward": 200,
 "total": 50,
-"done": 40,
+"done": 0,
 "id": "t805"
 },
 {
@@ -8873,7 +8873,7 @@
 "requirement": "Mine 120 Marble",
 "reward": 250,
 "total": 120,
-"done": 40,
+"done": 0,
 "id": "t806"
 },
 {
@@ -8884,7 +8884,7 @@
 "requirement": "Mine 1 Petrified Wood",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t807"
 },
 {
@@ -8895,7 +8895,7 @@
 "requirement": "Mine 10 Petrified Wood",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t808"
 },
 {
@@ -8906,7 +8906,7 @@
 "requirement": "Mine 30 Petrified Wood",
 "reward": 150,
 "total": 30,
-"done": 30,
+"done": 0,
 "id": "t809"
 },
 {
@@ -8917,7 +8917,7 @@
 "requirement": "Mine 50 Petrified Wood",
 "reward": 200,
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t810"
 },
 {
@@ -8928,7 +8928,7 @@
 "requirement": "Mine 120 Petrified Wood",
 "reward": 250,
 "total": 120,
-"done": 120,
+"done": 0,
 "id": "t811"
 },
 {
@@ -8939,7 +8939,7 @@
 "requirement": "Cook 1 Meal with the Storybook Vale Fish",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t812"
 },
 {
@@ -8950,7 +8950,7 @@
 "requirement": "Cook 10 Meals with the Storybook Vale Fish",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t813"
 },
 {
@@ -8961,7 +8961,7 @@
 "requirement": "Cook 40 Meals with the Storybook Vale Fish",
 "reward": 150,
 "total": 40,
-"done": 40,
+"done": 0,
 "id": "t814"
 },
 {
@@ -8972,7 +8972,7 @@
 "requirement": "Cook 70 Meals with the Storybook Vale Fish",
 "reward": 200,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t815"
 },
 {
@@ -8983,7 +8983,7 @@
 "requirement": "Cook 150 Meals with the Storybook Vale Fish",
 "reward": 250,
 "total": 150,
-"done": 150,
+"done": 0,
 "id": "t816"
 },
 {
@@ -8994,7 +8994,7 @@
 "requirement": "Cook 1 Meal with the Storybook Vale Seafood",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t817"
 },
 {
@@ -9005,7 +9005,7 @@
 "requirement": "Cook 10 Meals with the Storybook Vale Seafood",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t818"
 },
 {
@@ -9016,7 +9016,7 @@
 "requirement": "Cook 40 Meals with the Storybook Vale Seafood",
 "reward": 150,
 "total": 40,
-"done": 40,
+"done": 0,
 "id": "t819"
 },
 {
@@ -9027,7 +9027,7 @@
 "requirement": "Cook 70 Meals with the Storybook Vale Seafood",
 "reward": 200,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t820"
 },
 {
@@ -9038,7 +9038,7 @@
 "requirement": "Cook 150 Meals with the Storybook Vale Seafood",
 "reward": 250,
 "total": 150,
-"done": 150,
+"done": 0,
 "id": "t821"
 },
 {
@@ -9049,7 +9049,7 @@
 "requirement": "Cook 1 Meal with the Storybook Vale Fruit",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t822"
 },
 {
@@ -9060,7 +9060,7 @@
 "requirement": "Cook 10 Meals with the Storybook Vale Fruit",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t823"
 },
 {
@@ -9071,7 +9071,7 @@
 "requirement": "Cook 40 Meals with the Storybook Vale Fruit",
 "reward": 150,
 "total": 40,
-"done": 40,
+"done": 0,
 "id": "t824"
 },
 {
@@ -9082,7 +9082,7 @@
 "requirement": "Cook 70 Meals with the Storybook Vale Fruit",
 "reward": 200,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t825"
 },
 {
@@ -9093,7 +9093,7 @@
 "requirement": "Cook 150 Meals with the Storybook Vale Fruit",
 "reward": 250,
 "total": 150,
-"done": 150,
+"done": 0,
 "id": "t826"
 },
 {
@@ -9104,7 +9104,7 @@
 "requirement": "Cook 1 Meal with the Storybook Vale Spices",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t827"
 },
 {
@@ -9115,7 +9115,7 @@
 "requirement": "Cook 10 Meals with the Storybook Vale Spices",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t828"
 },
 {
@@ -9126,7 +9126,7 @@
 "requirement": "Cook 40 Meals with the Storybook Vale Spices",
 "reward": 150,
 "total": 40,
-"done": 40,
+"done": 0,
 "id": "t829"
 },
 {
@@ -9137,7 +9137,7 @@
 "requirement": "Cook 70 Meals with the Storybook Vale Spices",
 "reward": 200,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t830"
 },
 {
@@ -9148,7 +9148,7 @@
 "requirement": "Cook 150 Meals with the Storybook Vale Spices",
 "reward": 250,
 "total": 150,
-"done": 150,
+"done": 0,
 "id": "t831"
 },
 {
@@ -9159,7 +9159,7 @@
 "requirement": "Cook 1 Meal with the Storybook Vale Vegetables",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t832"
 },
 {
@@ -9170,7 +9170,7 @@
 "requirement": "Cook 10 Meals with the Storybook Vale Vegetables",
 "reward": 100,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t833"
 },
 {
@@ -9181,7 +9181,7 @@
 "requirement": "Cook 40 Meals with the Storybook Vale Vegetables",
 "reward": 150,
 "total": 40,
-"done": 40,
+"done": 0,
 "id": "t834"
 },
 {
@@ -9192,7 +9192,7 @@
 "requirement": "Cook 70 Meals with the Storybook Vale Vegetables",
 "reward": 200,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t835"
 },
 {
@@ -9203,7 +9203,7 @@
 "requirement": "Cook 150 Meals with the Storybook Vale Vegetables",
 "reward": 250,
 "total": 150,
-"done": 150,
+"done": 0,
 "id": "t836"
 },
 {
@@ -9214,7 +9214,7 @@
 "requirement": "Feed the Baby Dragons Once",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t837"
 },
 {
@@ -9225,7 +9225,7 @@
 "requirement": "Feed the Baby Dragons 7 Times",
 "reward": 100,
 "total": 7,
-"done": 6,
+"done": 0,
 "id": "t838"
 },
 {
@@ -9236,7 +9236,7 @@
 "requirement": "Feed the Baby Dragons 25 Times",
 "reward": 150,
 "total": 25,
-"done": 6,
+"done": 0,
 "id": "t839"
 },
 {
@@ -9247,7 +9247,7 @@
 "requirement": "Feed the Baby Dragons 40 Times",
 "reward": 200,
 "total": 40,
-"done": 6,
+"done": 0,
 "id": "t840"
 },
 {
@@ -9258,7 +9258,7 @@
 "requirement": "Feed the Baby Dragons 90 Times",
 "reward": 250,
 "total": 90,
-"done": 6,
+"done": 0,
 "id": "t841"
 },
 {
@@ -9269,7 +9269,7 @@
 "requirement": "Feed the Baby Dragons Their Favorite Food Once",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t842"
 },
 {
@@ -9280,7 +9280,7 @@
 "requirement": "Feed the Baby Dragons Their Favorite Food 3 Times",
 "reward": 100,
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t843"
 },
 {
@@ -9291,7 +9291,7 @@
 "requirement": "Feed the Baby Dragons Their Favorite Food 10 Times",
 "reward": 150,
 "total": 10,
-"done": 6,
+"done": 0,
 "id": "t844"
 },
 {
@@ -9302,7 +9302,7 @@
 "requirement": "Feed the Baby Pegasus Once",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t845"
 },
 {
@@ -9313,7 +9313,7 @@
 "requirement": "Feed the Baby Pegasus 7 Times",
 "reward": 100,
 "total": 7,
-"done": 5,
+"done": 0,
 "id": "t846"
 },
 {
@@ -9324,7 +9324,7 @@
 "requirement": "Feed the Baby Pegasus 25 Times",
 "reward": 150,
 "total": 25,
-"done": 5,
+"done": 0,
 "id": "t847"
 },
 {
@@ -9335,7 +9335,7 @@
 "requirement": "Feed the Baby Pegasus 40 Times",
 "reward": 200,
 "total": 40,
-"done": 5,
+"done": 0,
 "id": "t848"
 },
 {
@@ -9346,7 +9346,7 @@
 "requirement": "Feed the Baby Pegasus 90 Times",
 "reward": 250,
 "total": 90,
-"done": 5,
+"done": 0,
 "id": "t849"
 },
 {
@@ -9357,7 +9357,7 @@
 "requirement": "Feed the Baby Pegasus Their Favorite Food Once",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t850"
 },
 {
@@ -9368,7 +9368,7 @@
 "requirement": "Feed the Baby Pegasus Their Favorite Food 3 Times",
 "reward": 100,
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t851"
 },
 {
@@ -9379,7 +9379,7 @@
 "requirement": "Feed the Baby Pegasus Their Favorite Food 10 Times",
 "reward": 150,
 "total": 10,
-"done": 5,
+"done": 0,
 "id": "t852"
 },
 {
@@ -9390,7 +9390,7 @@
 "requirement": "Feed the Owls Once",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t853"
 },
 {
@@ -9401,7 +9401,7 @@
 "requirement": "Feed the Owls 7 Times",
 "reward": 100,
 "total": 7,
-"done": 7,
+"done": 0,
 "id": "t854"
 },
 {
@@ -9412,7 +9412,7 @@
 "requirement": "Feed the Owls 25 Times",
 "reward": 150,
 "total": 25,
-"done": 25,
+"done": 0,
 "id": "t855"
 },
 {
@@ -9423,7 +9423,7 @@
 "requirement": "Feed the Owls 40 Times",
 "reward": 200,
 "total": 40,
-"done": 31,
+"done": 0,
 "id": "t856"
 },
 {
@@ -9434,7 +9434,7 @@
 "requirement": "Feed the Owls 90 Times",
 "reward": 250,
 "total": 90,
-"done": 31,
+"done": 0,
 "id": "t857"
 },
 {
@@ -9445,7 +9445,7 @@
 "requirement": "Feed the Owls Their Favorite Food Once",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t858"
 },
 {
@@ -9456,7 +9456,7 @@
 "requirement": "Feed the Owls Their Favorite Food 3 Times",
 "reward": 100,
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t859"
 },
 {
@@ -9467,7 +9467,7 @@
 "requirement": "Feed the Owls Their Favorite Food 10 Times",
 "reward": 150,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t860"
 },
 {
@@ -9478,7 +9478,7 @@
 "requirement": "Hang Out With Friends From the Storybook Vale for 60 Minutes",
 "reward": 50,
 "total": 60,
-"done": 60,
+"done": 0,
 "id": "t861"
 },
 {
@@ -9489,7 +9489,7 @@
 "requirement": "Hang Out With Friends From the Storybook Vale for 120 Minutes",
 "reward": 100,
 "total": 120,
-"done": 120,
+"done": 0,
 "id": "t862"
 },
 {
@@ -9500,7 +9500,7 @@
 "requirement": "Hang Out With Friends From the Storybook Vale for 240 Minutes",
 "reward": 150,
 "total": 240,
-"done": 240,
+"done": 0,
 "id": "t863"
 },
 {
@@ -9566,7 +9566,7 @@
 "requirement": "Sell 20 Fruits from the Storybook Vale",
 "reward": 50,
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t869"
 },
 {
@@ -9577,7 +9577,7 @@
 "requirement": "Sell 230 Fruits from the Storybook Vale",
 "reward": 100,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t870"
 },
 {
@@ -9588,7 +9588,7 @@
 "requirement": "Sell 750 Fruits from the Storybook Vale",
 "reward": 150,
 "total": 750,
-"done": 750,
+"done": 0,
 "id": "t871"
 },
 {
@@ -9599,7 +9599,7 @@
 "requirement": "Sell 1300 Fruits from the Storybook Vale",
 "reward": 200,
 "total": 1300,
-"done": 1300,
+"done": 0,
 "id": "t872"
 },
 {
@@ -9610,7 +9610,7 @@
 "requirement": "Sell 3000 Fruits from the Storybook Vale",
 "reward": 250,
 "total": 3000,
-"done": 2000,
+"done": 0,
 "id": "t873"
 },
 {
@@ -9676,7 +9676,7 @@
 "requirement": "Sell 10 Vegetables from the Storybook Vale",
 "reward": 50,
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t879"
 },
 {
@@ -9687,7 +9687,7 @@
 "requirement": "Sell 120 Vegetables from the Storybook Vale",
 "reward": 100,
 "total": 120,
-"done": 120,
+"done": 0,
 "id": "t880"
 },
 {
@@ -9698,7 +9698,7 @@
 "requirement": "Sell 380 Vegetables from the Storybook Vale",
 "reward": 150,
 "total": 380,
-"done": 380,
+"done": 0,
 "id": "t881"
 },
 {
@@ -9709,7 +9709,7 @@
 "requirement": "Sell 670 Vegetables from the Storybook Vale",
 "reward": 200,
 "total": 670,
-"done": 670,
+"done": 0,
 "id": "t882"
 },
 {
@@ -9720,7 +9720,7 @@
 "requirement": "Sell 1500 Vegetables from the Storybook Vale",
 "reward": 250,
 "total": 1500,
-"done": 1500,
+"done": 0,
 "id": "t883"
 },
 {
@@ -9731,7 +9731,7 @@
 "requirement": "Plant 25 Vegetables from the Storybook Vale",
 "reward": 50,
 "total": 25,
-"done": 25,
+"done": 0,
 "id": "t884"
 },
 {
@@ -9742,7 +9742,7 @@
 "requirement": "Plant 350 Vegetables from the Storybook Vale",
 "reward": 100,
 "total": 350,
-"done": 350,
+"done": 0,
 "id": "t885"
 },
 {
@@ -9753,7 +9753,7 @@
 "requirement": "Plant 1100 Vegetables from the Storybook Vale",
 "reward": 150,
 "total": 1100,
-"done": 1100,
+"done": 0,
 "id": "t886"
 },
 {
@@ -9764,7 +9764,7 @@
 "requirement": "Plant 2000 Vegetables from the Storybook Vale",
 "reward": 200,
 "total": 2000,
-"done": 2000,
+"done": 0,
 "id": "t887"
 },
 {
@@ -9775,7 +9775,7 @@
 "requirement": "Plant 4500 Vegetables from the Storybook Vale",
 "reward": 250,
 "total": 4500,
-"done": 4500,
+"done": 0,
 "id": "t888"
 },
 {
@@ -9786,7 +9786,7 @@
 "requirement": "Craft 1 Snippet Repellent",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t889"
 },
 {
@@ -9797,7 +9797,7 @@
 "requirement": "Craft 3 Snippet Repellents",
 "reward": 100,
 "total": 3,
-"done": 1,
+"done": 0,
 "id": "t890"
 },
 {
@@ -9808,7 +9808,7 @@
 "requirement": "Craft 5 Snippet Repellents",
 "reward": 150,
 "total": 5,
-"done": 1,
+"done": 0,
 "id": "t891"
 },
 {
@@ -9852,7 +9852,7 @@
 "requirement": "Craft 1 Slow Trap",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t895"
 },
 {
@@ -9863,7 +9863,7 @@
 "requirement": "Craft 3 Slow Traps",
 "reward": 100,
 "total": 3,
-"done": 1,
+"done": 0,
 "id": "t896"
 },
 {
@@ -9874,7 +9874,7 @@
 "requirement": "Craft 5 Slow Traps",
 "reward": 150,
 "total": 5,
-"done": 1,
+"done": 0,
 "id": "t897"
 },
 {
@@ -9885,7 +9885,7 @@
 "requirement": "Harvest 5 Vanilla",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t898"
 },
 {
@@ -9896,7 +9896,7 @@
 "requirement": "Harvest 70 Vanilla",
 "reward": 100,
 "total": 70,
-"done": 42,
+"done": 0,
 "id": "t899"
 },
 {
@@ -9907,7 +9907,7 @@
 "requirement": "Harvest 230 Vanilla",
 "reward": 150,
 "total": 230,
-"done": 42,
+"done": 0,
 "id": "t900"
 },
 {
@@ -9918,7 +9918,7 @@
 "requirement": "Harvest 400 Vanilla",
 "reward": 200,
 "total": 400,
-"done": 42,
+"done": 0,
 "id": "t901"
 },
 {
@@ -9929,7 +9929,7 @@
 "requirement": "Harvest 900 Vanilla",
 "reward": 250,
 "total": 900,
-"done": 42,
+"done": 0,
 "id": "t902"
 },
 {
@@ -9940,7 +9940,7 @@
 "requirement": "Harvest 5 Olives",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t903"
 },
 {
@@ -9951,7 +9951,7 @@
 "requirement": "Harvest 70 Olives",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t904"
 },
 {
@@ -9962,7 +9962,7 @@
 "requirement": "Harvest 230 Olives",
 "reward": 150,
 "total": 230,
-"done": 119,
+"done": 0,
 "id": "t905"
 },
 {
@@ -9973,7 +9973,7 @@
 "requirement": "Harvest 400 Olives",
 "reward": 200,
 "total": 400,
-"done": 119,
+"done": 0,
 "id": "t906"
 },
 {
@@ -9984,7 +9984,7 @@
 "requirement": "Harvest 900 Olives",
 "reward": 250,
 "total": 900,
-"done": 119,
+"done": 0,
 "id": "t907"
 },
 {
@@ -9995,7 +9995,7 @@
 "requirement": "Harvest 5 Persimmons",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t908"
 },
 {
@@ -10006,7 +10006,7 @@
 "requirement": "Harvest 70 Persimmons",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t909"
 },
 {
@@ -10017,7 +10017,7 @@
 "requirement": "Harvest 230 Persimmons",
 "reward": 150,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t910"
 },
 {
@@ -10028,7 +10028,7 @@
 "requirement": "Harvest 400 Persimmons",
 "reward": 200,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t911"
 },
 {
@@ -10039,7 +10039,7 @@
 "requirement": "Harvest 900 Persimmons",
 "reward": 250,
 "total": 900,
-"done": 614,
+"done": 0,
 "id": "t912"
 },
 {
@@ -10050,7 +10050,7 @@
 "requirement": "Harvest 5 Sour Berries",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t913"
 },
 {
@@ -10061,7 +10061,7 @@
 "requirement": "Harvest 70 Sour Berries",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t914"
 },
 {
@@ -10072,7 +10072,7 @@
 "requirement": "Harvest 230 Sour Berries",
 "reward": 150,
 "total": 230,
-"done": 230,
+"done": 0,
 "id": "t915"
 },
 {
@@ -10083,7 +10083,7 @@
 "requirement": "Harvest 400 Sour Berries",
 "reward": 200,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t916"
 },
 {
@@ -10094,7 +10094,7 @@
 "requirement": "Harvest 900 Sour Berries",
 "reward": 250,
 "total": 900,
-"done": 417,
+"done": 0,
 "id": "t917"
 },
 {
@@ -10105,7 +10105,7 @@
 "requirement": "Harvest 5 Nutmeg",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t918"
 },
 {
@@ -10116,7 +10116,7 @@
 "requirement": "Harvest 70 Nutmeg",
 "reward": 100,
 "total": 70,
-"done": 67,
+"done": 0,
 "id": "t919"
 },
 {
@@ -10127,7 +10127,7 @@
 "requirement": "Harvest 230 Nutmeg",
 "reward": 150,
 "total": 230,
-"done": 67,
+"done": 0,
 "id": "t920"
 },
 {
@@ -10138,7 +10138,7 @@
 "requirement": "Harvest 400 Nutmeg",
 "reward": 200,
 "total": 400,
-"done": 67,
+"done": 0,
 "id": "t921"
 },
 {
@@ -10149,7 +10149,7 @@
 "requirement": "Harvest 900 Nutmeg",
 "reward": 250,
 "total": 900,
-"done": 67,
+"done": 0,
 "id": "t922"
 },
 {
@@ -10160,7 +10160,7 @@
 "requirement": "Harvest 5 Brussel Sprouts",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t923"
 },
 {
@@ -10171,7 +10171,7 @@
 "requirement": "Harvest 70 Brussel Sprouts",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t924"
 },
 {
@@ -10182,7 +10182,7 @@
 "requirement": "Harvest 230 Brussel Sprouts",
 "reward": 150,
 "total": 230,
-"done": 177,
+"done": 0,
 "id": "t925"
 },
 {
@@ -10193,7 +10193,7 @@
 "requirement": "Harvest 400 Brussel Sprouts",
 "reward": 200,
 "total": 400,
-"done": 177,
+"done": 0,
 "id": "t926"
 },
 {
@@ -10204,7 +10204,7 @@
 "requirement": "Harvest 900 Brussel Sprouts",
 "reward": 250,
 "total": 900,
-"done": 177,
+"done": 0,
 "id": "t927"
 },
 {
@@ -10215,7 +10215,7 @@
 "requirement": "Harvest 5 Spiral Strawberris",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t928"
 },
 {
@@ -10226,7 +10226,7 @@
 "requirement": "Harvest 70 Spiral Strawberris",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t929"
 },
 {
@@ -10237,7 +10237,7 @@
 "requirement": "Harvest 230 Spiral Strawberris",
 "reward": 150,
 "total": 230,
-"done": 174,
+"done": 0,
 "id": "t930"
 },
 {
@@ -10248,7 +10248,7 @@
 "requirement": "Harvest 400 Spiral Strawberris",
 "reward": 200,
 "total": 400,
-"done": 174,
+"done": 0,
 "id": "t931"
 },
 {
@@ -10259,7 +10259,7 @@
 "requirement": "Harvest 900 Spiral Strawberris",
 "reward": 250,
 "total": 900,
-"done": 174,
+"done": 0,
 "id": "t932"
 },
 {
@@ -10270,7 +10270,7 @@
 "requirement": "Harvest 5 Porcini",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t933"
 },
 {
@@ -10281,7 +10281,7 @@
 "requirement": "Harvest 70 Porcini",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t934"
 },
 {
@@ -10292,7 +10292,7 @@
 "requirement": "Harvest 230 Porcini",
 "reward": 150,
 "total": 230,
-"done": 103,
+"done": 0,
 "id": "t935"
 },
 {
@@ -10303,7 +10303,7 @@
 "requirement": "Harvest 400 Porcini",
 "reward": 200,
 "total": 400,
-"done": 103,
+"done": 0,
 "id": "t936"
 },
 {
@@ -10314,7 +10314,7 @@
 "requirement": "Harvest 900 Porcini",
 "reward": 250,
 "total": 900,
-"done": 103,
+"done": 0,
 "id": "t937"
 },
 {
@@ -10325,7 +10325,7 @@
 "requirement": "Harvest 5 Lightning Spice",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t938"
 },
 {
@@ -10336,7 +10336,7 @@
 "requirement": "Harvest 70 Lightning Spice",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t939"
 },
 {
@@ -10347,7 +10347,7 @@
 "requirement": "Harvest 230 Lightning Spice",
 "reward": 150,
 "total": 230,
-"done": 103,
+"done": 0,
 "id": "t940"
 },
 {
@@ -10358,7 +10358,7 @@
 "requirement": "Harvest 400 Lightning Spice",
 "reward": 200,
 "total": 400,
-"done": 103,
+"done": 0,
 "id": "t941"
 },
 {
@@ -10369,7 +10369,7 @@
 "requirement": "Harvest 900 Lightning Spice",
 "reward": 250,
 "total": 900,
-"done": 103,
+"done": 0,
 "id": "t942"
 },
 {
@@ -10380,7 +10380,7 @@
 "requirement": "Harvest 5 Trumpet Snails",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t943"
 },
 {
@@ -10391,7 +10391,7 @@
 "requirement": "Harvest 70 Trumpet Snails",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t944"
 },
 {
@@ -10402,7 +10402,7 @@
 "requirement": "Harvest 230 Trumpet Snails",
 "reward": 150,
 "total": 230,
-"done": 158,
+"done": 0,
 "id": "t945"
 },
 {
@@ -10413,7 +10413,7 @@
 "requirement": "Harvest 400 Trumpet Snails",
 "reward": 200,
 "total": 400,
-"done": 158,
+"done": 0,
 "id": "t946"
 },
 {
@@ -10424,7 +10424,7 @@
 "requirement": "Harvest 900 Trumpet Snails",
 "reward": 250,
 "total": 900,
-"done": 158,
+"done": 0,
 "id": "t947"
 },
 {
@@ -10435,7 +10435,7 @@
 "requirement": "Harvest 5 Cape Gooseberries",
 "reward": 50,
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t948"
 },
 {
@@ -10446,7 +10446,7 @@
 "requirement": "Harvest 70 Cape Gooseberries",
 "reward": 100,
 "total": 70,
-"done": 70,
+"done": 0,
 "id": "t949"
 },
 {
@@ -10457,7 +10457,7 @@
 "requirement": "Harvest 230 Cape Gooseberries",
 "reward": 150,
 "total": 230,
-"done": 142,
+"done": 0,
 "id": "t950"
 },
 {
@@ -10468,7 +10468,7 @@
 "requirement": "Harvest 400 Cape Gooseberries",
 "reward": 200,
 "total": 400,
-"done": 142,
+"done": 0,
 "id": "t951"
 },
 {
@@ -10479,7 +10479,7 @@
 "requirement": "Harvest 900 Cape Gooseberries",
 "reward": 250,
 "total": 900,
-"done": 142,
+"done": 0,
 "id": "t952"
 },
 {
@@ -10490,7 +10490,7 @@
 "requirement": "Harvest 25 Vegetables from the Storybook Vale",
 "reward": 50,
 "total": 25,
-"done": 25,
+"done": 0,
 "id": "t953"
 },
 {
@@ -10501,7 +10501,7 @@
 "requirement": "Harvest 400 Vegetables from the Storybook Vale",
 "reward": 100,
 "total": 400,
-"done": 400,
+"done": 0,
 "id": "t954"
 },
 {
@@ -10512,7 +10512,7 @@
 "requirement": "Harvest 1100 Vegetables from the Storybook Vale",
 "reward": 150,
 "total": 1100,
-"done": 1100,
+"done": 0,
 "id": "t955"
 },
 {
@@ -10523,7 +10523,7 @@
 "requirement": "Harvest 2000 Vegetables from the Storybook Vale",
 "reward": 200,
 "total": 2000,
-"done": 2000,
+"done": 0,
 "id": "t956"
 },
 {
@@ -10534,7 +10534,7 @@
 "requirement": "Harvest 4500 Vegetables from the Storybook Vale",
 "reward": 250,
 "total": 4500,
-"done": 4500,
+"done": 0,
 "id": "t957"
 },
 {
@@ -10545,7 +10545,7 @@
 "requirement": "Reorder 1 Story",
 "reward": 50,
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t958"
 },
 {
@@ -10556,7 +10556,7 @@
 "requirement": "Reorder 10 Stories",
 "reward": 100,
 "total": 10,
-"done": 5,
+"done": 0,
 "id": "t959"
 },
 {
@@ -10567,7 +10567,7 @@
 "requirement": "Reorder 30 Stories",
 "reward": 150,
 "total": 30,
-"done": 5,
+"done": 0,
 "id": "t960"
 },
 {
@@ -10578,7 +10578,7 @@
 "requirement": "Reorder 50 Stories",
 "reward": 200,
 "total": 50,
-"done": 5,
+"done": 0,
 "id": "t961"
 },
 {
@@ -10589,7 +10589,7 @@
 "requirement": "Reorder 120 Stories",
 "reward": 250,
 "total": 120,
-"done": 5,
+"done": 0,
 "id": "t962"
 },
 {
@@ -10600,7 +10600,7 @@
 "requirement": "Eat a Sweet-Based Meal",
 "reward": "Happy Jack-O-Lantern",
 "total": 15,
-"done": 15,
+"done": 0,
 "id": "t963"
 },
 {
@@ -10611,7 +10611,7 @@
 "requirement": "Eat a Sweet-Based Meal",
 "reward": "Mischevious Jack-O-Lantern",
 "total": 30,
-"done": 30,
+"done": 0,
 "id": "t964"
 },
 {
@@ -10622,7 +10622,7 @@
 "requirement": "Eat a Sweet-Based Meal",
 "reward": "Friendly Jack-O-Lantern",
 "total": 45,
-"done": 45,
+"done": 0,
 "id": "t965"
 },
 {
@@ -10633,7 +10633,7 @@
 "requirement": "Give 10 Villagers Candy as a Gift",
 "reward": "Mickeyt Mouse Pumpkin",
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t966"
 },
 {
@@ -10644,7 +10644,7 @@
 "requirement": "Eat All 3 Colours of Candy Collected from the Plaza",
 "reward": "Green Trick-or-Treaters Bounty",
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t967"
 },
 {
@@ -10655,7 +10655,7 @@
 "requirement": "Wear a Mask",
 "reward": "Purple Trick-or-Treaters Bounty",
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t968"
 },
 {
@@ -10666,7 +10666,7 @@
 "requirement": "Harvest Pumpkins",
 "reward": "Pumpkin Stack",
 "total": 100,
-"done": 100,
+"done": 0,
 "id": "t969"
 },
 {
@@ -10677,7 +10677,7 @@
 "requirement": "Give 10 Villagers a Gift Crafted Using Festive Wrapping Paper",
 "reward": "Pile of Gifts",
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t970"
 },
 {
@@ -10688,7 +10688,7 @@
 "requirement": "Place a Crafted Snowman",
 "reward": "Festive Candy Ears with Bow",
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t971"
 },
 {
@@ -10699,7 +10699,7 @@
 "requirement": "Eat 3 Unique Cookies",
 "reward": "Festive Candy Ears",
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t972"
 },
 {
@@ -10710,7 +10710,7 @@
 "requirement": "Catch All 5 Festive Fish",
 "reward": "Santa Hat",
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t973"
 },
 {
@@ -10721,7 +10721,7 @@
 "requirement": "Decorate Indoors with 5 Festive Crafted or Event Items",
 "reward": "Winter Carpet",
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t974"
 },
 {
@@ -10732,7 +10732,7 @@
 "requirement": "Harvest 10 Spring V-EGG-etables",
 "reward": "Spring Chocolate",
 "total": 10,
-"done": 10,
+"done": 0,
 "id": "t975"
 },
 {
@@ -10743,7 +10743,7 @@
 "requirement": "Harvest 30 Spring V-EGG-etables",
 "reward": "Blue Spring Rabbit",
 "total": 30,
-"done": 30,
+"done": 0,
 "id": "t976"
 },
 {
@@ -10754,7 +10754,7 @@
 "requirement": "Harvest 60 Spring V-EGG-etables",
 "reward": "Pink Spring Rabbit",
 "total": 60,
-"done": 60,
+"done": 0,
 "id": "t977"
 },
 {
@@ -10765,7 +10765,7 @@
 "requirement": "Harvest 100 Spring V-EGG-etables",
 "reward": "Yellow Spring Rabbit",
 "total": 100,
-"done": 100,
+"done": 0,
 "id": "t978"
 },
 {
@@ -10776,7 +10776,7 @@
 "requirement": "Eat All 3 Spring Meals",
 "reward": "Spring Tableware",
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t979"
 },
 {
@@ -10787,7 +10787,7 @@
 "requirement": "Pick-up Flowers While Hanging Out with WALL-E",
 "reward": "Decorative Tulip Bouquet",
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t980"
 },
 {
@@ -10798,7 +10798,7 @@
 "requirement": "Place 4 Egg-Themed Crafter Furniture Pieces",
 "reward": "Tulip Lamp",
 "total": 4,
-"done": 4,
+"done": 0,
 "id": "t981"
 },
 {
@@ -10809,7 +10809,7 @@
 "requirement": "Craft 20 Purple Buttons",
 "reward": "Retro Magic Kingdom Map",
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t982"
 },
 {
@@ -10820,7 +10820,7 @@
 "requirement": "Craft & Place Any 5 Popcorn Buckets Outdoors",
 "reward": "Vintage Magic Kingdom Map",
 "total": 5,
-"done": 5,
+"done": 0,
 "id": "t983"
 },
 {
@@ -10831,7 +10831,7 @@
 "requirement": "Cook 50 of Any Applicable Cupcake Recipes & Gift Them to Any Villager",
 "reward": "Magic Kingdom Map",
 "total": 50,
-"done": 50,
+"done": 0,
 "id": "t984"
 },
 {
@@ -10842,7 +10842,7 @@
 "requirement": "Craft Metallic Mickey Popcorn Bucket",
 "reward": "Metallic Mickey's Handheld Popcorn Bucket",
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t985"
 },
 {
@@ -10853,7 +10853,7 @@
 "requirement": "Craft Pooh Popcorn Bucket",
 "reward": "Pooh's Handheld Popcorn Bucket",
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t986"
 },
 {
@@ -10864,7 +10864,7 @@
 "requirement": "Craft Figment Popcorn Bucket",
 "reward": "Figment's Handheld Popcorn Bucket",
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t987"
 },
 {
@@ -10875,7 +10875,7 @@
 "requirement": "Craft Stitch Popcorn Bucket",
 "reward": "Stitch's Handheld Popcorn Bucket",
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t988"
 },
 {
@@ -10886,7 +10886,7 @@
 "requirement": "Craft Cinderella Popcorn Bucket",
 "reward": "Cinderella's Handheld Popcorn Bucket",
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t989"
 },
 {
@@ -10897,7 +10897,7 @@
 "requirement": "Craft Dug Popcorn Bucket",
 "reward": "Dug's Handheld Popcorn Bucket",
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t990"
 },
 {
@@ -10908,7 +10908,7 @@
 "requirement": "Craft a Minecart Popcorn Bucket",
 "reward": "Minecart Handheld Popcorn Bucket",
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t991"
 },
 {
@@ -10919,7 +10919,7 @@
 "requirement": "Complete the Event Memory by Removing Cracks in the Valley",
 "reward": "Twisting Rabbit Mirror",
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t992"
 },
 {
@@ -10930,7 +10930,7 @@
 "requirement": "Remove 20 Paw Prints from the Toy Story Realm",
 "reward": "Rabbit Rocking Chair",
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t993"
 },
 {
@@ -10941,7 +10941,7 @@
 "requirement": "Remove 20 Paw Prints from the Lion King Realm",
 "reward": "Rabbit Vanity",
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t994"
 },
 {
@@ -10952,7 +10952,7 @@
 "requirement": "Remove 20 Paw Prints from the Aladdin Realm",
 "reward": "Rabbit Grandfather Clock",
 "total": 20,
-"done": 20,
+"done": 0,
 "id": "t995"
 },
 {
@@ -10963,7 +10963,7 @@
 "requirement": "Complete Dreamlight Valley Memory 34",
 "reward": "Anxiety Squirrel",
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t996"
 },
 {
@@ -10974,7 +10974,7 @@
 "requirement": "Complete Dreamlight Valley Memory 33, 34 & 35",
 "reward": "Embarrassment Turtle",
 "total": 3,
-"done": 3,
+"done": 0,
 "id": "t997"
 },
 {
@@ -10985,7 +10985,7 @@
 "requirement": "Pick-up Memory Shards",
 "reward": "Lance Slashblade Statue",
 "total": 200,
-"done": 200,
+"done": 0,
 "id": "t998"
 },
 {
@@ -10996,7 +10996,7 @@
 "requirement": "Complete Dreamlight Valley Memory 35",
 "reward": "Envy Rabbit",
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t999"
 },
 {
@@ -11007,7 +11007,7 @@
 "requirement": "Complete Dreamlight Valley Memory 33",
 "reward": "Ennui Raven",
 "total": 1,
-"done": 1,
+"done": 0,
 "id": "t1000"
 },
 {
@@ -11018,7 +11018,7 @@
 "requirement": "Gift 25 Roasted Marshmallows to Villagers",
 "reward": "Birding Top",
 "total": 25,
-"done": 25,
+"done": 0,
 "id": "t1001"
 },
 {
@@ -11029,7 +11029,7 @@
 "requirement": "Eat 25 S'mores",
 "reward": "Hiking Backpack",
 "total": 25,
-"done": 25,
+"done": 0,
 "id": "t1002"
 },
 {
@@ -11040,7 +11040,7 @@
 "requirement": "Have 7 Total Four-Leaf Clovers in Inventory & Storage",
 "reward": "Lucky Shirt",
 "total": 7,
-"done": 7,
+"done": 0,
 "id": "t1003"
 },
 {

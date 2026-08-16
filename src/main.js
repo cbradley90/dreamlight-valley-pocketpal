@@ -112,7 +112,7 @@ function bindEvents() {
 
   document.getElementById('resetProgress').addEventListener('click', () => {
     const ok = confirm(
-      'Reset all saved progress in this browser back to the original starting values? This cannot be undone.',
+      'Reset all task counts in this browser back to zero? This cannot be undone — export your save first if you want a backup.',
     );
     if (!ok) return;
     resetState();

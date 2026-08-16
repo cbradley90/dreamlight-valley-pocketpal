@@ -22,7 +22,9 @@ Then open http://localhost:5173.
 | --- | --- |
 | `npm run build` | Production build into `dist/` |
 | `npm run preview` | Serve the built `dist/` locally |
-| `npm test` | Run unit tests |
+| `npm test` | Unit tests for the progress maths |
+| `npm run test:smoke` | Boot the built app in jsdom and check it works (needs `build` first) |
+| `npm run test:all` | Unit tests, build, then smoke tests |
 | `npm run validate:data` | Check `tasks.json` invariants |
 
 ## Features

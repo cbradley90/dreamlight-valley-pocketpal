@@ -33,6 +33,9 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Smoke test the built app
+        run: npm run test:smoke
+
       - name: Check build output
         run: |
           test -f dist/index.html || { echo "::error::dist/index.html missing"; exit 1; }

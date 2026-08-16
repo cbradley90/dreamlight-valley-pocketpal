@@ -12,12 +12,19 @@ npm install
 npm run dev            # Vite dev server on :5173
 npm run build          # production build to dist/
 npm run preview        # serve dist/ locally
-npm test               # vitest, unit tests for src/lib/progress.js
+npm test               # unit tests for src/lib/progress.js
+npm run test:smoke     # boots dist/ in jsdom — needs a build first
+npm run test:all       # unit -> build -> smoke, what CI does
 npm run validate:data  # tasks.json invariants, including id stability
 ```
 
-CI (`.github/workflows/ci.yml`) runs validate:data, test, and build on every
-push and PR. Run all three locally before pushing.
+CI (`.github/workflows/ci.yml`) runs validate:data, unit tests, build, and the
+smoke tests on every push and PR. `npm run test:all` reproduces it locally.
+
+Two layers of test on purpose: `src/lib/progress.test.js` covers the maths in
+isolation, `tests/smoke.test.js` boots the actual built bundle in jsdom. The
+second exists because a build that renders nothing still passes `vite build` —
+that's how the `window.storage` bug survived to deployment.
 
 ## Architecture
 
@@ -73,7 +80,9 @@ task added, import, reset.
   Only re-record it (`npm run validate:data -- --write-manifest`) when a removal
   is genuinely intended.
 - `done` is the *starting* value shipped with the app, used to seed a fresh
-  browser. The player's live count lives in `state.doneMap`, not here.
+  browser. It should always be `0` — the app ships empty and every player starts
+  from scratch. The live count lives in `state.doneMap`, not here.
+  `validate:data` fails the build if any shipped `done` is non-zero.
 - `reward` is a number (currency, suffix from `REWARD_CURRENCY`) or a string
   (an item name, printed as-is).
 - `expansion` must match an `id` in `src/data/expansions.js`.

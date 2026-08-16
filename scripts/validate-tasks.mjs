@@ -64,6 +64,10 @@ tasks.forEach((t, i) => {
     fail(`${where}: done must be a non-negative integer, got ${JSON.stringify(t.done)}`);
   } else if (typeof t.total === 'number' && done > t.total) {
     fail(`${where}: done (${done}) exceeds total (${t.total})`);
+  } else if (done !== 0) {
+    // The app ships empty. A non-zero shipped count means someone committed
+    // their own save state, and every new visitor would inherit it.
+    fail(`${where}: shipped done must be 0, got ${done} — don't commit personal progress`);
   }
 
   if (t.reward !== null && t.reward !== undefined) {

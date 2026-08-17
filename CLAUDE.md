@@ -101,27 +101,39 @@ for any expansion with no entries.
 
 ## Cloud sync (Supabase)
 
-Optional. With no `VITE_SUPABASE_URL` / `VITE_SUPABASE_ANON_KEY` set, the app
-behaves exactly as before — `supabaseClient.js` never calls `createClient`,
-`authAvailable()` is false, and `#authPanel` stays `hidden`. This is the state
-CI always builds in, since no secrets are configured there.
+Gated on configuration. With no `VITE_SUPABASE_URL` / `VITE_SUPABASE_ANON_KEY`
+set, the app behaves exactly as before — `supabaseClient.js` never calls
+`createClient`, `authAvailable()` is false, and there's no sign-in, no gate,
+just the original local-only app rendered straight away. This is the state CI
+always builds in, since no secrets are configured there.
 
-When both env vars are present:
+When both env vars are present, sign-in is **required**: `main.js`'s `init()`
+shows `#authLoading` while the restored session (if any) resolves, then
+`#landingScreen` (sign in / create account) if there's no session, or
+`#appScreen` (the tracker) once there is one. Nobody sees task data without an
+account on a configured deploy — that's deliberate, not a bug to "fix" by
+loosening it back to optional. `screens`/`showScreen()` in `main.js` are the
+whole gate; the three screen elements are mutually exclusive via `hidden`.
 
-- `src/ui/auth.js` renders an email/password sign in / create account form.
-  No magic links, no OAuth providers — deliberately the simplest option
-  Supabase Auth offers.
+- `src/ui/auth.js` exports `renderSignedOut(container, message)` and
+  `renderSignedIn(container, user, message)` — pure rendering into whatever
+  container the caller passes, plus `watchAuth(onSessionChange)` to subscribe.
+  It has no opinion on which screen is visible; `main.js` owns that. Email +
+  password only — no magic links, no OAuth providers.
 - Once signed in, `storage.js`'s `load()`/`save()`/`clear()` transparently
   route to the `progress` table (see `supabase/schema.sql`) instead of
   localStorage — same exported function signatures, per the storage
   convention below. Row Level Security keyed on `auth.uid()` is what actually
   protects each player's row; the anon key shipped to the browser is public by
   design and gives no access on its own.
-- `main.js`'s `handleAuthChange()` reacts to sign-in/sign-out happening live
-  during a visit. On first sign-in with no existing cloud row, it offers to
-  import whatever's in `storage.peekLocalSave()` (the device's local save) —
-  this is the only place local progress is copied into the cloud; it never
-  happens automatically.
+- `main.js`'s `handleAuthChange()` is `watchAuth`'s callback — it runs once on
+  boot with whatever session was restored, and again on every live sign-in/
+  sign-out. On first sign-in with no existing cloud row, it offers to import
+  whatever's in `storage.peekLocalSave()` (the device's local save) — this
+  matters a lot here, since turning the gate on doesn't erase anyone's
+  pre-existing local-only progress, it just requires an account to see it
+  again. This is the only place local progress is copied into the cloud; it
+  never happens automatically.
 - Local dev: copy `.env.example` to `.env.local` with your project's URL and
   anon/publishable key (Supabase dashboard → Settings → API). In Netlify,
   set the same two keys as build environment variables — they're safe to

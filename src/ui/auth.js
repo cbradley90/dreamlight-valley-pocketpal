@@ -1,14 +1,11 @@
-// Sign in / sign up / sign out panel. Renders nothing (and stays hidden) when
-// Supabase isn't configured, so a plain localStorage-only deploy is
-// unaffected.
+// Sign in / sign up / sign out form rendering, plus a helper to watch auth
+// state. This module only knows how to draw the form/status into whatever
+// container it's given and talk to Supabase Auth — main.js owns deciding
+// which screen is visible and what to do on each transition (the gate).
 
-import { authAvailable, signUp, signIn, signOut, onAuthChange } from '../lib/auth.js';
+import { signUp, signIn, signOut, onAuthChange } from '../lib/auth.js';
 
 let busy = false;
-
-function panel() {
-  return document.getElementById('authPanel');
-}
 
 function fieldValues(root) {
   return {
@@ -17,10 +14,10 @@ function fieldValues(root) {
   };
 }
 
-async function withBusy(onError, fn) {
+async function withBusy(root, onError, fn) {
   if (busy) return;
   busy = true;
-  panel().querySelectorAll('button').forEach((b) => { b.disabled = true; });
+  root.querySelectorAll('button').forEach((b) => { b.disabled = true; });
   try {
     await fn();
   } catch (err) {
@@ -30,8 +27,7 @@ async function withBusy(onError, fn) {
   }
 }
 
-function renderSignedOut(message = '') {
-  const root = panel();
+export function renderSignedOut(root, message = '') {
   root.innerHTML = `
     <form id="authForm" class="auth-form">
       <input type="email" id="authEmail" placeholder="Email" required autocomplete="email">
@@ -46,25 +42,24 @@ function renderSignedOut(message = '') {
   root.querySelector('#authForm').addEventListener('submit', (e) => {
     e.preventDefault();
     const { email, password } = fieldValues(root);
-    withBusy((msg) => renderSignedOut(msg), () => signIn(email, password));
+    withBusy(root, (msg) => renderSignedOut(root, msg), () => signIn(email, password));
   });
 
   root.querySelector('#authSignUpBtn').addEventListener('click', () => {
     const { email, password } = fieldValues(root);
-    withBusy((msg) => renderSignedOut(msg), async () => {
+    withBusy(root, (msg) => renderSignedOut(root, msg), async () => {
       const data = await signUp(email, password);
       if (!data.session) {
-        renderSignedOut('Check your email to confirm your account, then sign in.');
+        renderSignedOut(root, 'Check your email to confirm your account, then sign in.');
       }
     });
   });
 }
 
-function renderSignedIn(user, message = '') {
-  const root = panel();
+export function renderSignedIn(root, user, message = '') {
   root.innerHTML = `
     <div class="auth-status">
-      <span>Signed in as <strong id="authEmailLabel"></strong> &mdash; progress syncs to your account.</span>
+      <span>Signed in as <strong id="authEmailLabel"></strong></span>
       <button type="button" class="ghost" id="authSignOutBtn">Sign out</button>
     </div>
     <div class="auth-message" id="authMessage"></div>
@@ -73,7 +68,7 @@ function renderSignedIn(user, message = '') {
   root.querySelector('#authMessage').textContent = message;
 
   root.querySelector('#authSignOutBtn').addEventListener('click', () => {
-    withBusy((msg) => renderSignedIn(user, msg), () => signOut());
+    withBusy(root, (msg) => renderSignedIn(root, user, msg), () => signOut());
   });
 }
 
@@ -82,17 +77,9 @@ function renderSignedIn(user, message = '') {
  *   Called on every sign-in/sign-out, including once on load with the
  *   restored session (if any). `isInitial` is true only for that first call.
  */
-export function initAuthUI(onSessionChange) {
-  if (!authAvailable()) {
-    panel().hidden = true;
-    return;
-  }
-  panel().hidden = false;
-
+export function watchAuth(onSessionChange) {
   let first = true;
   onAuthChange((session) => {
-    if (session) renderSignedIn(session.user);
-    else renderSignedOut();
     onSessionChange(session, first);
     first = false;
   });

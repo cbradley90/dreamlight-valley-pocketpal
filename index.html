@@ -17,59 +17,72 @@
     <h1>Dreamlight Valley PocketPal</h1>
     <p>Toggle the expansions you own so your tree stage and completion percent reflect only the tasks that actually apply to you.</p>
   </div>
-  <div id="saveStatus"><span class="dot"></span><span id="saveText">Saved to this browser</span></div>
+  <div id="saveStatus"><span class="dot"></span><span id="saveText">Saved</span></div>
 </header>
 
-<div class="wrap">
-  <div id="authPanel" class="auth-panel" hidden></div>
-
-  <section class="hero">
-    <div class="tree-panel">
-      <img id="treeImg" width="180" height="304" alt="Wishing well tree, growth reflects your completion stage" style="border-radius:14px;object-fit:cover;display:block;box-shadow:0 6px 18px rgba(0,0,0,0.4);" src="/tree/stage-0.jpg">
-      <div class="stage-label" id="stageLabel">Stage 0</div>
-    </div>
-    <div class="stats-grid">
-      <div class="stat-card">
-        <div class="label">Overall completion</div>
-        <div class="value gold" id="pctValue">0%</div>
-        <div class="progress-track"><div class="progress-fill" id="pctBar" style="width:0%"></div></div>
-      </div>
-      <div class="stat-card">
-        <div class="label">Tasks complete</div>
-        <div class="value" id="completeValue">0 / 0</div>
-      </div>
-      <div class="stat-card">
-        <div class="label">Expansions counted</div>
-        <div class="value" id="expCountValue" style="font-size:16px;">-</div>
-      </div>
-      <div class="stat-card">
-        <div class="label">Next stage at</div>
-        <div class="value" id="nextStageValue" style="font-size:16px;">-</div>
-      </div>
-    </div>
-  </section>
-
-  <div class="chips-row" id="chipsRow"></div>
-
-  <div class="toolbar">
-    <input id="search" type="text" placeholder="Search tasks, e.g. mine, harvest, catch...">
-    <button class="ghost" id="expandAll">Expand all</button>
-    <button class="ghost" id="collapseAll">Collapse all</button>
-    <button class="ghost" id="exportSave">Export save</button>
-    <button class="ghost" id="importSave">Import save</button>
-    <button class="ghost" id="resetProgress">Reset saved progress</button>
-    <input id="importFile" type="file" accept="application/json" hidden>
-  </div>
-
-  <div id="taskContainer"></div>
+<div id="authLoading" class="landing-screen">
+  <p>Loading&hellip;</p>
 </div>
 
-<footer class="note">
-  Progress is saved automatically in this browser. Sign in above to sync it to
-  your account and pick it up on another device &mdash; otherwise nothing you
-  enter leaves this browser. Use <strong>Export save</strong> any time to keep
-  a backup.
-</footer>
+<div id="landingScreen" class="landing-screen" hidden>
+  <div class="landing-card">
+    <h2>Sign in to track your progress</h2>
+    <p>Your Dreamlight Duties progress is saved to your account, so it's
+      there whenever you come back &mdash; on any device.</p>
+    <div id="landingAuthForm"></div>
+  </div>
+</div>
+
+<div id="appScreen" hidden>
+  <div class="wrap">
+    <div id="authPanel" class="auth-panel" hidden></div>
+
+    <section class="hero">
+      <div class="tree-panel">
+        <img id="treeImg" width="180" height="304" alt="Wishing well tree, growth reflects your completion stage" style="border-radius:14px;object-fit:cover;display:block;box-shadow:0 6px 18px rgba(0,0,0,0.4);" src="/tree/stage-0.jpg">
+        <div class="stage-label" id="stageLabel">Stage 0</div>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="label">Overall completion</div>
+          <div class="value gold" id="pctValue">0%</div>
+          <div class="progress-track"><div class="progress-fill" id="pctBar" style="width:0%"></div></div>
+        </div>
+        <div class="stat-card">
+          <div class="label">Tasks complete</div>
+          <div class="value" id="completeValue">0 / 0</div>
+        </div>
+        <div class="stat-card">
+          <div class="label">Expansions counted</div>
+          <div class="value" id="expCountValue" style="font-size:16px;">-</div>
+        </div>
+        <div class="stat-card">
+          <div class="label">Next stage at</div>
+          <div class="value" id="nextStageValue" style="font-size:16px;">-</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="chips-row" id="chipsRow"></div>
+
+    <div class="toolbar">
+      <input id="search" type="text" placeholder="Search tasks, e.g. mine, harvest, catch...">
+      <button class="ghost" id="expandAll">Expand all</button>
+      <button class="ghost" id="collapseAll">Collapse all</button>
+      <button class="ghost" id="exportSave">Export save</button>
+      <button class="ghost" id="importSave">Import save</button>
+      <button class="ghost" id="resetProgress">Reset saved progress</button>
+      <input id="importFile" type="file" accept="application/json" hidden>
+    </div>
+
+    <div id="taskContainer"></div>
+  </div>
+
+  <footer class="note">
+    Progress is saved automatically as you go. Use <strong>Export save</strong>
+    any time to keep a backup.
+  </footer>
+</div>
 
 <script type="module" src="/src/main.js"></script>
 </body>

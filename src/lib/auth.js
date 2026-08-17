@@ -32,7 +32,8 @@ export async function signIn(email, password) {
 
 export async function signOut() {
   if (!supabase) return;
-  await supabase.auth.signOut();
+  const { error } = await supabase.auth.signOut();
+  if (error) throw error;
 }
 
 /** @param {(session: object|null) => void} fn */

@@ -5,8 +5,8 @@ how far you've got on each task tier and the app works out your completion
 percentage across every expansion you own — and grows a wishing well tree
 through six stages as you go.
 
-Progress is saved in your browser by default. Sign in to sync it to your
-account and pick it up on another device.
+Sign in to track your progress — it's saved to your account, so it's there on
+any device you come back on.
 
 ## Running locally
 
@@ -17,10 +17,12 @@ npm run dev
 
 Then open http://localhost:5173.
 
-Cloud sync is optional — the app works fully offline with no setup. To enable
-it locally, copy `.env.example` to `.env.local` and fill in your Supabase
-project's URL and anon key (Settings → API in the Supabase dashboard), then
-run `supabase/schema.sql` once in that project's SQL editor.
+Without Supabase credentials configured, the app skips sign-in entirely and
+runs fully offline on localStorage — that's the state a fresh clone is in. To
+turn on account sign-in (required to see the tracker at all once it's on),
+copy `.env.example` to `.env.local` and fill in your Supabase project's URL
+and anon key (Settings → API in the Supabase dashboard), then run
+`supabase/schema.sql` once in that project's SQL editor.
 
 ## Other commands
 
@@ -41,19 +43,21 @@ run `supabase/schema.sql` once in that project's SQL editor.
 - **Search** across task names, categories and requirement text.
 - **Add your own tasks** for expansions where the tier data is incomplete.
 - **Export / import** your save as JSON to move between browsers or devices.
-- **Optional account sync.** Sign in with email + password to save progress to
-  your account instead of just this browser.
+- **Account sync.** Email + password sign-in — required to use the live site,
+  so your progress follows you to any device.
 
 ## Where your data lives
 
-Signed out: in `localStorage`, under the key `dlv-tracker-progress`, in the
-browser you're using. Clearing site data wipes it — use **Export save** first,
-or before switching devices.
+In Supabase, in a `progress` row scoped to your account and protected by Row
+Level Security — only you can read or write it. The first time you sign in on
+a device with existing local-only progress (from before an account existed,
+or from `npm run dev` without cloud sync configured), you'll be offered the
+chance to import it into your account.
 
-Signed in: in Supabase, in a `progress` row scoped to your account and
-protected by Row Level Security — only you can read or write it. The first
-time you sign in on a device with existing local progress, you'll be offered
-the chance to import it into your account.
+Running the app without Supabase configured (a fresh clone, or `npm run dev`
+with no `.env.local`) skips accounts entirely and falls back to
+`localStorage`, under the key `dlv-tracker-progress`, in the browser you're
+using. Clearing site data wipes that — use **Export save** first.
 
 ## Deploying
 

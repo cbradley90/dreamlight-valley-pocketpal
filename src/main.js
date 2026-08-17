@@ -7,7 +7,7 @@ import {
 } from './lib/state.js';
 import * as storage from './lib/storage.js';
 import { authAvailable } from './lib/auth.js';
-import { clampDone, statusFor, STATUS_LABELS } from './lib/progress.js';
+import { clampDone, statusFor, STATUS_LABELS, COMPLETE } from './lib/progress.js';
 import { renderChips } from './ui/chips.js';
 import { renderTaskList, refreshCategoryFor, setCollapsed, setAllCollapsed } from './ui/taskList.js';
 import { updateStats } from './ui/stats.js';
@@ -29,6 +29,19 @@ function renderAll() {
   updateStats();
 }
 
+/** Writes one row's done count into state + DOM (input, checkbox, status pill). */
+function applyDone(row, id, total, value) {
+  const clamped = clampDone(value, total);
+  state.doneMap[id] = clamped;
+
+  const status = statusFor(clamped, total);
+  row.querySelector('.done-input').value = clamped;
+  row.querySelector('.done-check').checked = status === COMPLETE;
+  const pill = row.querySelector('.status-pill');
+  pill.className = `status-pill status-${status}`;
+  pill.textContent = STATUS_LABELS[status];
+}
+
 function bindEvents() {
   const container = document.getElementById('taskContainer');
 
@@ -37,18 +50,56 @@ function bindEvents() {
     if (!e.target.classList.contains('done-input')) return;
     const row = e.target.closest('tr');
     const total = Number(row.dataset.total);
-    const value = clampDone(e.target.value, total);
-    e.target.value = value;
-    state.doneMap[e.target.dataset.id] = value;
-
-    const status = statusFor(value, total);
-    const pill = row.querySelector('.status-pill');
-    pill.className = `status-pill status-${status}`;
-    pill.textContent = STATUS_LABELS[status];
+    applyDone(row, e.target.dataset.id, total, e.target.value);
 
     refreshCategoryFor(e.target);
     updateStats();
     persist();
+  });
+
+  // Delegated: the "mark complete" checkbox on each tier row. Checking it
+  // sets the count to the tier's total; unchecking resets it to zero.
+  container.addEventListener('change', (e) => {
+    if (!e.target.classList.contains('done-check')) return;
+    const row = e.target.closest('tr');
+    const total = Number(row.dataset.total);
+    applyDone(row, e.target.dataset.id, total, e.target.checked ? total : 0);
+
+    refreshCategoryFor(e.target);
+    updateStats();
+    persist();
+  });
+
+  // Delegated: the "mark whole category complete" control in each summary.
+  // It's a role="checkbox" span, not a real <input> — a real checkbox's own
+  // native toggle fights the preventDefault() needed below to stop <summary>
+  // from also toggling the details open/closed on the same click, so we own
+  // the checked state entirely via aria-checked instead.
+  function toggleCategory(catCheck) {
+    const checked = catCheck.getAttribute('aria-checked') !== 'true';
+    const details = catCheck.closest('details.category');
+    details.querySelectorAll('tr[data-task-id]').forEach((row) => {
+      applyDone(row, row.dataset.taskId, Number(row.dataset.total), checked ? Number(row.dataset.total) : 0);
+    });
+
+    refreshCategoryFor(catCheck);
+    updateStats();
+    persist();
+  }
+
+  container.addEventListener('click', (e) => {
+    const catCheck = e.target.closest('.cat-check');
+    if (!catCheck) return;
+    e.preventDefault();
+    toggleCategory(catCheck);
+  });
+
+  container.addEventListener('keydown', (e) => {
+    if (e.key !== ' ' && e.key !== 'Enter') return;
+    const catCheck = e.target.closest('.cat-check');
+    if (!catCheck) return;
+    e.preventDefault();
+    toggleCategory(catCheck);
   });
 
   // Delegated: the add-task form only exists for empty expansions.

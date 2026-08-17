@@ -118,6 +118,43 @@ describe('built app', () => {
     expect(app.saved().done[input.dataset.id]).toBe(Number(row.dataset.total));
   });
 
+  it('marks a tier complete via its checkbox, and unmarks it back to zero', async () => {
+    const app = await boot();
+    const row = app.doc.querySelector('tr[data-task-id]');
+    const check = row.querySelector('.done-check');
+    const input = row.querySelector('.done-input');
+
+    check.checked = true;
+    check.dispatchEvent(new app.dom.window.Event('change', { bubbles: true }));
+    await new Promise((r) => setTimeout(r, 700));
+    expect(input.value).toBe(row.dataset.total);
+    expect(row.querySelector('.status-pill').textContent).toBe('Complete');
+    expect(app.saved().done[input.dataset.id]).toBe(Number(row.dataset.total));
+
+    check.checked = false;
+    check.dispatchEvent(new app.dom.window.Event('change', { bubbles: true }));
+    await new Promise((r) => setTimeout(r, 700));
+    expect(input.value).toBe('0');
+    expect(row.querySelector('.status-pill').textContent).toBe('Not started');
+  });
+
+  it('marks a whole category complete via its header checkbox', async () => {
+    const app = await boot();
+    const details = app.doc.querySelector('details.category');
+    const catCheck = details.querySelector('.cat-check');
+    const rows = [...details.querySelectorAll('tr[data-task-id]')];
+
+    catCheck.dispatchEvent(new app.dom.window.MouseEvent('click', { bubbles: true, cancelable: true }));
+    await new Promise((r) => setTimeout(r, 700));
+
+    expect(catCheck.getAttribute('aria-checked')).toBe('true');
+    expect(details.querySelector('.cat-fraction').textContent).toBe(`${rows.length}/${rows.length}`);
+    for (const row of rows) {
+      expect(row.querySelector('.status-pill').textContent).toBe('Complete');
+      expect(app.saved().done[row.dataset.taskId]).toBe(Number(row.dataset.total));
+    }
+  });
+
   it('narrows the list when searching', async () => {
     const app = await boot();
     const search = app.doc.getElementById('search');

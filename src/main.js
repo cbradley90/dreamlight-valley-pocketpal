@@ -6,15 +6,17 @@ import {
   onSaveStatus, state, addCustomTask,
 } from './lib/state.js';
 import * as storage from './lib/storage.js';
+import { authAvailable } from './lib/auth.js';
 import { clampDone, statusFor, STATUS_LABELS } from './lib/progress.js';
 import { renderChips } from './ui/chips.js';
 import { renderTaskList, refreshCategoryFor, setCollapsed, setAllCollapsed } from './ui/taskList.js';
 import { updateStats } from './ui/stats.js';
+import { watchAuth, renderSignedIn, renderSignedOut } from './ui/auth.js';
 
 const SAVE_MESSAGES = {
   saving: 'Saving...',
-  saved: 'Saved to this browser',
-  error: 'Could not save (storage unavailable)',
+  saved: 'Saved',
+  error: 'Could not save',
 };
 
 function renderAll() {
@@ -121,19 +123,81 @@ function bindEvents() {
   });
 }
 
+const screens = {
+  loading: () => document.getElementById('authLoading'),
+  landing: () => document.getElementById('landingScreen'),
+  app: () => document.getElementById('appScreen'),
+};
+
+function showScreen(name) {
+  for (const key of Object.keys(screens)) screens[key]().hidden = key !== name;
+}
+
+let appBound = false;
+
+function showApp() {
+  showScreen('app');
+  renderAll();
+  if (!appBound) {
+    bindEvents();
+    appBound = true;
+  }
+}
+
+function showLanding(message) {
+  showScreen('landing');
+  renderSignedOut(document.getElementById('landingAuthForm'), message);
+}
+
+// Only reachable when Supabase is configured (see init() below). Runs once on
+// boot with whatever session was restored, then again on every live
+// sign-in/sign-out — it's what gates the tracker behind having an account.
+async function handleAuthChange(session) {
+  if (!session) {
+    showLanding();
+    return;
+  }
+
+  const cloud = await storage.load();
+  if (cloud) {
+    replaceState(cloud);
+  } else {
+    const local = storage.peekLocalSave();
+    const importLocal =
+      local && confirm('Import your saved progress on this device into your account?');
+    if (importLocal) {
+      replaceState(local);
+    } else {
+      resetState();
+    }
+    persist();
+  }
+
+  showApp();
+  const panel = document.getElementById('authPanel');
+  renderSignedIn(panel, session.user);
+  panel.hidden = false;
+}
+
 async function init() {
   onSaveStatus((status) => {
     document.getElementById('saveText').textContent = SAVE_MESSAGES[status];
   });
 
-  if (!storage.storageAvailable) {
-    document.getElementById('saveText').textContent =
-      'Storage unavailable — progress will not be saved';
+  if (!authAvailable()) {
+    // No cloud sync configured: no gate, just the original local-only app.
+    if (!storage.storageAvailable) {
+      document.getElementById('saveText').textContent =
+        'Storage unavailable — progress will not be saved';
+    }
+    await loadState();
+    showApp();
+    return;
   }
 
-  await loadState();
-  renderAll();
-  bindEvents();
+  // Cloud sync configured: nobody sees the tracker until they're signed in.
+  showScreen('loading');
+  watchAuth(handleAuthChange);
 }
 
 init();

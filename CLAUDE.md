@@ -7,6 +7,9 @@ well tree image through six stages as completion rises.
 
 ## Commands
 
+Requires Node 22+ — jsdom and `@supabase/supabase-js`'s sub-dependencies both
+declare it as a minimum. CI and Netlify are pinned to Node 22 for this reason.
+
 ```bash
 npm install
 npm run dev            # Vite dev server on :5173
@@ -40,12 +43,17 @@ src/data/
 src/lib/
   progress.js       pure functions: clamping, status, stage maths, grouping
   state.js          single mutable `state` object + debounced autosave
-  storage.js        localStorage read/write, export/import
+  storage.js        local + cloud read/write, export/import
+  supabaseClient.js Supabase client, only created when env vars are present
+  auth.js           thin wrapper around Supabase Auth (email + password)
 src/ui/
   chips.js          expansion toggle row
   stats.js          hero panel figures + tree image
   taskList.js       the big grouped task list
+  auth.js           sign in / sign up / sign out panel
 public/tree/        stage-0.jpg .. stage-5.jpg
+supabase/
+  schema.sql        `progress` table + RLS policies — run once in the SQL editor
 ```
 
 ### Data flow
@@ -91,6 +99,49 @@ Honeyglow Woods and Wishblossom Ranch tier requirements were not fully
 verifiable, so those expansions may be sparse; the UI offers an add-task form
 for any expansion with no entries.
 
+## Cloud sync (Supabase)
+
+Gated on configuration. With no `VITE_SUPABASE_URL` / `VITE_SUPABASE_ANON_KEY`
+set, the app behaves exactly as before — `supabaseClient.js` never calls
+`createClient`, `authAvailable()` is false, and there's no sign-in, no gate,
+just the original local-only app rendered straight away. This is the state CI
+always builds in, since no secrets are configured there.
+
+When both env vars are present, sign-in is **required**: `main.js`'s `init()`
+shows `#authLoading` while the restored session (if any) resolves, then
+`#landingScreen` (sign in / create account) if there's no session, or
+`#appScreen` (the tracker) once there is one. Nobody sees task data without an
+account on a configured deploy — that's deliberate, not a bug to "fix" by
+loosening it back to optional. `screens`/`showScreen()` in `main.js` are the
+whole gate; the three screen elements are mutually exclusive via `hidden`.
+
+- `src/ui/auth.js` exports `renderSignedOut(container, message)` and
+  `renderSignedIn(container, user, message)` — pure rendering into whatever
+  container the caller passes, plus `watchAuth(onSessionChange)` to subscribe.
+  It has no opinion on which screen is visible; `main.js` owns that. Email +
+  password only — no magic links, no OAuth providers.
+- Once signed in, `storage.js`'s `load()`/`save()`/`clear()` transparently
+  route to the `progress` table (see `supabase/schema.sql`) instead of
+  localStorage — same exported function signatures, per the storage
+  convention below. Row Level Security keyed on `auth.uid()` is what actually
+  protects each player's row; the anon key shipped to the browser is public by
+  design and gives no access on its own.
+- `main.js`'s `handleAuthChange()` is `watchAuth`'s callback — it runs once on
+  boot with whatever session was restored, and again on every live sign-in/
+  sign-out. On first sign-in with no existing cloud row, it offers to import
+  whatever's in `storage.peekLocalSave()` (the device's local save) — this
+  matters a lot here, since turning the gate on doesn't erase anyone's
+  pre-existing local-only progress, it just requires an account to see it
+  again. This is the only place local progress is copied into the cloud; it
+  never happens automatically.
+- Local dev: copy `.env.example` to `.env.local` with your project's URL and
+  anon/publishable key (Supabase dashboard → Settings → API). In Netlify,
+  set the same two keys as build environment variables — they're safe to
+  store unencrypted there.
+- `supabase/schema.sql` must be run once, by hand, in the Supabase SQL editor
+  for a new project. There's no migration runner wired up — this repo has no
+  way to execute DDL against a Supabase project on its own.
+
 ## Conventions
 
 - **Escape everything interpolated into HTML.** `taskList.js` builds markup as
@@ -109,7 +160,8 @@ for any expansion with no entries.
 
 Netlify, site `dreamlight-valley-pocketpal`. `netlify.toml` holds the build
 command, publish dir, SPA redirect and cache headers. Pushing to `main` triggers
-a deploy once the repo is linked.
+a deploy once the repo is linked. `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`
+are set as Netlify build environment variables — see "Cloud sync" above.
 
 ## Gotchas
 

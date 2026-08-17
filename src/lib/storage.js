@@ -2,8 +2,17 @@
 //
 // The original single-file version ran inside a Claude artifact and used
 // `window.storage`, which does not exist on a normal website. This module is
-// the drop-in replacement: same async shape, backed by localStorage, so a
-// future swap to a server-backed store only means editing this file.
+// the drop-in replacement, and it's the only place that knows where progress
+// actually lives:
+//
+//   - signed out, or Supabase not configured: localStorage on this device.
+//   - signed in: the `progress` table in Supabase, one row per user, gated by
+//     Row Level Security (see supabase/schema.sql).
+//
+// state.js still just calls load()/save()/clear() and doesn't care which of
+// the two backed the call.
+
+import { supabase } from './supabaseClient.js';
 
 const STORAGE_KEY = 'dlv-tracker-progress';
 const SCHEMA_VERSION = 1;
@@ -22,10 +31,39 @@ function isAvailable() {
 
 export const storageAvailable = isAvailable();
 
+async function currentUserId() {
+  if (!supabase) return null;
+  const { data } = await supabase.auth.getSession();
+  return data.session?.user.id ?? null;
+}
+
 /**
  * @returns {Promise<{owned: string[], done: Record<string, number>, custom: object[]} | null>}
  */
 export async function load() {
+  const userId = await currentUserId();
+  return userId ? loadCloud(userId) : loadLocal();
+}
+
+export async function save(state) {
+  const userId = await currentUserId();
+  return userId ? saveCloud(state, userId) : saveLocal(state);
+}
+
+export async function clear() {
+  const userId = await currentUserId();
+  return userId ? clearCloud(userId) : clearLocal();
+}
+
+/**
+ * Peek at a locally-saved progress file regardless of sign-in state. Used to
+ * offer importing a device's local save into a freshly-created account.
+ */
+export function peekLocalSave() {
+  return loadLocal();
+}
+
+function loadLocal() {
   if (!storageAvailable) return null;
   const raw = window.localStorage.getItem(STORAGE_KEY);
   if (!raw) return null;
@@ -37,7 +75,7 @@ export async function load() {
   }
 }
 
-export async function save(state) {
+async function saveLocal(state) {
   if (!storageAvailable) throw new Error('storage unavailable');
   window.localStorage.setItem(
     STORAGE_KEY,
@@ -45,9 +83,37 @@ export async function save(state) {
   );
 }
 
-export async function clear() {
+async function clearLocal() {
   if (!storageAvailable) return;
   window.localStorage.removeItem(STORAGE_KEY);
+}
+
+async function loadCloud(userId) {
+  const { data, error } = await supabase
+    .from('progress')
+    .select('owned,done,custom')
+    .eq('user_id', userId)
+    .maybeSingle();
+  if (error) {
+    console.warn('Could not load cloud progress:', error.message);
+    return null;
+  }
+  return data ? normalise(data) : null;
+}
+
+async function saveCloud(state, userId) {
+  const { error } = await supabase.from('progress').upsert({
+    user_id: userId,
+    owned: state.owned ?? [],
+    done: state.done ?? {},
+    custom: state.custom ?? [],
+  });
+  if (error) throw error;
+}
+
+async function clearCloud(userId) {
+  const { error } = await supabase.from('progress').delete().eq('user_id', userId);
+  if (error) throw error;
 }
 
 // Accepts both the current shape and any older/partial payload.

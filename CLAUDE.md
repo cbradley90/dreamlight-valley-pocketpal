@@ -40,12 +40,17 @@ src/data/
 src/lib/
   progress.js       pure functions: clamping, status, stage maths, grouping
   state.js          single mutable `state` object + debounced autosave
-  storage.js        localStorage read/write, export/import
+  storage.js        local + cloud read/write, export/import
+  supabaseClient.js Supabase client, only created when env vars are present
+  auth.js           thin wrapper around Supabase Auth (email + password)
 src/ui/
   chips.js          expansion toggle row
   stats.js          hero panel figures + tree image
   taskList.js       the big grouped task list
+  auth.js           sign in / sign up / sign out panel
 public/tree/        stage-0.jpg .. stage-5.jpg
+supabase/
+  schema.sql        `progress` table + RLS policies — run once in the SQL editor
 ```
 
 ### Data flow
@@ -91,6 +96,37 @@ Honeyglow Woods and Wishblossom Ranch tier requirements were not fully
 verifiable, so those expansions may be sparse; the UI offers an add-task form
 for any expansion with no entries.
 
+## Cloud sync (Supabase)
+
+Optional. With no `VITE_SUPABASE_URL` / `VITE_SUPABASE_ANON_KEY` set, the app
+behaves exactly as before — `supabaseClient.js` never calls `createClient`,
+`authAvailable()` is false, and `#authPanel` stays `hidden`. This is the state
+CI always builds in, since no secrets are configured there.
+
+When both env vars are present:
+
+- `src/ui/auth.js` renders an email/password sign in / create account form.
+  No magic links, no OAuth providers — deliberately the simplest option
+  Supabase Auth offers.
+- Once signed in, `storage.js`'s `load()`/`save()`/`clear()` transparently
+  route to the `progress` table (see `supabase/schema.sql`) instead of
+  localStorage — same exported function signatures, per the storage
+  convention below. Row Level Security keyed on `auth.uid()` is what actually
+  protects each player's row; the anon key shipped to the browser is public by
+  design and gives no access on its own.
+- `main.js`'s `handleAuthChange()` reacts to sign-in/sign-out happening live
+  during a visit. On first sign-in with no existing cloud row, it offers to
+  import whatever's in `storage.peekLocalSave()` (the device's local save) —
+  this is the only place local progress is copied into the cloud; it never
+  happens automatically.
+- Local dev: copy `.env.example` to `.env.local` with your project's URL and
+  anon/publishable key (Supabase dashboard → Settings → API). In Netlify,
+  set the same two keys as build environment variables — they're safe to
+  store unencrypted there.
+- `supabase/schema.sql` must be run once, by hand, in the Supabase SQL editor
+  for a new project. There's no migration runner wired up — this repo has no
+  way to execute DDL against a Supabase project on its own.
+
 ## Conventions
 
 - **Escape everything interpolated into HTML.** `taskList.js` builds markup as
@@ -109,7 +145,8 @@ for any expansion with no entries.
 
 Netlify, site `dreamlight-valley-pocketpal`. `netlify.toml` holds the build
 command, publish dir, SPA redirect and cache headers. Pushing to `main` triggers
-a deploy once the repo is linked.
+a deploy once the repo is linked. `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`
+are set as Netlify build environment variables — see "Cloud sync" above.
 
 ## Gotchas
 

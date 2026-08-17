@@ -144,3 +144,16 @@
     max-width:1080px;margin:40px auto 0;padding:0 20px;color:var(--text-faint);font-size:12px;
   }
   .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);}
+  .auth-panel{
+    background:var(--bg-panel);border:1px solid var(--border-soft);border-radius:14px;
+    padding:14px 16px;margin:20px 0 0;
+  }
+  .auth-form{display:flex;flex-wrap:wrap;gap:10px;align-items:center;}
+  .auth-form input{
+    background:var(--bg-input);border:1px solid var(--border-soft);color:var(--text-cream);
+    border-radius:10px;padding:9px 12px;font-size:14px;min-width:180px;flex:1;
+  }
+  .auth-form input:focus{outline:none;border-color:var(--accent-gold);}
+  .auth-status{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;font-size:14px;color:var(--text-muted);}
+  .auth-status strong{color:var(--text-cream);}
+  .auth-message{font-size:12px;color:var(--accent-gold);margin-top:8px;min-height:1em;}

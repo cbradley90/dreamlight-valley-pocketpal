@@ -132,6 +132,16 @@ describe('built app', () => {
     expect(after).toBeLessThan(before);
   });
 
+  it('hides the auth panel when Supabase is not configured', async () => {
+    // CI builds without VITE_SUPABASE_URL/VITE_SUPABASE_ANON_KEY, same as a
+    // fresh clone — the cloud-sync panel must stay out of the way entirely
+    // rather than show a broken sign-in form.
+    const app = await boot();
+    const panel = app.doc.getElementById('authPanel');
+    expect(panel.hidden).toBe(true);
+    expect(panel.innerHTML.trim()).toBe('');
+  });
+
   it('drops an expansion from the totals when toggled off', async () => {
     const app = await boot();
     const before = app.text('completeValue');

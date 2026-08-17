@@ -10,6 +10,7 @@ import { clampDone, statusFor, STATUS_LABELS } from './lib/progress.js';
 import { renderChips } from './ui/chips.js';
 import { renderTaskList, refreshCategoryFor, setCollapsed, setAllCollapsed } from './ui/taskList.js';
 import { updateStats } from './ui/stats.js';
+import { initAuthUI } from './ui/auth.js';
 
 const SAVE_MESSAGES = {
   saving: 'Saving...',
@@ -121,6 +122,33 @@ function bindEvents() {
   });
 }
 
+// `loadState()` at boot already resolves the right backend (cloud, if a
+// session was restored from a previous visit; local otherwise). This only
+// needs to react to sign-in/sign-out happening live, during this visit.
+async function handleAuthChange(session) {
+  if (!session) {
+    await loadState();
+    renderAll();
+    return;
+  }
+
+  const cloud = await storage.load();
+  if (cloud) {
+    replaceState(cloud);
+  } else {
+    const local = storage.peekLocalSave();
+    const importLocal =
+      local && confirm('Import your saved progress on this device into your account?');
+    if (importLocal) {
+      replaceState(local);
+    } else {
+      resetState();
+    }
+    persist();
+  }
+  renderAll();
+}
+
 async function init() {
   onSaveStatus((status) => {
     document.getElementById('saveText').textContent = SAVE_MESSAGES[status];
@@ -134,6 +162,11 @@ async function init() {
   await loadState();
   renderAll();
   bindEvents();
+
+  initAuthUI((session, isInitial) => {
+    if (isInitial) return;
+    handleAuthChange(session);
+  });
 }
 
 init();

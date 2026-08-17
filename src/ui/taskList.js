@@ -6,7 +6,7 @@
 
 import { EXPANSIONS, REWARD_CURRENCY } from '../data/expansions.js';
 import { state, ownedTasks, allTasks } from '../lib/state.js';
-import { groupTasks, matchesQuery, tally, statusFor, STATUS_LABELS } from '../lib/progress.js';
+import { groupTasks, matchesQuery, tally, statusFor, STATUS_LABELS, COMPLETE } from '../lib/progress.js';
 
 // Category keys the player has collapsed, so re-renders don't reopen them.
 const collapsed = new Set();
@@ -40,7 +40,9 @@ function formatReward(reward, expansionId) {
 function tierRow(task, expansionId) {
   const done = state.doneMap[task.id] ?? 0;
   const status = statusFor(done, task.total);
+  const checked = status === COMPLETE ? 'checked' : '';
   return `<tr data-task-id="${escapeHtml(task.id)}" data-total="${task.total}">
+    <td class="check-cell"><input type="checkbox" class="done-check" data-id="${escapeHtml(task.id)}" ${checked} title="Mark complete"></td>
     <td class="req-cell"><span class="tier-tag">${escapeHtml(task.tier)}</span>${escapeHtml(task.requirement)}</td>
     <td class="reward-cell">${formatReward(task.reward, expansionId)}</td>
     <td><input class="done-input" type="number" min="0" max="${task.total}" value="${done}" data-id="${escapeHtml(task.id)}"></td>
@@ -55,6 +57,7 @@ function categoryBlock(expansion, categoryName, taskGroups, query) {
 
   const { total, completed } = tally(flat, state.doneMap);
   const pct = total ? Math.round((completed / total) * 100) : 0;
+  const allDone = total > 0 && completed === total;
   // Searching auto-expands so matches aren't hidden inside collapsed sections.
   const key = `${expansion.id}::${categoryName}`;
   const open = query || !collapsed.has(key) ? 'open' : '';
@@ -69,6 +72,7 @@ function categoryBlock(expansion, categoryName, taskGroups, query) {
 
   return `<details class="category" ${open} data-cat-key="${escapeHtml(expansion.id)}::${escapeHtml(categoryName)}">
     <summary>
+      <span class="cat-check" role="checkbox" aria-checked="${allDone}" tabindex="0" data-cat-key="${escapeHtml(key)}" title="Mark whole category complete"></span>
       <i class="chev">&#9656;</i>
       <span class="cat-name">${escapeHtml(categoryName)}</span>
       <span class="progress-track cat-progress"><span class="progress-fill" style="width:${pct}%;display:block;height:100%"></span></span>
@@ -133,4 +137,5 @@ export function refreshCategoryFor(inputEl) {
   const pct = total ? Math.round((completed / total) * 100) : 0;
   details.querySelector('.cat-fraction').textContent = `${completed}/${total}`;
   details.querySelector('.progress-fill').style.width = `${pct}%`;
+  details.querySelector('.cat-check').setAttribute('aria-checked', String(total > 0 && completed === total));
 }

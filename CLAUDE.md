@@ -7,6 +7,9 @@ well tree image through six stages as completion rises.
 
 ## Commands
 
+Requires Node 22+ — jsdom and `@supabase/supabase-js`'s sub-dependencies both
+declare it as a minimum. CI and Netlify are pinned to Node 22 for this reason.
+
 ```bash
 npm install
 npm run dev            # Vite dev server on :5173
